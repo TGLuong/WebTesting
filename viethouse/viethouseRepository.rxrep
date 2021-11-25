@@ -1,0 +1,122 @@
+﻿<repository
+id="2bc6c29c-7ba3-44ae-93ec-45465825dc8a"
+name="viethouseRepository"
+rxversion="8.3">
+	<codegen
+	classname="viethouseRepository"
+	namespace="viethouse">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="be12804b-861a-458d-8a69-b5351599e914"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c1343daf-a299-458b-bdda-33e79c0ccca0"
+		isrooted="True"
+		name="ThongTinTaiKhoảnGoogleChrome"
+		refpath="/form[@title='Thông tin tài khoản - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="dc1c907d-f01e-429e-b2f0-f4444f2c97c1"
+			name="Đong"
+			refimgid="fc2154fc-3d00-4cbc-914a-097cc11a179c"
+			refpath="/form[@title='Thông tin tài khoản - Google Chrome']/container[@accessiblename='Thông tin tài khoản - Google Chrome']/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]/tabpagelist[@accessiblerole='PageTabList']/container[1]/tabpage[@accessiblename='Thông tin tài khoản']/button[@accessiblename='Đóng']"
+			searchtimeout="30000ms">
+				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Th&#244;ng tin t&#224;i kho&#7843;n']/button[@accessiblename='&#272;&#243;ng']
+			</item>
+			<basepath>
+				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANfSURBVDhPrZJdTFJhGMfP+ryoObNQs1qulaVb
+H8407PAlBzU0DBAslUjWtFWWXbS8yWgrymiZXmQ5FbHC1oeUmTpDsyxIBNtatshzyIo2XR/LSAOE
+89ThyEVbt/23Z+/N+/v93+19kP8WNYLMUickLHRIM9b1Z3HKe7axWk2ZLKtJsHXIhKV2PBYwT9kF
+KLMmZXWYHEFmh7CZBOEDCQnRfdncXU6ZsIPIzXxHSNPdhFgwTezA/CM5aZO4iOcayeY+svCZ+8rW
+rozlcrlzQjiCUPDCO0L2zjfSDLszN9OLS9NJXCwAXIyRhASbHhHzpvEcrm9ExJnCt7NGrRnJ+zWb
+VjNCOIJINfnrtGXiDqtM4KXagRIALskAvGD7NHFY8pEo4TvxvWyCULFxQsXCiSK0/W1eKue3Wj2L
+FsRd2Fku0+Q5DfkY+VqEgaO0GKy116H1hp003HrptbQZPe/uHPJ8vYF5Jm5zPD+N7LFPBrSqT5sc
+TQtWnJcZE2t3u0uPiqA/hwfmS1dBq3NC8ZUJKKp1Q8U1Fzx70gaTA7vAP4BRk+Yd72b1DTZsXksL
+YrSywVidyo9WF4J+TxY0t9hoOPucG4SVbsir/gH6Lgd8sx8E0pYOpD0tMP4QdQw0pmykBVFa6YsV
+elUgrrEIlGcUcME4DKrLbsii4KAgt8oNdQ+c8MV2eEZgSyPHulHC2pS8iRZEaiUdMXrl1HLdHohv
+UJLnTH1TR66O+4PNQXh//ZdA51Pz1OQLpZ+08YMC39hD1PK8eUs8LWBUSU5F65WuaJ0SljYpQXS3
+0l/e1UOeuIfD8dZRuNLdT76yarw+e3aAgoOC75972XVDLVtjaEFEbR4zqlnZE6lT+KiB5XoVbDCU
+AXqzAjiGk3Cxcx/53iIiAzTMJQN23iu3mS8bHpbPmxEcSglbUiMvYTQpXAxKQE9jIURR56r6QjD1
+Cslf1uDTebRg0syu0J/euIyG6ciR2eHSxJXh1dJSRqPCHtFQ8HVxQ4E3Vp/v194X+VwWgcc/yPtO
+N1s4JyqPrYkvSUqaG6JDoXZ7gSI1MkKnSF90SVbFqM59lHRZPGwy8hwfulDz5160bsLClwebk/6B
+/w61ngs0oqglamEc8yy2vp366+f1ifFDLYkxnTXb5oduhYIgfwD0+8wQUcC9ZQAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="8bf2f4f1-7755-434a-81c1-0200264cb700"
+		isrooted="True"
+		name="ThongTinTaiKhoản"
+		refpath="/dom[3]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4d0b8010-45b2-4001-b55b-dc13b5f68645"
+			name="ProfileFullName"
+			refimgid="52563ccf-1591-4f5a-91b4-ae38ce60ed00"
+			refpath="/dom[3]//input[#'Profile_FullName']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'Profile_FullName']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="d602ef3e-313f-42e7-b07d-5b4d1351e7e8"
+			name="ChangeInfo"
+			refimgid="345b8637-7cae-4156-92ab-3c92539f13aa"
+			refpath="/dom[3]//button[#'ChangeInfo']"
+			searchtimeout="30000ms">
+				/dom[3]//button[#'ChangeInfo']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e599b393-1e58-45a7-988d-c6730563db34"
+			name="ProfileFullNameError"
+			refimgid="3cc2a72a-242f-4485-8388-bfa6db2046e9"
+			refpath="/dom[3]//span[#'Profile_FullName-error']"
+			searchtimeout="30000ms">
+				/dom[3]//span[#'Profile_FullName-error']
+			</item>
+			<basepath>
+				/dom[3]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

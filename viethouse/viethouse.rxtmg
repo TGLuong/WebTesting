@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="viethouse"
+      id="69de4861-2a03-4a7d-9a11-0ecaead8a298"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="viethouse"
+      id="69de4861-2a03-4a7d-9a11-0ecaead8a298"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

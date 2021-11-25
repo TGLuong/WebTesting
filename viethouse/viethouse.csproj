@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5F143D2E-925B-4331-AE25-E57EF2623911}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>viethouse</RootNamespace>
+    <AssemblyName>viethouse</AssemblyName>
+    <RanorexVersion>8.3</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>58613e23-b486-449f-ba8e-4f1493817bdc</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>2faab736-9475-4c19-98b7-c948f627947c</id>
+    </Compile>
+    <Compile Include="END\end_update_info.cs">
+      <BoundTo>81918fa6-c9fa-4a5c-874b-88122393f5b8</BoundTo>
+      <DependentUpon>end_update_info.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d78a5f99-4d23-4101-865a-faa934dcd116</id>
+    </Compile>
+    <Compile Include="END\end_update_info.UserCode.cs">
+      <BoundTo>81918fa6-c9fa-4a5c-874b-88122393f5b8</BoundTo>
+      <DependentUpon>end_update_info.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a7b1d2a3-207e-4ec1-8eb0-f9116835968b</id>
+    </Compile>
+    <Compile Include="MODULE\update_info\noHo_Ten.cs">
+      <BoundTo>ff40868a-bbe8-4db6-a9cd-2c6836111c0d</BoundTo>
+      <DependentUpon>noHo_Ten.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c5a641e-9fbd-4d21-bf9f-2510a332e9a7</id>
+    </Compile>
+    <Compile Include="MODULE\update_info\noHo_Ten.UserCode.cs">
+      <BoundTo>ff40868a-bbe8-4db6-a9cd-2c6836111c0d</BoundTo>
+      <DependentUpon>noHo_Ten.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>34f58033-94fe-4616-9064-85369bfd4eda</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>dc08efd1-fbb9-47e9-b3f4-a7f4b8eff065</id>
+    </Compile>
+    <Compile Include="START\start_update_info.cs">
+      <BoundTo>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</BoundTo>
+      <DependentUpon>start_update_info.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f8d57f44-f709-4685-8366-b392c47589f5</id>
+    </Compile>
+    <Compile Include="START\start_update_info.UserCode.cs">
+      <BoundTo>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</BoundTo>
+      <DependentUpon>start_update_info.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5fefe58c-ce02-4618-a6c5-666a49adf207</id>
+    </Compile>
+    <Compile Include="viethouseRepository.cs">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <DependentUpon>viethouseRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>c8f0a2b1-61d1-4558-942b-30cadae22202</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>9b0b2761-811a-424a-a57b-ebd88b95d062</id>
+    </None>
+    <None Include="END\end_update_info.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>81918fa6-c9fa-4a5c-874b-88122393f5b8</id>
+      <recordtableid>e213a0f9-50d3-4ca3-9337-1b99a86cc366</recordtableid>
+    </None>
+    <None Include="MODULE\update_info\noHo_Ten.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ff40868a-bbe8-4db6-a9cd-2c6836111c0d</id>
+      <recordtableid>a43a21a8-6745-4d64-b105-498287b9880f</recordtableid>
+    </None>
+    <None Include="START\start_update_info.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</id>
+      <recordtableid>37a77da8-856a-405a-972c-ea2ede340876</recordtableid>
+    </None>
+    <None Include="viethouseRepository.rximg">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <DependentUpon>viethouseRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>aa23aaa0-cb2e-4b60-a192-d789b8cebf5d</id>
+    </None>
+    <None Include="viethouseRepository.rxrep">
+      <id>58613e23-b486-449f-ba8e-4f1493817bdc</id>
+      <repoid>2bc6c29c-7ba3-44ae-93ec-45465825dc8a</repoid>
+      <reporootid>be12804b-861a-458d-8a69-b5351599e914</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="viethouse.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e885e370-7c83-443a-b261-156294c6d671</id>
+    </Content>
+    <Content Include="viethouse.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>8d779c25-290a-415e-9727-643e3b8095c8</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="END">
+      <id>a5dee487-2415-4656-ac6b-905a9d3e4246</id>
+    </Folder>
+    <Folder Include="MODULE">
+      <id>e8c79400-624f-4809-b37a-a5fab35155ec</id>
+    </Folder>
+    <Folder Include="MODULE\update_info">
+      <id>4b114660-4056-4637-bc29-0e38c4538b07</id>
+    </Folder>
+    <Folder Include="START">
+      <id>373c6f88-4530-4c52-b217-4ab23dbe194c</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
