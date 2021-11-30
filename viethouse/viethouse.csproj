@@ -129,6 +129,42 @@
       <UserCode>true</UserCode>
       <id>a7b1d2a3-207e-4ec1-8eb0-f9116835968b</id>
     </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\Recording1.cs">
+      <BoundTo>bb710248-b620-4648-af02-51c9e7a0615d</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e540a91b-e032-41cb-849d-0fc445510606</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\Recording1.UserCode.cs">
+      <BoundTo>bb710248-b620-4648-af02-51c9e7a0615d</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5bbc5f13-61be-45c1-a45f-186560d86d54</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\Recording1.cs">
+      <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>44c1b83d-c68e-46f1-aa23-ba5e5c02fda2</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\Recording1.UserCode.cs">
+      <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de9c88e2-b6a6-4483-9f78-71c54807153d</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording1.cs">
+      <BoundTo>285512f1-eef4-4484-b404-414dec99eb86</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04928a36-f751-4256-9fe4-e6d35b2751f2</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording1.UserCode.cs">
+      <BoundTo>285512f1-eef4-4484-b404-414dec99eb86</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ff99a94-e942-41c9-9e94-7242f441a28a</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>dc08efd1-fbb9-47e9-b3f4-a7f4b8eff065</id>
     </Compile>
@@ -159,6 +195,21 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>81918fa6-c9fa-4a5c-874b-88122393f5b8</id>
       <recordtableid>e213a0f9-50d3-4ca3-9337-1b99a86cc366</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\Recording1.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>bb710248-b620-4648-af02-51c9e7a0615d</id>
+      <recordtableid>04ff684c-2f1c-4ecc-afff-5896e69d54f9</recordtableid>
+    </None>
+    <None Include="MODULE\DangKy\Recording1.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>dc5da82d-7273-4444-b042-64438a1a755f</id>
+      <recordtableid>b8f86ceb-a772-47bb-b19f-21df24ee0f20</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\Recording1.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>285512f1-eef4-4484-b404-414dec99eb86</id>
+      <recordtableid>c10772c5-0e86-44fd-b04d-6ba61adace1e</recordtableid>
     </None>
     <None Include="START\start_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
