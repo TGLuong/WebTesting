@@ -165,6 +165,30 @@
       <UserCode>true</UserCode>
       <id>00b7feff-ca67-4299-a8da-f0b32165c634</id>
     </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen20KyTu.cs">
+      <BoundTo>191fa418-bef0-450e-8849-34d0fd14b7b3</BoundTo>
+      <DependentUpon>HoTen20KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d04b0121-fcd2-47a6-9e4b-c1e3cc48fc26</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen20KyTu.UserCode.cs">
+      <BoundTo>191fa418-bef0-450e-8849-34d0fd14b7b3</BoundTo>
+      <DependentUpon>HoTen20KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1efd22fe-abe1-4f84-bb37-f017514848b1</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen21KyTu.cs">
+      <BoundTo>01026775-5359-452c-80cf-04191107a0a6</BoundTo>
+      <DependentUpon>HoTen21KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba47c678-2d86-4028-b972-2bf40356e5c7</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen21KyTu.UserCode.cs">
+      <BoundTo>01026775-5359-452c-80cf-04191107a0a6</BoundTo>
+      <DependentUpon>HoTen21KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>59f94d22-b4c2-4064-95d8-18ead5051faf</id>
+    </Compile>
     <Compile Include="MODULE\DangKy\Recording1.cs">
       <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
@@ -234,6 +258,16 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</id>
       <recordtableid>1245edad-ed6d-4d7a-b90a-8abcb61dce5c</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen20KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>191fa418-bef0-450e-8849-34d0fd14b7b3</id>
+      <recordtableid>d85508a7-2a2b-423e-8293-fa31fe3bb799</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen21KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>01026775-5359-452c-80cf-04191107a0a6</id>
+      <recordtableid>e4f51c2d-e4fe-4d92-b9c9-f96ee1c583e3</recordtableid>
     </None>
     <None Include="MODULE\DangKy\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
