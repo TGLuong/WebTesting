@@ -194,8 +194,14 @@
     <Folder Include="MODULE">
       <id>e8c79400-624f-4809-b37a-a5fab35155ec</id>
     </Folder>
-    <Folder Include="MODULE\update_info">
-      <id>4b114660-4056-4637-bc29-0e38c4538b07</id>
+    <Folder Include="MODULE\CapNhatThongTin">
+      <id>f9e74022-39d3-4ecd-b2f0-057f809ef538</id>
+    </Folder>
+    <Folder Include="MODULE\DangKy">
+      <id>4f44a8a0-810c-4521-9fa5-e3781a117746</id>
+    </Folder>
+    <Folder Include="MODULE\TimKiem">
+      <id>4009e928-b582-44c7-9dbd-50a09a3a5219</id>
     </Folder>
     <Folder Include="START">
       <id>373c6f88-4530-4c52-b217-4ab23dbe194c</id>
