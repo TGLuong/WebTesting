@@ -32,6 +32,16 @@ rxversion="8.3">
 			searchtimeout="30000ms">
 				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Th&#244;ng tin t&#224;i kho&#7843;n']/button[@accessiblename='&#272;&#243;ng']
 			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ebbb1f96-4707-47b0-ab76-e5c0fd0219e3"
+			name="TảiLại"
+			refimgid="fdc94408-38b0-404c-b05a-a4a22648b798"
+			refpath="/form[@title~'^Thông\ tin\ tài\ khoản\ -\ Goo']/container/container/container/container[2]/container[1]/toolbar/button[@accessiblename='Tải lại']"
+			searchtimeout="30000ms">
+				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='T&#7843;i l&#7841;i']
+			</item>
 			<basepath>
 				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']
 			</basepath>
@@ -97,6 +107,170 @@ gg==
 			</item>
 			<basepath>
 				/dom[3]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3828bb29-0a0b-4d65-ba00-02b7d2fba14e"
+		isrooted="True"
+		name="ThongTinTaiKhoản1"
+		refpath="/dom[4]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9335f715-6a11-4b65-bce6-61d9f0d7c048"
+			name="ThongTinTaiKhoản"
+			refimgid="91710335-f47d-434a-8977-9da8b3b28085"
+			refpath="/dom[4]/body/tag[@tagname='main']/div/div/div[2]/div/div[@innertext='Thông tin tài khoản']"
+			searchtimeout="30000ms">
+				/dom[4]/body/tag[@tagname='main']/div/div/div[2]/?/?/div[@innertext='Th&#244;ng tin t&#224;i kho&#7843;n']
+			</item>
+			<basepath>
+				/dom[4]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="fd7f9e83-cd38-4e20-8e9c-eac48920e9e1"
+		isrooted="True"
+		name="ThongTinTaiKhoản2"
+		refpath="/dom[2]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b8f69b07-6f90-477b-9e28-13fbc6e9ba86"
+			name="ProfileFullName"
+			refimgid="f67ac535-1280-4c92-ad5d-cce40ede17ea"
+			refpath="/dom[2]//input[#'Profile_FullName']"
+			searchtimeout="30000ms">
+				/dom[2]//input[#'Profile_FullName']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="3f41725e-3057-4d37-b5ac-7e8c65938249"
+			name="ChangeInfo"
+			refimgid="77c82099-9fa6-4882-bf72-f785dd4d961e"
+			refpath="/dom[2]//button[#'ChangeInfo']"
+			searchtimeout="30000ms">
+				/dom[2]//button[#'ChangeInfo']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="59b7473e-aeb1-428c-accf-6459470bf574"
+			name="ProfileFullNameError"
+			refimgid="8ac45ead-6812-4905-9681-ac5125b41e13"
+			refpath="/dom[2]//span[#'Profile_FullName-error']"
+			searchtimeout="30000ms">
+				/dom[2]//span[#'Profile_FullName-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0d5dd6ac-91d1-41dc-95b1-9348f2568517"
+			name="CậpNhậtThongTinTaiKhoảnThanhCong"
+			refimgid="daad22d5-f0b0-4f26-bb40-151af503ee0e"
+			refpath="/dom[2]/body/div[4]/div/div[1]/div[@innertext='Cập nhật thông tin tài khoản thành công.']"
+			searchtimeout="30000ms">
+				/dom[2]/body/div[4]//div[@innertext~'^C&#7853;p\ nh&#7853;t\ th&#244;ng\ tin\ t&#224;i\ kh']
+			</item>
+			<basepath>
+				/dom[2]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="4c78907c-1b8d-4a2e-ba76-6760d78380ee"
+		isrooted="True"
+		name="ThongTinTaiKhoản3"
+		refpath="/dom[5]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f4b2dccd-11c3-4bc4-8f66-11dc20a368ec"
+			name="ProfileFullName"
+			refimgid="b7dd09ce-0fd2-4dd8-a5a8-179f43fdc353"
+			refpath="/dom[5]//input[#'Profile_FullName']"
+			searchtimeout="30000ms">
+				/dom[5]//input[#'Profile_FullName']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="46d60624-c329-46db-8d12-379a72f52dee"
+			name="ChangeInfo"
+			refimgid="80451b59-a5b3-4b6c-9188-e8543e74f924"
+			refpath="/dom[5]//button[#'ChangeInfo']"
+			searchtimeout="30000ms">
+				/dom[5]//button[#'ChangeInfo']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="6b085aa5-e5c9-491f-92a9-0d4d8361e5d7"
+			name="CậpNhậtThongTinTaiKhoảnThanhCong"
+			refimgid="eb01e0ab-5f33-409e-ac85-2a02565a893d"
+			refpath="/dom[5]/body/div[4]/div/div[1]/div[@innertext='Cập nhật thông tin tài khoản thành công.']"
+			searchtimeout="30000ms">
+				/dom[5]/body/div[4]//div[@innertext~'^C&#7853;p\ nh&#7853;t\ th&#244;ng\ tin\ t&#224;i\ kh']
+			</item>
+			<basepath>
+				/dom[5]
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

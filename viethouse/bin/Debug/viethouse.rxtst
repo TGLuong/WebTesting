@@ -4,8 +4,8 @@ rxversion="8.3">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testcase
-			id="00611c70-c3b9-4f89-b9d7-ecc55f55c74d"
-			name="update_info_noHo_Ten">
+			id="03619995-2d3a-4fce-9aa2-c2cdbbd44a28"
+			name="TC-BoTrongHoTen">
 			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -21,35 +21,107 @@ rxversion="8.3">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<setup
+			id="11b07605-4844-4f07-8d97-a0a63c352a85"
+			name="setup">
+			</setup>
 			<testmodule
-			id="522550fb-df94-46d1-b870-e2ce6d402c39"
-			name="noHo_Ten"
-			ref="a43a21a8-6745-4d64-b105-498287b9880f"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="8edd118d-58e2-4715-9bcf-3e4cf0719f64"
+			id="11e9ef7c-5eca-47f5-aa26-147ee48f3980"
 			name="End_update_info"
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="2999c164-9a74-4f6f-9344-5c5089af3a17"
+			name="TimKiem">
+			</smartfoldernode>
+			<smartfoldernode
+			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
+			name="DangKy">
+			</smartfoldernode>
 			<setup
-			id="9d194979-dfcd-4d45-b4ad-b4fe4d2ffd90"
+			id="4f928f1e-0c87-4b0b-9fad-5d6030836a3e"
 			name="setup">
 			</setup>
+			<smartfoldernode
+			id="5c576184-9e33-423f-ac24-b40ac062192d"
+			name="CapNhatThongTin">
+			</smartfoldernode>
+			<testmodule
+			id="700974f3-33fe-4efa-9b1d-04e14d374fd4"
+			name="HoTen10KyTu"
+			ref="66aa08c4-1cdb-4725-9e93-6979ef4bb4ba"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="818f6e41-720a-4930-9ca6-b8f58ec62562"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="85fa7e05-a386-4e61-b939-5ffffa6a10d7"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="919fa30f-2156-45db-afd9-8a0f1c008fb7"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="979c1d7a-aa50-4c7f-be95-c0cdd8b991be"
+			name="CapNhatKhongHoTen"
+			ref="97b5afd1-b474-428c-81dc-28297b2754ea"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="9d42ae22-4b3c-4296-9fca-9e868c817442"
 			name="viethouse"
 			reportlevel="Info;20">
 			</testcase>
-			<teardown
-			id="f8376adf-acde-4edb-b289-82f08e4f24ca"
-			name="teardown">
-			</teardown>
+			<testcase
+			id="c539bcb3-c1b2-4691-99e7-9de082b10296"
+			name="TC-HoTen19KyTu">
+			</testcase>
 			<testmodule
-			id="fcf9f909-8163-437e-a878-0a030fb0df0a"
+			id="cb73649f-f240-451f-ac51-55dd8aad2a82"
 			name="start_update_info"
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cf575d14-5b9f-4b80-ba06-18cddeae9202"
+			name="HoTen19KyTu"
+			ref="1245edad-ed6d-4d7a-b90a-8abcb61dce5c"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d88cfc43-5577-4785-969c-9b4b3f9bfc57"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="e55a2881-2aed-4932-9cd9-1c2a242d139c"
+			name="teardown">
+			</teardown>
+			<setup
+			id="e5e82aaf-cd55-4546-a54d-39950cbaef24"
+			name="setup">
+			</setup>
+			<teardown
+			id="e89c6495-86f2-4628-b366-878315a22697"
+			name="teardown">
+			</teardown>
+			<testcase
+			id="f44d36e3-56d3-4b72-b775-e93f9727fa14"
+			name="TC-HoTen10KyTu">
+			</testcase>
+			<testmodule
+			id="fb19620a-7bcd-4c77-ab1f-32e810591a87"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
 		</flatlistofchildren>
@@ -60,30 +132,90 @@ rxversion="8.3">
 				<testcase
 				id="9d42ae22-4b3c-4296-9fca-9e868c817442"
 				name="viethouse">
-					<testcase
-					id="00611c70-c3b9-4f89-b9d7-ecc55f55c74d"
-					name="update_info_noHo_Ten">
-						<setup
-						id="9d194979-dfcd-4d45-b4ad-b4fe4d2ffd90"
-						name="setup">
+					<smartfoldernode
+					id="5c576184-9e33-423f-ac24-b40ac062192d"
+					name="CapNhatThongTin">
+						<testcase
+						id="03619995-2d3a-4fce-9aa2-c2cdbbd44a28"
+						name="TC-BoTrongHoTen">
+							<setup
+							id="e5e82aaf-cd55-4546-a54d-39950cbaef24"
+							name="setup">
+								<testmodule
+								id="818f6e41-720a-4930-9ca6-b8f58ec62562"
+								name="start_update_info">
+								</testmodule>
+							</setup>
 							<testmodule
-							id="fcf9f909-8163-437e-a878-0a030fb0df0a"
-							name="start_update_info">
+							id="979c1d7a-aa50-4c7f-be95-c0cdd8b991be"
+							name="CapNhatKhongHoTen">
 							</testmodule>
-						</setup>
-						<testmodule
-						id="522550fb-df94-46d1-b870-e2ce6d402c39"
-						name="noHo_Ten">
-						</testmodule>
-						<teardown
-						id="f8376adf-acde-4edb-b289-82f08e4f24ca"
-						name="teardown">
+							<teardown
+							id="e55a2881-2aed-4932-9cd9-1c2a242d139c"
+							name="teardown">
+								<testmodule
+								id="fb19620a-7bcd-4c77-ab1f-32e810591a87"
+								name="End_update_info">
+								</testmodule>
+							</teardown>
+						</testcase>
+						<testcase
+						id="f44d36e3-56d3-4b72-b775-e93f9727fa14"
+						name="TC-HoTen10KyTu">
+							<setup
+							id="11b07605-4844-4f07-8d97-a0a63c352a85"
+							name="setup">
+								<testmodule
+								id="919fa30f-2156-45db-afd9-8a0f1c008fb7"
+								name="start_update_info">
+								</testmodule>
+							</setup>
 							<testmodule
-							id="8edd118d-58e2-4715-9bcf-3e4cf0719f64"
-							name="End_update_info">
+							id="700974f3-33fe-4efa-9b1d-04e14d374fd4"
+							name="HoTen10KyTu">
 							</testmodule>
-						</teardown>
-					</testcase>
+							<teardown
+							id="e89c6495-86f2-4628-b366-878315a22697"
+							name="teardown">
+								<testmodule
+								id="d88cfc43-5577-4785-969c-9b4b3f9bfc57"
+								name="End_update_info">
+								</testmodule>
+							</teardown>
+						</testcase>
+						<testcase
+						id="c539bcb3-c1b2-4691-99e7-9de082b10296"
+						name="TC-HoTen19KyTu">
+							<setup
+							id="4f928f1e-0c87-4b0b-9fad-5d6030836a3e"
+							name="setup">
+								<testmodule
+								id="cb73649f-f240-451f-ac51-55dd8aad2a82"
+								name="start_update_info">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="cf575d14-5b9f-4b80-ba06-18cddeae9202"
+							name="HoTen19KyTu">
+							</testmodule>
+							<teardown
+							id="85fa7e05-a386-4e61-b939-5ffffa6a10d7"
+							name="teardown">
+								<testmodule
+								id="11e9ef7c-5eca-47f5-aa26-147ee48f3980"
+								name="End_update_info">
+								</testmodule>
+							</teardown>
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
+					name="DangKy">
+					</smartfoldernode>
+					<smartfoldernode
+					id="2999c164-9a74-4f6f-9344-5c5089af3a17"
+					name="TimKiem">
+					</smartfoldernode>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -95,10 +227,13 @@ rxversion="8.3">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="00611c70-c3b9-4f89-b9d7-ecc55f55c74d">
+			id="5c576184-9e33-423f-ac24-b40ac062192d">
 			</testcontainer>
 			<testcontainer
 			id="9d42ae22-4b3c-4296-9fca-9e868c817442">
+			</testcontainer>
+			<testcontainer
+			id="c539bcb3-c1b2-4691-99e7-9de082b10296">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -5,6 +5,7 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="viethouse.rxtst" />
+    <Element value="MODULE\CapNhatThongTin\HoTen19KyTu.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

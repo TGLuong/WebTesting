@@ -24,29 +24,29 @@ namespace viethouse.MODULE.CapNhatThongTin
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The CapNhatKhongHoTen recording.
     /// </summary>
-    [TestModule("04ff684c-2f1c-4ecc-afff-5896e69d54f9", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("97b5afd1-b474-428c-81dc-28297b2754ea", ModuleType.Recording, 1)]
+    public partial class CapNhatKhongHoTen : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::viethouse.viethouseRepository repository.
         /// </summary>
         public static global::viethouse.viethouseRepository repo = global::viethouse.viethouseRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static CapNhatKhongHoTen instance = new CapNhatKhongHoTen();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public CapNhatKhongHoTen()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static CapNhatKhongHoTen Instance
         {
             get { return instance; }
         }
@@ -79,6 +79,27 @@ namespace viethouse.MODULE.CapNhatThongTin
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.ProfileFullName' at 225;18.", repo.ThongTinTaiKhoản2.ProfileFullNameInfo, new RecordItemIndex(0));
+            repo.ThongTinTaiKhoản2.ProfileFullName.Click("225;18");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ThongTinTaiKhoản2.ProfileFullName'.", repo.ThongTinTaiKhoản2.ProfileFullNameInfo, new RecordItemIndex(1));
+            Keyboard.PrepareFocus(repo.ThongTinTaiKhoản2.ProfileFullName);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ThongTinTaiKhoản2.ProfileFullName'.", repo.ThongTinTaiKhoản2.ProfileFullNameInfo, new RecordItemIndex(2));
+            repo.ThongTinTaiKhoản2.ProfileFullName.PressKeys("{Back}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.ChangeInfo' at 97;23.", repo.ThongTinTaiKhoản2.ChangeInfoInfo, new RecordItemIndex(3));
+            repo.ThongTinTaiKhoản2.ChangeInfo.Click("97;23");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ThongTinTaiKhoản2.ProfileFullNameError'.", repo.ThongTinTaiKhoản2.ProfileFullNameErrorInfo, new RecordItemIndex(4));
+            Validate.Exists(repo.ThongTinTaiKhoản2.ProfileFullNameErrorInfo);
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

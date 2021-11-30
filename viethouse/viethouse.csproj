@@ -129,17 +129,41 @@
       <UserCode>true</UserCode>
       <id>a7b1d2a3-207e-4ec1-8eb0-f9116835968b</id>
     </Compile>
-    <Compile Include="MODULE\CapNhatThongTin\Recording1.cs">
-      <BoundTo>bb710248-b620-4648-af02-51c9e7a0615d</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="MODULE\CapNhatThongTin\CapNhatKhongHoTen.cs">
+      <BoundTo>ba9632f8-a3b6-4c22-91c8-5a7b06e9cc50</BoundTo>
+      <DependentUpon>CapNhatKhongHoTen.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>e540a91b-e032-41cb-849d-0fc445510606</id>
+      <id>63af7621-d0d6-4997-9c12-70fb3bf8dbd3</id>
     </Compile>
-    <Compile Include="MODULE\CapNhatThongTin\Recording1.UserCode.cs">
-      <BoundTo>bb710248-b620-4648-af02-51c9e7a0615d</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="MODULE\CapNhatThongTin\CapNhatKhongHoTen.UserCode.cs">
+      <BoundTo>ba9632f8-a3b6-4c22-91c8-5a7b06e9cc50</BoundTo>
+      <DependentUpon>CapNhatKhongHoTen.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>5bbc5f13-61be-45c1-a45f-186560d86d54</id>
+      <id>be667f0e-0aab-42fb-8aa1-033691857a83</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen10KyTu.cs">
+      <BoundTo>887e80b8-4dd6-421f-aa47-ac185a8fc60c</BoundTo>
+      <DependentUpon>HoTen10KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>013a9255-57a4-4bee-aec9-24f4497a304c</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen10KyTu.UserCode.cs">
+      <BoundTo>887e80b8-4dd6-421f-aa47-ac185a8fc60c</BoundTo>
+      <DependentUpon>HoTen10KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f5f7e865-a33c-4b68-884b-f47ea004378c</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen19KyTu.cs">
+      <BoundTo>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</BoundTo>
+      <DependentUpon>HoTen19KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0be62bf2-1879-4efb-ad69-9bd890a19c47</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen19KyTu.UserCode.cs">
+      <BoundTo>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</BoundTo>
+      <DependentUpon>HoTen19KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>00b7feff-ca67-4299-a8da-f0b32165c634</id>
     </Compile>
     <Compile Include="MODULE\DangKy\Recording1.cs">
       <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
@@ -196,10 +220,20 @@
       <id>81918fa6-c9fa-4a5c-874b-88122393f5b8</id>
       <recordtableid>e213a0f9-50d3-4ca3-9337-1b99a86cc366</recordtableid>
     </None>
-    <None Include="MODULE\CapNhatThongTin\Recording1.rxrec">
+    <None Include="MODULE\CapNhatThongTin\CapNhatKhongHoTen.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
-      <id>bb710248-b620-4648-af02-51c9e7a0615d</id>
-      <recordtableid>04ff684c-2f1c-4ecc-afff-5896e69d54f9</recordtableid>
+      <id>ba9632f8-a3b6-4c22-91c8-5a7b06e9cc50</id>
+      <recordtableid>97b5afd1-b474-428c-81dc-28297b2754ea</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen10KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>887e80b8-4dd6-421f-aa47-ac185a8fc60c</id>
+      <recordtableid>66aa08c4-1cdb-4725-9e93-6979ef4bb4ba</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen19KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</id>
+      <recordtableid>1245edad-ed6d-4d7a-b90a-8abcb61dce5c</recordtableid>
     </None>
     <None Include="MODULE\DangKy\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
