@@ -117,6 +117,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>2faab736-9475-4c19-98b7-c948f627947c</id>
     </Compile>
+    <Compile Include="END\end_search.cs">
+      <BoundTo>370cf407-299a-40d7-bde8-68700029e263</BoundTo>
+      <DependentUpon>end_search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d92ef5af-b48d-4664-9a5b-4b17ed8456ea</id>
+    </Compile>
+    <Compile Include="END\end_search.UserCode.cs">
+      <BoundTo>370cf407-299a-40d7-bde8-68700029e263</BoundTo>
+      <DependentUpon>end_search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c81f9f0c-b9ec-4651-972a-ea3f124f802a</id>
+    </Compile>
     <Compile Include="END\end_update_info.cs">
       <BoundTo>81918fa6-c9fa-4a5c-874b-88122393f5b8</BoundTo>
       <DependentUpon>end_update_info.rxrec</DependentUpon>
@@ -153,6 +165,30 @@
       <UserCode>true</UserCode>
       <id>de9c88e2-b6a6-4483-9f78-71c54807153d</id>
     </Compile>
+    <Compile Include="MODULE\TimKiem\click_search.cs">
+      <BoundTo>87f4e423-316c-4a53-addb-0fcc38f21fae</BoundTo>
+      <DependentUpon>click_search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a9823044-0596-4fb3-baa0-bcf5070afbe5</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\click_search.UserCode.cs">
+      <BoundTo>87f4e423-316c-4a53-addb-0fcc38f21fae</BoundTo>
+      <DependentUpon>click_search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>11561bff-fdcc-47fb-bb64-d3eb5c5c6bf1</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\insert_search.cs">
+      <BoundTo>6e499c87-e9e8-4f7e-b8ba-16dbc8b28cfe</BoundTo>
+      <DependentUpon>insert_search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2dced80a-2c75-429f-b62e-e6f2f6dbff5c</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\insert_search.UserCode.cs">
+      <BoundTo>6e499c87-e9e8-4f7e-b8ba-16dbc8b28cfe</BoundTo>
+      <DependentUpon>insert_search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb0fca12-1dca-4b16-b81c-8ba077edcb65</id>
+    </Compile>
     <Compile Include="MODULE\TimKiem\Recording1.cs">
       <BoundTo>285512f1-eef4-4484-b404-414dec99eb86</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
@@ -165,8 +201,68 @@
       <UserCode>true</UserCode>
       <id>8ff99a94-e942-41c9-9e94-7242f441a28a</id>
     </Compile>
+    <Compile Include="MODULE\TimKiem\Recording2.cs">
+      <BoundTo>bc178a0b-6ec5-4a7d-b372-6cf91aa8f91b</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>339d06cc-7492-4b5c-b7d6-a1066eec71ac</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording2.UserCode.cs">
+      <BoundTo>bc178a0b-6ec5-4a7d-b372-6cf91aa8f91b</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8c579515-d5d9-4936-a68e-435aaa82b18d</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording3.cs">
+      <BoundTo>37e1fc02-f0f7-43c0-a04d-22c4b873b791</BoundTo>
+      <DependentUpon>Recording3.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10b12cff-0898-4112-8081-183f3d0af5a6</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording3.UserCode.cs">
+      <BoundTo>37e1fc02-f0f7-43c0-a04d-22c4b873b791</BoundTo>
+      <DependentUpon>Recording3.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>46e90ae0-7a41-4d1a-9750-137877e882d0</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording4.cs">
+      <BoundTo>3720a843-26f9-4327-a7f8-6a7d4c8de991</BoundTo>
+      <DependentUpon>Recording4.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5cc889d9-c34f-4323-8ba9-f52e7135279b</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording4.UserCode.cs">
+      <BoundTo>3720a843-26f9-4327-a7f8-6a7d4c8de991</BoundTo>
+      <DependentUpon>Recording4.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80d9496b-b3bf-4f3b-946c-39634d37c215</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\validate_search.cs">
+      <BoundTo>f2b33f49-2ec2-458b-9568-19acd8c43f68</BoundTo>
+      <DependentUpon>validate_search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9d8bf8bd-8315-4260-9f98-7ea1e7ab02d9</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\validate_search.UserCode.cs">
+      <BoundTo>f2b33f49-2ec2-458b-9568-19acd8c43f68</BoundTo>
+      <DependentUpon>validate_search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1c45ff5-8007-4447-bc37-50af1219a24d</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>dc08efd1-fbb9-47e9-b3f4-a7f4b8eff065</id>
+    </Compile>
+    <Compile Include="START\start_search.cs">
+      <BoundTo>8bfb084d-6ee5-4621-bf01-3701faf95608</BoundTo>
+      <DependentUpon>start_search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f8fe70ff-a9a3-48e5-8574-c32b7170e7b5</id>
+    </Compile>
+    <Compile Include="START\start_search.UserCode.cs">
+      <BoundTo>8bfb084d-6ee5-4621-bf01-3701faf95608</BoundTo>
+      <DependentUpon>start_search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>90b7f94c-5cbb-47db-a387-0808fbffe20c</id>
     </Compile>
     <Compile Include="START\start_update_info.cs">
       <BoundTo>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</BoundTo>
@@ -191,6 +287,11 @@
     <None Include="app.config">
       <id>9b0b2761-811a-424a-a57b-ebd88b95d062</id>
     </None>
+    <None Include="END\end_search.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>370cf407-299a-40d7-bde8-68700029e263</id>
+      <recordtableid>96a138bc-a702-4489-bb37-e7fa9888151d</recordtableid>
+    </None>
     <None Include="END\end_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>81918fa6-c9fa-4a5c-874b-88122393f5b8</id>
@@ -206,10 +307,45 @@
       <id>dc5da82d-7273-4444-b042-64438a1a755f</id>
       <recordtableid>b8f86ceb-a772-47bb-b19f-21df24ee0f20</recordtableid>
     </None>
+    <None Include="MODULE\TimKiem\click_search.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>87f4e423-316c-4a53-addb-0fcc38f21fae</id>
+      <recordtableid>ed219a3e-1579-4abd-b5fa-c8c5586d6865</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\insert_search.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>6e499c87-e9e8-4f7e-b8ba-16dbc8b28cfe</id>
+      <recordtableid>1811eb31-c2f1-40d7-99bd-512ff8a6f5ea</recordtableid>
+    </None>
     <None Include="MODULE\TimKiem\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>285512f1-eef4-4484-b404-414dec99eb86</id>
       <recordtableid>c10772c5-0e86-44fd-b04d-6ba61adace1e</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\Recording2.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>bc178a0b-6ec5-4a7d-b372-6cf91aa8f91b</id>
+      <recordtableid>3cfca693-a3c1-4da9-968c-dd252be417e4</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\Recording3.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>37e1fc02-f0f7-43c0-a04d-22c4b873b791</id>
+      <recordtableid>64f3baf4-ce3c-4aed-9cf7-e2b1633318dd</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\Recording4.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>3720a843-26f9-4327-a7f8-6a7d4c8de991</id>
+      <recordtableid>8da7ba52-b45e-483b-a42b-ede0543457a9</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\validate_search.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>f2b33f49-2ec2-458b-9568-19acd8c43f68</id>
+      <recordtableid>c33e7972-ffdb-48f1-8284-4177e2cd4939</recordtableid>
+    </None>
+    <None Include="START\start_search.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>8bfb084d-6ee5-4621-bf01-3701faf95608</id>
+      <recordtableid>3175bdf5-4448-4e90-993d-879713c6fc12</recordtableid>
     </None>
     <None Include="START\start_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>

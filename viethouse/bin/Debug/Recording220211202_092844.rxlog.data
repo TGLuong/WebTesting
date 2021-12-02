@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1691112288a64ff6"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/02/2021 09:28:45 AM"
+		timestampiso="2021-12-02T02:28:45"
+		endtime="12/02/2021 09:28:53 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.449"
+			timeRelativeToTestModuleStartTime="00:01.449"
+			timeWallClock="09:28:47"
+			time="00:01.449"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.547"
+			timeRelativeToTestModuleStartTime="00:01.547"
+			timeWallClock="09:28:47"
+			time="00:01.547"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.TxtKeywords' at 406;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//input[#'txtKeywords']"
+				itempath=".//input[#'txtKeywords']"
+				fullname="viethouseRepository.TimKiem.TxtKeywords"
+				id="ef67cfd5a66f4d90bf87ff41f2546dde"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.757"
+			timeRelativeToTestModuleStartTime="00:03.758"
+			timeWallClock="09:28:49"
+			time="00:03.757"
+			level="Warn"
+			category="Click"
+			errimg=".\Recordin_be09bbc0_rxlog.jpg"
+			errthumb=".\Recordin_be09bbc0_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.756"
+			timeRelativeToTestModuleStartTime="00:04.757"
+			timeWallClock="09:28:50"
+			time="00:04.756"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '    ' with focus on 'TimKiem.TxtKeywords'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//input[#'txtKeywords']"
+				itempath=".//input[#'txtKeywords']"
+				fullname="viethouseRepository.TimKiem.TxtKeywords"
+				id="ef67cfd5a66f4d90bf87ff41f2546dde"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.551"
+			timeRelativeToTestModuleStartTime="00:05.552"
+			timeWallClock="09:28:51"
+			time="00:05.551"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.ButtonTagTimKi&#7871;m' at 87;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']"
+				itempath=".//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']"
+				fullname="viethouseRepository.TimKiem.ButtonTagTimKiếm"
+				id="2d50b3d377634842ae93bc5cba0d806f"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.451"
+			timeRelativeToTestModuleStartTime="00:06.452"
+			timeWallClock="09:28:52"
+			time="00:06.451"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Mua b&#225;n nh&#224; &#273;&#7845;t - B&#7845;t &#273;&#7897;ng s&#7843;n House Viet T12/2021') on item 'TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				itempath=".//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐấtBấtĐộngSảnHouseVie"
+				id="179b97379c494749bcfcc56f55a7899d"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.369"
+			timeRelativeToTestModuleStartTime="00:07.370"
+			timeWallClock="09:28:53"
+			time="00:07.369"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				itempath=".//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐấtBấtĐộngSảnHouseVie"
+				id="179b97379c494749bcfcc56f55a7899d"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

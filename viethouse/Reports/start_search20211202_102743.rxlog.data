@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="91511ed3dd256d7"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/02/2021 10:27:44 AM"
+		timestampiso="2021-12-02T03:27:44"
+		endtime="12/02/2021 10:27:46 AM"
+		timeoutfactor="1"
+		module="start_search">
+		<detail>
+			start_search
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.513"
+			timeRelativeToTestModuleStartTime="00:01.514"
+			timeWallClock="10:27:45"
+			time="00:01.513"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.606"
+			timeRelativeToTestModuleStartTime="00:01.607"
+			timeWallClock="10:27:46"
+			time="00:01.606"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://houseviet.vn/' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\START\start_search.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ed219a3e-1579-4abd-b5fa-c8c5586d6865"
+mode="Global"
+rxversion="8.3">
+	<name>
+		click_search
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="click_search"
+	namespace="viethouse.MODULE.TimKiem">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="87;18"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="89aac240-4367-48b7-b5fe-60652cec881b"
+		sx="1439"
+		sy="433"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2d50b3d3-7763-4842-ae93-bc5cba0d806f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1352,415,150,47"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn-search
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#32;T&#236;m ki&#7871;m&#32;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-action"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' T&#236;m ki&#7871;m ']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="bf01778e-1d9e-46e0-bcad-6e983fe9fad3">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2bc6c29c-7ba3-44ae-93ec-45465825dc8a"
+	name="viethouseRepository"
+	relativepath="..\..\viethouseRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="viethouseRepository"
+		namespace="viethouse">
+		</codegen>
+		<rootfolder
+		id="be12804b-861a-458d-8a69-b5351599e914"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		click_search.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

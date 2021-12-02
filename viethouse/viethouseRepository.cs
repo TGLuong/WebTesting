@@ -29,6 +29,7 @@ namespace viethouse
         static viethouseRepository instance = new viethouseRepository();
         viethouseRepositoryFolders.ThongTinTaiKhoảnGoogleChromeAppFolder _thongtintaikhoảngooglechrome;
         viethouseRepositoryFolders.ThongTinTaiKhoảnAppFolder _thongtintaikhoản;
+        viethouseRepositoryFolders.TimKiemAppFolder _timkiem;
 
         /// <summary>
         /// Gets the singleton class instance representing the viethouseRepository element repository.
@@ -47,6 +48,7 @@ namespace viethouse
         {
             _thongtintaikhoảngooglechrome = new viethouseRepositoryFolders.ThongTinTaiKhoảnGoogleChromeAppFolder(this);
             _thongtintaikhoản = new viethouseRepositoryFolders.ThongTinTaiKhoảnAppFolder(this);
+            _timkiem = new viethouseRepositoryFolders.TimKiemAppFolder(this);
         }
 
 #region Variables
@@ -81,6 +83,15 @@ namespace viethouse
         public virtual viethouseRepositoryFolders.ThongTinTaiKhoảnAppFolder ThongTinTaiKhoản
         {
             get { return _thongtintaikhoản; }
+        }
+
+        /// <summary>
+        /// The TimKiem folder.
+        /// </summary>
+        [RepositoryFolder("94d5d368-05fa-47a1-8524-10fd8f7ebbf9")]
+        public virtual viethouseRepositoryFolders.TimKiemAppFolder TimKiem
+        {
+            get { return _timkiem; }
         }
     }
 
@@ -270,6 +281,124 @@ namespace viethouse
                 get
                 {
                     return _profilefullnameerrorInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The TimKiemAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("94d5d368-05fa-47a1-8524-10fd8f7ebbf9")]
+        public partial class TimKiemAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _txtkeywordsInfo;
+            RepoItemInfo _buttontagtimkiếmInfo;
+            RepoItemInfo _muabannhađấtbấtđộngsảnhousevieInfo;
+
+            /// <summary>
+            /// Creates a new TimKiem  folder.
+            /// </summary>
+            public TimKiemAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("TimKiem", "/dom[@domain='houseviet.vn']", parentFolder, 30000, null, false, "94d5d368-05fa-47a1-8524-10fd8f7ebbf9", "")
+            {
+                _txtkeywordsInfo = new RepoItemInfo(this, "TxtKeywords", ".//input[#'txtKeywords']", 30000, null, "ef67cfd5-a66f-4d90-bf87-ff41f2546dde");
+                _buttontagtimkiếmInfo = new RepoItemInfo(this, "ButtonTagTimKiếm", ".//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']", 30000, null, "2d50b3d3-7763-4842-ae93-bc5cba0d806f");
+                _muabannhađấtbấtđộngsảnhousevieInfo = new RepoItemInfo(this, "MuaBanNhaĐấtBấtĐộngSảnHouseVie", ".//tag[#'main']/article//h1[@innertext~'^Mua\\ bán\\ nhà\\ đất\\ -\\ Bất\\ độn']", 30000, null, "179b9737-9c49-4749-bcfc-c56f55a7899d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("94d5d368-05fa-47a1-8524-10fd8f7ebbf9")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("94d5d368-05fa-47a1-8524-10fd8f7ebbf9")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtKeywords item.
+            /// </summary>
+            [RepositoryItem("ef67cfd5-a66f-4d90-bf87-ff41f2546dde")]
+            public virtual Ranorex.InputTag TxtKeywords
+            {
+                get
+                {
+                    return _txtkeywordsInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtKeywords item info.
+            /// </summary>
+            [RepositoryItemInfo("ef67cfd5-a66f-4d90-bf87-ff41f2546dde")]
+            public virtual RepoItemInfo TxtKeywordsInfo
+            {
+                get
+                {
+                    return _txtkeywordsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagTimKiếm item.
+            /// </summary>
+            [RepositoryItem("2d50b3d3-7763-4842-ae93-bc5cba0d806f")]
+            public virtual Ranorex.ButtonTag ButtonTagTimKiếm
+            {
+                get
+                {
+                    return _buttontagtimkiếmInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagTimKiếm item info.
+            /// </summary>
+            [RepositoryItemInfo("2d50b3d3-7763-4842-ae93-bc5cba0d806f")]
+            public virtual RepoItemInfo ButtonTagTimKiếmInfo
+            {
+                get
+                {
+                    return _buttontagtimkiếmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MuaBanNhaĐấtBấtĐộngSảnHouseVie item.
+            /// </summary>
+            [RepositoryItem("179b9737-9c49-4749-bcfc-c56f55a7899d")]
+            public virtual Ranorex.H1Tag MuaBanNhaĐấtBấtĐộngSảnHouseVie
+            {
+                get
+                {
+                    return _muabannhađấtbấtđộngsảnhousevieInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MuaBanNhaĐấtBấtĐộngSảnHouseVie item info.
+            /// </summary>
+            [RepositoryItemInfo("179b9737-9c49-4749-bcfc-c56f55a7899d")]
+            public virtual RepoItemInfo MuaBanNhaĐấtBấtĐộngSảnHouseVieInfo
+            {
+                get
+                {
+                    return _muabannhađấtbấtđộngsảnhousevieInfo;
                 }
             }
         }
