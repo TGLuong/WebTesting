@@ -24,10 +24,6 @@ rxversion="8.3">
 			showinvisiblechars="True">
 			</testsuite>
 			<testcase
-			id="0ed1b0f5-6a10-456e-b0e0-aefc217a21d8"
-			name="TK8">
-			</testcase>
-			<testcase
 			datasource="dataTK6"
 			id="19520dfe-24d1-41a6-875b-b37e369c6e1c"
 			name="TK6">
@@ -162,12 +158,6 @@ rxversion="8.3">
 			id="54ee6e0c-1833-4a24-867e-81088822237b"
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="5571a0a7-d05f-48ed-a702-61d16cea3b08"
-			name="rtyhgrtytry"
-			ref="e000bf5a-26d1-4543-a477-88d956a5859f"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -698,14 +688,6 @@ rxversion="8.3">
 							<testmodule
 							id="50c36948-12dd-4808-8ad2-a47be84b6651"
 							name="validate_soil_type">
-							</testmodule>
-						</testcase>
-						<testcase
-						id="0ed1b0f5-6a10-456e-b0e0-aefc217a21d8"
-						name="TK8">
-							<testmodule
-							id="5571a0a7-d05f-48ed-a702-61d16cea3b08"
-							name="rtyhgrtytry">
 							</testmodule>
 						</testcase>
 					</smartfoldernode>
@@ -1402,9 +1384,6 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="0ed1b0f5-6a10-456e-b0e0-aefc217a21d8">
-			</testcontainer>
 			<testcontainer
 			id="19520dfe-24d1-41a6-875b-b37e369c6e1c">
 			</testcontainer>

@@ -201,18 +201,6 @@
       <UserCode>true</UserCode>
       <id>8ff99a94-e942-41c9-9e94-7242f441a28a</id>
     </Compile>
-    <Compile Include="MODULE\TimKiem\rtyhgrtytry.cs">
-      <BoundTo>006d3018-b944-4138-99b9-42641b074fdb</BoundTo>
-      <DependentUpon>rtyhgrtytry.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>04bdf8e9-426b-4212-b804-17404704c291</id>
-    </Compile>
-    <Compile Include="MODULE\TimKiem\rtyhgrtytry.UserCode.cs">
-      <BoundTo>006d3018-b944-4138-99b9-42641b074fdb</BoundTo>
-      <DependentUpon>rtyhgrtytry.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>bc58c014-fc52-4c66-877e-e9970575529a</id>
-    </Compile>
     <Compile Include="MODULE\TimKiem\selec_soil_type.cs">
       <BoundTo>290c39f8-b143-4f25-b5fe-9e14d3b829e0</BoundTo>
       <DependentUpon>selec_soil_type.rxrec</DependentUpon>
@@ -321,11 +309,6 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>285512f1-eef4-4484-b404-414dec99eb86</id>
       <recordtableid>c10772c5-0e86-44fd-b04d-6ba61adace1e</recordtableid>
-    </None>
-    <None Include="MODULE\TimKiem\rtyhgrtytry.rxrec">
-      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
-      <id>006d3018-b944-4138-99b9-42641b074fdb</id>
-      <recordtableid>e000bf5a-26d1-4543-a477-88d956a5859f</recordtableid>
     </None>
     <None Include="MODULE\TimKiem\selec_soil_type.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>

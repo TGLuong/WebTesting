@@ -357,7 +357,7 @@ namespace viethouse
                 _spinsoiltypeInfo = new RepoItemInfo(this, "spinSoilType", ".//div[#'Cate']/div", 30000, null, "83de2626-e5e1-4dbb-9bff-803426dfe85b");
                 _itemsoiltypeInfo = new RepoItemInfo(this, "itemSoilType", ".//div[#'Cate']/div[2]/div[2]/div[1]/div/label[$itemSoilType]", 30000, null, "84d6473e-87e7-456b-a746-02c562718122");
                 _mainnavInfo = new RepoItemInfo(this, "MainNav", ".//div[#'main-nav']", 30000, null, "a37d7a8e-a373-49bb-b2f0-c5e8247a942b");
-                _validatesoiltypeInfo = new RepoItemInfo(this, "validateSoilType", ".//tag[#'main']/article//div[@innertext~'Bạn đang xem 15 tin rao trong tổng số 104.201 tin ']/a[@innertext=$element]", 30000, null, "f8dbb079-3d76-4475-b0be-255bec3f0392");
+                _validatesoiltypeInfo = new RepoItemInfo(this, "validateSoilType", ".//tag[#'main']/article//div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']/a[@innertext=$element]", 30000, null, "f8dbb079-3d76-4475-b0be-255bec3f0392");
             }
 
             /// <summary>

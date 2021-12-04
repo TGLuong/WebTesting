@@ -1,13 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="MODULE\TimKiem\space.rxrec" />
+    <Element value="START\start_search.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="viethouse.rxtst" />
-    <Element value="MODULE\TimKiem\validate_soil_type.rxrec" />
-    <Element value="MODULE\TimKiem\Recording2.rxrec" />
-    <Element value="MODULE\TimKiem\space.rxrec" />
+    <Element value="START\start_search.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

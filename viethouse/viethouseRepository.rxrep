@@ -180,7 +180,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="validateSoilType"
 			refimgid="19f10794-31b2-470e-ba8e-8c5bc1dcd9b1"
 			searchtimeout="30000ms">
-				/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 104.201 tin ']/a[@innertext=$element]
+				/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']/a[@innertext=$element]
 			</item>
 			<basepath>
 				/dom[@domain='houseviet.vn']
