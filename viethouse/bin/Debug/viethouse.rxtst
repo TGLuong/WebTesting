@@ -23,33 +23,20 @@ rxversion="8.3">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testcase
+			id="0ed1b0f5-6a10-456e-b0e0-aefc217a21d8"
+			name="TK8">
+			</testcase>
+			<testcase
+			datasource="dataTK6"
+			id="19520dfe-24d1-41a6-875b-b37e369c6e1c"
+			name="TK6">
+			</testcase>
 			<testmodule
-			id="15041f06-06ee-4c02-85e3-775f8d5cf307"
-			name="validate_search"
-			ref="c33e7972-ffdb-48f1-8284-4177e2cd4939"
+			id="1aa1a65a-23d0-4ff7-9c42-1cbea2ca07bf"
+			name="end_search"
+			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
 			type="Recording">
-				<databinding>
-					<var
-					dataname="notification"
-					datasourceid="44afd673-a63c-4ed3-80f9-4d241c744775"
-					variableid="e6f6e859-0d77-4703-9197-7d565f1c1659"
-					variablename="notification">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="1612c516-3281-4beb-bfd2-0aab50ed1f45"
-			name="validate_search"
-			ref="c33e7972-ffdb-48f1-8284-4177e2cd4939"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="notification"
-					datasourceid="f768a69e-1b88-41d8-b23d-4c271f213f3d"
-					variableid="e6f6e859-0d77-4703-9197-7d565f1c1659"
-					variablename="notification">
-					</var>
-				</databinding>
 			</testmodule>
 			<testmodule
 			id="22445923-20e9-43ee-827b-2075654e2cfc"
@@ -65,10 +52,50 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="2438b9c4-ee2d-4795-8761-7b321dab2803"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="notification"
+					datasourceid="6a06b6b1-01ba-4a9c-96f0-c5317986c7e7"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+					<var
+					dataname="element"
+					datasourceid="6a06b6b1-01ba-4a9c-96f0-c5317986c7e7"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="2999c164-9a74-4f6f-9344-5c5089af3a17"
 			name="TimKiem">
 			</smartfoldernode>
+			<testmodule
+			id="299b233e-0723-4fa0-9c4b-dee4c01aa7fb"
+			name="selec_soil_type"
+			ref="555e3ea0-9237-479a-a2b2-5f1257ae4068"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="stt"
+					datasourceid="da702931-7094-47b4-9b38-ab22873974ed"
+					variableid="95119461-757d-4f9e-a9a6-38b051d9100d"
+					variablename="itemSoilType">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="29f2f6ec-af64-4379-80d0-17d049eae76a"
+			name="start_search"
+			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
 			name="DangKy">
@@ -106,9 +133,41 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="50c36948-12dd-4808-8ad2-a47be84b6651"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="element"
+					datasourceid="97c1d4bb-031b-4c3a-944d-2682626d89e4"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+					<var
+					dataname="notification"
+					datasourceid="97c1d4bb-031b-4c3a-944d-2682626d89e4"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="531a1e79-4172-462b-b159-1ee1e49faab8"
 			name="click_search"
 			ref="ed219a3e-1579-4abd-b5fa-c8c5586d6865"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="54ee6e0c-1833-4a24-867e-81088822237b"
+			name="start_search"
+			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="5571a0a7-d05f-48ed-a702-61d16cea3b08"
+			name="rtyhgrtytry"
+			ref="e000bf5a-26d1-4543-a477-88d956a5859f"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -121,6 +180,26 @@ rxversion="8.3">
 			id="5c576184-9e33-423f-ac24-b40ac062192d"
 			name="CapNhatThongTin">
 			</smartfoldernode>
+			<testmodule
+			id="5f05b52f-244f-449a-af75-42badee9680d"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="notification"
+					datasourceid="da702931-7094-47b4-9b38-ab22873974ed"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+					<var
+					dataname="element"
+					datasourceid="da702931-7094-47b4-9b38-ab22873974ed"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="dataTK5"
 			id="64980cbf-2c31-451b-ae20-34d4d8eaf59a"
@@ -141,29 +220,27 @@ rxversion="8.3">
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="6d58cf5a-cd46-4294-b248-54b1f4001e25"
-			name="validate_search"
-			ref="c33e7972-ffdb-48f1-8284-4177e2cd4939"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="notification"
-					datasourceid="a3566d3a-022e-4a1d-8e5c-41fa4baf204c"
-					variableid="e6f6e859-0d77-4703-9197-7d565f1c1659"
-					variablename="notification">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
 			id="6e13f58e-77df-47b8-8237-3e92dd680b63"
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="700e8d78-cf4c-4ee1-aa0c-b82bffaa0c10"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="74ce50a4-7766-45ea-bbc3-a9d5bd9c07de"
 			name="end_search"
 			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="75630f1d-3185-4355-b417-d4010e7c3632"
+			name="click_search"
+			ref="ed219a3e-1579-4abd-b5fa-c8c5586d6865"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -179,6 +256,12 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="7f1ad916-d060-4b61-99a1-f6292ef53c4c"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="892fca74-35d6-418a-924d-632d49c4bcbe"
 			name="end_search"
 			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
@@ -189,22 +272,54 @@ rxversion="8.3">
 			id="8a87fc9e-4b35-441d-9450-cf9b545dc5b4"
 			name="TK3">
 			</testcase>
+			<testmodule
+			id="9b9238c2-697e-4a77-909c-6c2b9611804e"
+			name="click_search"
+			ref="ed219a3e-1579-4abd-b5fa-c8c5586d6865"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="9d42ae22-4b3c-4296-9fca-9e868c817442"
 			name="viethouse"
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
-			id="b9509027-0824-4d45-8c66-8fe3848d5019"
-			name="validate_search"
-			ref="c33e7972-ffdb-48f1-8284-4177e2cd4939"
+			id="9db68ee4-3658-4a34-9973-144fdf50be5c"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a1b9cac5-228d-4c93-a7ad-06de080463c9"
+			name="insert_search"
+			ref="1811eb31-c2f1-40d7-99bd-512ff8a6f5ea"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="edtSearch"
+					datasourceid="97c1d4bb-031b-4c3a-944d-2682626d89e4"
+					variableid="c6f0db6a-7d1c-4759-837c-727da26f72a5"
+					variablename="edtSearch">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="a498fba5-d7d0-46f5-abc9-64bdde70f7cf"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="notification"
-					datasourceid="6a06b6b1-01ba-4a9c-96f0-c5317986c7e7"
-					variableid="e6f6e859-0d77-4703-9197-7d565f1c1659"
+					datasourceid="f768a69e-1b88-41d8-b23d-4c271f213f3d"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
 					variablename="notification">
+					</var>
+					<var
+					dataname="element"
+					datasourceid="f768a69e-1b88-41d8-b23d-4c271f213f3d"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
 					</var>
 				</databinding>
 			</testmodule>
@@ -215,24 +330,76 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="be34d6ae-1a83-411d-99c3-3ebe6911196a"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="notification"
+					datasourceid="dc591ae8-3801-4dc3-aeb2-5e9749749aad"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+					<var
+					dataname="element"
+					datasourceid="dc591ae8-3801-4dc3-aeb2-5e9749749aad"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="c130be22-6dd8-43f2-94bc-4ec16baaa200"
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			id="c4951d62-7673-4ffd-8e62-9230d9e1ba69"
-			name="validate_search"
-			ref="c33e7972-ffdb-48f1-8284-4177e2cd4939"
+			id="c6f80be7-adbc-416c-8a38-3fb24bbcc9ff"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="notification"
-					datasourceid="dc591ae8-3801-4dc3-aeb2-5e9749749aad"
-					variableid="e6f6e859-0d77-4703-9197-7d565f1c1659"
+					datasourceid="a3566d3a-022e-4a1d-8e5c-41fa4baf204c"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
 					variablename="notification">
 					</var>
+					<var
+					dataname="element"
+					datasourceid="a3566d3a-022e-4a1d-8e5c-41fa4baf204c"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="d6fd8ca5-558b-4e05-9a40-ba62d22d43fa"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="notification"
+					datasourceid="44afd673-a63c-4ed3-80f9-4d241c744775"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+					<var
+					dataname="element"
+					datasourceid="44afd673-a63c-4ed3-80f9-4d241c744775"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="ded17e4b-b5d1-4db5-9802-9a84072c75bc"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="e11bb9ac-cbde-4aaa-ac84-352a76453ce5"
@@ -254,16 +421,53 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="e4c96939-276a-4f03-bf0c-a61d7a032a33"
+			name="selec_soil_type"
+			ref="555e3ea0-9237-479a-a2b2-5f1257ae4068"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="stt"
+					datasourceid="97c1d4bb-031b-4c3a-944d-2682626d89e4"
+					variableid="95119461-757d-4f9e-a9a6-38b051d9100d"
+					variablename="itemSoilType">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e6c14f63-da80-457a-a928-c62c32003ada"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="dataTK2"
 			id="e9fe24a1-5a9e-413c-ab7d-860d0cd576e3"
 			name="TK2">
+			</testcase>
+			<testmodule
+			id="ea5b92ca-4452-45a6-8c7a-1dc385a0fe6e"
+			name="end_search"
+			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
+			type="Recording">
+			</testmodule>
+			<testcase
+			datasource="dataTK7"
+			id="efb169c0-9567-45a5-ad63-1bdac1507599"
+			name="TK7">
 			</testcase>
 			<testcase
 			datasource="dataTK1"
 			id="f3693076-c98e-46bf-a076-6ff877038407"
 			name="TK1">
 			</testcase>
+			<testmodule
+			id="f4ea13c3-4ca3-479d-9e15-fee3d3a58cf8"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="fa9202ba-1072-4b72-8a4e-134f42e1c5e6"
 			name="start_search"
@@ -275,6 +479,12 @@ rxversion="8.3">
 			id="fdbc25f3-3ddb-4fad-856a-20da2d491623"
 			name="TK4">
 			</testcase>
+			<testmodule
+			id="ffeff39d-c82a-43aa-bbad-d09df6c07529"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -310,8 +520,12 @@ rxversion="8.3">
 							name="click_search">
 							</testmodule>
 							<testmodule
-							id="1612c516-3281-4beb-bfd2-0aab50ed1f45"
-							name="validate_search">
+							id="f4ea13c3-4ca3-479d-9e15-fee3d3a58cf8"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="a498fba5-d7d0-46f5-abc9-64bdde70f7cf"
+							name="validate_soil_type">
 							</testmodule>
 						</testcase>
 						<testcase
@@ -334,8 +548,12 @@ rxversion="8.3">
 							name="click_search">
 							</testmodule>
 							<testmodule
-							id="15041f06-06ee-4c02-85e3-775f8d5cf307"
-							name="validate_search">
+							id="ffeff39d-c82a-43aa-bbad-d09df6c07529"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="d6fd8ca5-558b-4e05-9a40-ba62d22d43fa"
+							name="validate_soil_type">
 							</testmodule>
 						</testcase>
 						<testcase
@@ -358,8 +576,12 @@ rxversion="8.3">
 							name="click_search">
 							</testmodule>
 							<testmodule
-							id="6d58cf5a-cd46-4294-b248-54b1f4001e25"
-							name="validate_search">
+							id="ded17e4b-b5d1-4db5-9802-9a84072c75bc"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="c6f80be7-adbc-416c-8a38-3fb24bbcc9ff"
+							name="validate_soil_type">
 							</testmodule>
 						</testcase>
 						<testcase
@@ -382,8 +604,12 @@ rxversion="8.3">
 							name="click_search">
 							</testmodule>
 							<testmodule
-							id="b9509027-0824-4d45-8c66-8fe3848d5019"
-							name="validate_search">
+							id="700e8d78-cf4c-4ee1-aa0c-b82bffaa0c10"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="2438b9c4-ee2d-4795-8761-7b321dab2803"
+							name="validate_soil_type">
 							</testmodule>
 						</testcase>
 						<testcase
@@ -406,8 +632,80 @@ rxversion="8.3">
 							name="click_search">
 							</testmodule>
 							<testmodule
-							id="c4951d62-7673-4ffd-8e62-9230d9e1ba69"
-							name="validate_search">
+							id="9db68ee4-3658-4a34-9973-144fdf50be5c"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="be34d6ae-1a83-411d-99c3-3ebe6911196a"
+							name="validate_soil_type">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="19520dfe-24d1-41a6-875b-b37e369c6e1c"
+						name="TK6">
+							<testmodule
+							id="ea5b92ca-4452-45a6-8c7a-1dc385a0fe6e"
+							name="end_search">
+							</testmodule>
+							<testmodule
+							id="29f2f6ec-af64-4379-80d0-17d049eae76a"
+							name="start_search">
+							</testmodule>
+							<testmodule
+							id="299b233e-0723-4fa0-9c4b-dee4c01aa7fb"
+							name="selec_soil_type">
+							</testmodule>
+							<testmodule
+							id="75630f1d-3185-4355-b417-d4010e7c3632"
+							name="click_search">
+							</testmodule>
+							<testmodule
+							id="7f1ad916-d060-4b61-99a1-f6292ef53c4c"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="5f05b52f-244f-449a-af75-42badee9680d"
+							name="validate_soil_type">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="efb169c0-9567-45a5-ad63-1bdac1507599"
+						name="TK7">
+							<testmodule
+							id="1aa1a65a-23d0-4ff7-9c42-1cbea2ca07bf"
+							name="end_search">
+							</testmodule>
+							<testmodule
+							id="54ee6e0c-1833-4a24-867e-81088822237b"
+							name="start_search">
+							</testmodule>
+							<testmodule
+							id="e4c96939-276a-4f03-bf0c-a61d7a032a33"
+							name="selec_soil_type">
+							</testmodule>
+							<testmodule
+							id="a1b9cac5-228d-4c93-a7ad-06de080463c9"
+							name="insert_search">
+							</testmodule>
+							<testmodule
+							id="9b9238c2-697e-4a77-909c-6c2b9611804e"
+							name="click_search">
+							</testmodule>
+							<testmodule
+							id="e6c14f63-da80-457a-a928-c62c32003ada"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="50c36948-12dd-4808-8ad2-a47be84b6651"
+							name="validate_soil_type">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="0ed1b0f5-6a10-456e-b0e0-aefc217a21d8"
+						name="TK8">
+							<testmodule
+							id="5571a0a7-d05f-48ed-a702-61d16cea3b08"
+							name="rtyhgrtytry">
 							</testmodule>
 						</testcase>
 					</smartfoldernode>
@@ -423,10 +721,10 @@ rxversion="8.3">
 		type="Ranorex.Core.Data.SimpleDataConnector">
 			<lastknowncolumns>
 				<column>
-					edtSearch
+					notification
 				</column>
 				<column>
-					notification
+					element
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -434,14 +732,15 @@ rxversion="8.3">
 			<table>
 				<tr>
 					<th>
-						edtSearch
+						notification
 					</th>
 					<th>
-						notification
+						element
 					</th>
 				</tr>
 				<tr>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -461,6 +760,9 @@ rxversion="8.3">
 				<column>
 					notification
 				</column>
+				<column>
+					element
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -472,10 +774,16 @@ rxversion="8.3">
 					<th>
 						notification
 					</th>
+					<th>
+						element
+					</th>
 				</tr>
 				<tr>
 					<td>
 						&#32;                    &#32;
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -495,6 +803,9 @@ rxversion="8.3">
 				<column>
 					notification
 				</column>
+				<column>
+					element
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -506,6 +817,9 @@ rxversion="8.3">
 					<th>
 						notification
 					</th>
+					<th>
+						element
+					</th>
 				</tr>
 				<tr>
 					<td>
@@ -513,6 +827,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 				<tr>
@@ -522,6 +839,9 @@ rxversion="8.3">
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -529,6 +849,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 				<tr>
@@ -538,6 +861,9 @@ rxversion="8.3">
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -545,6 +871,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 			</table>
@@ -561,6 +890,9 @@ rxversion="8.3">
 				<column>
 					notification
 				</column>
+				<column>
+					element
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -572,6 +904,9 @@ rxversion="8.3">
 					<th>
 						notification
 					</th>
+					<th>
+						element
+					</th>
 				</tr>
 				<tr>
 					<td>
@@ -579,6 +914,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 				<tr>
@@ -588,6 +926,9 @@ rxversion="8.3">
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -595,6 +936,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 				<tr>
@@ -604,6 +948,9 @@ rxversion="8.3">
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -611,6 +958,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 			</table>
@@ -627,6 +977,9 @@ rxversion="8.3">
 				<column>
 					notification
 				</column>
+				<column>
+					element
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -638,6 +991,9 @@ rxversion="8.3">
 					<th>
 						notification
 					</th>
+					<th>
+						element
+					</th>
 				</tr>
 				<tr>
 					<td>
@@ -645,6 +1001,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 				<tr>
@@ -654,6 +1013,9 @@ rxversion="8.3">
 					<td>
 						Ha&#768; N&#244;&#803;i
 					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -661,6 +1023,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						B&#236;nh D&#432;&#417;ng
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
 				<tr>
@@ -670,6 +1035,9 @@ rxversion="8.3">
 					<td>
 						B&#224; R&#7883;a V&#361;ng T&#224;u
 					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -677,6 +1045,354 @@ rxversion="8.3">
 					</td>
 					<td>
 						&#272;&#7891;ng Nai
+					</td>
+					<td>
+						Mua b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="da702931-7094-47b4-9b38-ab22873974ed"
+		lastknownrowcount="11"
+		name="dataTK6"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					stt
+				</column>
+				<column>
+					notification
+				</column>
+				<column>
+					element
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						stt
+					</th>
+					<th>
+						notification
+					</th>
+					<th>
+						element
+					</th>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						c&#259;n h&#7897; chung c&#432;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; chung c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+					<td>
+						B&#225;n nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+					<td>
+						B&#225;n bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						&#273;&#7845;t n&#7873;n
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t n&#7873;n
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						&#273;&#7845;t th&#7893; c&#432;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t th&#7893; c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						&#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+					<td>
+						B&#225;n kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						nh&#224; &#273;&#7845;t kh&#225;c
+					</td>
+					<td>
+						B&#225;n nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						c&#259;n h&#7897; Condotel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; Condotel&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+					<td>
+						B&#225;n to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						c&#259;n h&#7897; officetel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; officetel
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="97c1d4bb-031b-4c3a-944d-2682626d89e4"
+		lastknownrowcount="11"
+		name="dataTK7"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					stt
+				</column>
+				<column>
+					edtSearch
+				</column>
+				<column>
+					notification
+				</column>
+				<column>
+					element
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						stt
+					</th>
+					<th>
+						edtSearch
+					</th>
+					<th>
+						notification
+					</th>
+					<th>
+						element
+					</th>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						c&#259;n h&#7897; chung c&#432;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; chung c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+					<td>
+						B&#225;n nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+					<td>
+						B&#225;n bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						&#273;&#7845;t n&#7873;n
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t n&#7873;n
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						&#273;&#7845;t th&#7893; c&#432;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t th&#7893; c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						&#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+					<td>
+						B&#225;n kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						nh&#224; &#273;&#7845;t kh&#225;c
+					</td>
+					<td>
+						B&#225;n nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						c&#259;n h&#7897; Condotel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; Condotel&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+					<td>
+						B&#225;n to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						&#32;          &#32;
+					</td>
+					<td>
+						c&#259;n h&#7897; officetel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; officetel
 					</td>
 				</tr>
 			</table>
@@ -686,6 +1402,12 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="0ed1b0f5-6a10-456e-b0e0-aefc217a21d8">
+			</testcontainer>
+			<testcontainer
+			id="19520dfe-24d1-41a6-875b-b37e369c6e1c">
+			</testcontainer>
 			<testcontainer
 			id="2999c164-9a74-4f6f-9344-5c5089af3a17">
 			</testcontainer>
@@ -706,6 +1428,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="e9fe24a1-5a9e-413c-ab7d-860d0cd576e3">
+			</testcontainer>
+			<testcontainer
+			id="efb169c0-9567-45a5-ad63-1bdac1507599">
 			</testcontainer>
 			<testcontainer
 			id="f3693076-c98e-46bf-a076-6ff877038407">

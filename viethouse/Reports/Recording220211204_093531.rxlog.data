@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fb9f2acb4e0c5c0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:35:32 AM"
+		timestampiso="2021-12-04T02:35:32"
+		endtime="12/04/2021 09:35:36 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.629"
+			timeRelativeToTestModuleStartTime="00:01.631"
+			timeWallClock="09:35:34"
+			time="00:01.629"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.728"
+			timeRelativeToTestModuleStartTime="00:01.730"
+			timeWallClock="09:35:34"
+			time="00:01.728"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;'b&#225;n nh&#224; &#273;&#7845;t') on item 'TimKiem.MuaBanNha&#272;&#7845;t'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				itempath=".//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐất"
+				id="179876181e4c44e7a5cb632f8bc69248"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.138"
+			timeRelativeToTestModuleStartTime="00:03.140"
+			timeWallClock="09:35:35"
+			time="00:03.138"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;t' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				itempath=".//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐất"
+				id="179876181e4c44e7a5cb632f8bc69248"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

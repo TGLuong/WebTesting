@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11d3e23c0cac0974"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:12:25 AM"
+		timestampiso="2021-12-04T02:12:25"
+		endtime="12/04/2021 09:12:28 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Failed to move to location '251;31' within element '{Container:Running applications}'.
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.624"
+			timeRelativeToTestModuleStartTime="00:01.625"
+			timeWallClock="09:12:26"
+			time="00:01.624"
+			level="Warn"
+			category="General"
+			errimg=".\Recordin_b7dba514_d85c1904_trace.jpg"
+			errthumb=".\Recordin_b7dba514_d85c1904_trace_thumb.jpg">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.731"
+			timeRelativeToTestModuleStartTime="00:01.732"
+			timeWallClock="09:12:26"
+			time="00:01.731"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_b7dba514_41568b4e_trace.jpg"
+			errthumb=".\Recordin_b7dba514_41568b4e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer.RunningApplications' at 251;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/?/?/container[@caption='Running applications']"
+				itempath="?/?/container[@caption='Running applications']"
+				fullname="viethouseRepository.Explorer.RunningApplications"
+				id="b0bbb3310dbb49cfb9915fb0a3664676"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.297"
+			timeRelativeToTestModuleStartTime="00:03.298"
+			timeWallClock="09:12:28"
+			time="00:03.297"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_b7dba514_75e19018_trace.jpg"
+			errthumb=".\Recordin_b7dba514_75e19018_trace_thumb.jpg">
+			<message>
+				Failed to move to location '251;31' within element '{Container:Running applications}'.<br/>The pointer cannot be moved to point '{X=1156,Y=1051}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at viethouse.MODULE.TimKiem.Recording2.Ranorex.Core.Testing.ITestModule.Run() in g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				type="repoitem"
+				path="/menubar[@processname='explorer']/?/?/container[@caption='Running applications']"
+				itempath="?/?/container[@caption='Running applications']"
+				fullname="viethouseRepository.Explorer.RunningApplications"
+				id="b0bbb3310dbb49cfb9915fb0a3664676"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

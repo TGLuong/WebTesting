@@ -62,6 +62,7 @@ gg==
 		id="8bf2f4f1-7755-434a-81c1-0200264cb700"
 		isrooted="True"
 		name="ThongTinTaiKhoản"
+		refimgid="48af70ef-29cd-4f0d-85cb-3113bbb54796"
 		refpath="/dom[3]"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -120,13 +121,14 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="94d5d368-05fa-47a1-8524-10fd8f7ebbf9"
 		isrooted="True"
 		name="TimKiem"
+		refimgid="a829acea-4524-4432-b29d-066ae7602244"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
 			id="ef67cfd5-a66f-4d90-bf87-ff41f2546dde"
-			name="TxtKeywords"
+			name="txtKeywords"
 			refimgid="8d516b71-8183-46de-949d-7239fb33fc4c"
 			refpath="/dom[@domain='houseviet.vn']//input[#'txtKeywords']"
 			searchtimeout="30000ms">
@@ -136,21 +138,49 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			addcaps="unknown,webelement,buttontag"
 			capname="buttontag"
 			id="2d50b3d3-7763-4842-ae93-bc5cba0d806f"
-			name="ButtonTagTimKiếm"
+			name="btnsearch"
 			refimgid="3ed0f56b-e20e-45df-95c3-46ad2162fade"
 			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form/div[2]/div[1]/div[2]/button[@innertext=' Tìm kiếm ']"
 			searchtimeout="30000ms">
 				/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' T&#236;m ki&#7871;m ']
 			</item>
 			<item
-			addcaps="unknown,webelement,h1tag"
-			capname="h1tag"
-			id="179b9737-9c49-4749-bcfc-c56f55a7899d"
-			name="MuaBanNhaĐấtBấtĐộngSảnHouseVie"
-			refimgid="ce997698-8515-4a10-81af-113d8595156e"
-			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/h1[@innertext='Mua bán nhà đất - Bất động sản House Viet T12/2021']"
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="83de2626-e5e1-4dbb-9bff-803426dfe85b"
+			name="spinSoilType"
+			refimgid="d964d408-67ad-40bb-b839-b7796ae9ce21"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Cate']/div"
 			searchtimeout="30000ms">
-				/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ b&#225;n\ nh&#224;\ &#273;&#7845;t\ -\ B&#7845;t\ &#273;&#7897;n']
+				/dom[@domain='houseviet.vn']//div[#'Cate']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="84d6473e-87e7-456b-a746-02c562718122"
+			name="itemSoilType"
+			refimgid="2c194c8d-b12f-4218-838c-78297059c4d3"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'Cate']/div[2]/div[2]/div[1]/div/label[$itemSoilType]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="a37d7a8e-a373-49bb-b2f0-c5e8247a942b"
+			name="MainNav"
+			refimgid="17c2f22f-8ae7-466f-9bca-02b7f6a89192"
+			refpath="/dom[@domain='houseviet.vn']//div[#'main-nav']"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'main-nav']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f8dbb079-3d76-4475-b0be-255bec3f0392"
+			name="validateSoilType"
+			refimgid="19f10794-31b2-470e-ba8e-8c5bc1dcd9b1"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 104.201 tin ']/a[@innertext=$element]
 			</item>
 			<basepath>
 				/dom[@domain='houseviet.vn']
@@ -175,5 +205,25 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="602fb70c-ba46-4faa-99aa-8f51edb897cb"
+		name="radSoilType">
+			1
+		</var>
+		<var
+		id="95119461-757d-4f9e-a9a6-38b051d9100d"
+		name="itemSoilType">
+			11
+		</var>
+		<var
+		id="9eb3c8dc-39c6-4356-8c96-07c0ff50d78d"
+		name="notification">
+			Mua b&#225;n nh&#224; &#273;&#7845;t - B&#7845;t &#273;&#7897;ng s&#7843;n House Viet T12/2021
+		</var>
+		<var
+		id="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+		name="element">
+			Mua b&#225;n nh&#224; &#273;&#7845;t - B&#7845;t &#273;&#7897;ng s&#7843;n House Viet T12/2021
+		</var>
 	</variables>
 </repository>

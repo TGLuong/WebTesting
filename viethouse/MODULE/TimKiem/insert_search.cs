@@ -92,12 +92,12 @@ namespace viethouse.MODULE.TimKiem
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TimKiem.TxtKeywords' at 406;24.", repo.TimKiem.TxtKeywordsInfo, new RecordItemIndex(0));
-            repo.TimKiem.TxtKeywords.Click("406;24");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TimKiem.txtKeywords' at 406;24.", repo.TimKiem.txtKeywordsInfo, new RecordItemIndex(0));
+            repo.TimKiem.txtKeywords.Click("406;24");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$edtSearch' with focus on 'TimKiem.TxtKeywords'.", repo.TimKiem.TxtKeywordsInfo, new RecordItemIndex(1));
-            repo.TimKiem.TxtKeywords.PressKeys(edtSearch);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$edtSearch' with focus on 'TimKiem.txtKeywords'.", repo.TimKiem.txtKeywordsInfo, new RecordItemIndex(1));
+            repo.TimKiem.txtKeywords.PressKeys(edtSearch);
             Delay.Milliseconds(0);
             
         }

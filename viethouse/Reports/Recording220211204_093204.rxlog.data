@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b4aba4a6ff58af5"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:32:06 AM"
+		timestampiso="2021-12-04T02:32:06"
+		endtime="12/04/2021 09:32:09 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.B&#7841;n&#272;angXem15TinRaoTrongT&#7893;ngS&#7889;21' does not contain the specified value (actual='B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 104.200 tin .', expected='c&#259;n h&#7897; chung c&#432;').
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.682"
+			timeRelativeToTestModuleStartTime="00:01.684"
+			timeWallClock="09:32:07"
+			time="00:01.682"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.786"
+			timeRelativeToTestModuleStartTime="00:01.788"
+			timeWallClock="09:32:08"
+			time="00:01.786"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_ce63a515_7499d36d_trace.jpg"
+			errthumb=".\Recordin_ce63a515_7499d36d_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (InnerText&gt;'c&#259;n h&#7897; chung c&#432;') on item 'TimKiem.B&#7841;n&#272;angXem15TinRaoTrongT&#7893;ngS&#7889;21'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				itempath=".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				fullname="viethouseRepository.TimKiem.BạnĐangXem15TinRaoTrongTổngSố21"
+				id="630229c8bc2040298cec2e08bf7b5db6"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.325"
+			timeRelativeToTestModuleStartTime="00:03.327"
+			timeWallClock="09:32:09"
+			time="00:03.325"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_ce63a515_e8cc321b_trace.jpg"
+			errthumb=".\Recordin_ce63a515_e8cc321b_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.B&#7841;n&#272;angXem15TinRaoTrongT&#7893;ngS&#7889;21' does not contain the specified value (actual='B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 104.200 tin .', expected='c&#259;n h&#7897; chung c&#432;').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				itempath=".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				fullname="viethouseRepository.TimKiem.BạnĐangXem15TinRaoTrongTổngSố21"
+				id="630229c8bc2040298cec2e08bf7b5db6"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.329"
+			timeRelativeToTestModuleStartTime="00:03.331"
+			timeWallClock="09:32:09"
+			time="00:03.329"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_ce63a515_e8cc321b_trace.jpg"
+			errthumb=".\Recordin_ce63a515_e8cc321b_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.B&#7841;n&#272;angXem15TinRaoTrongT&#7893;ngS&#7889;21' does not contain the specified value (actual='B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 104.200 tin .', expected='c&#259;n h&#7897; chung c&#432;').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass40_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)&#13;&#10;   at viethouse.MODULE.TimKiem.Recording2.Ranorex.Core.Testing.ITestModule.Run() in g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				itempath=".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				fullname="viethouseRepository.TimKiem.BạnĐangXem15TinRaoTrongTổngSố21"
+				id="630229c8bc2040298cec2e08bf7b5db6"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

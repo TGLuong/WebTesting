@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="27d163e8cfc69df"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:36:04 AM"
+		timestampiso="2021-12-04T02:36:04"
+		endtime="12/04/2021 09:36:07 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;t' does not contain the specified value (actual='Mua b&#225;n nh&#224; &#273;&#7845;t', expected='b&#225;n nh&#224; &#273;&#7845;t16516516').
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.597"
+			timeRelativeToTestModuleStartTime="00:01.598"
+			timeWallClock="09:36:06"
+			time="00:01.597"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.699"
+			timeRelativeToTestModuleStartTime="00:01.700"
+			timeWallClock="09:36:06"
+			time="00:01.699"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_59017780_a46083d8_trace.jpg"
+			errthumb=".\Recordin_59017780_a46083d8_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (InnerText&gt;'b&#225;n nh&#224; &#273;&#7845;t16516516') on item 'TimKiem.MuaBanNha&#272;&#7845;t'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				itempath=".//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐất"
+				id="179876181e4c44e7a5cb632f8bc69248"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.351"
+			timeRelativeToTestModuleStartTime="00:02.352"
+			timeWallClock="09:36:07"
+			time="00:02.351"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_59017780_8d5b7e29_trace.jpg"
+			errthumb=".\Recordin_59017780_8d5b7e29_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;t' does not contain the specified value (actual='Mua b&#225;n nh&#224; &#273;&#7845;t', expected='b&#225;n nh&#224; &#273;&#7845;t16516516').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				itempath=".//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐất"
+				id="179876181e4c44e7a5cb632f8bc69248"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.356"
+			timeRelativeToTestModuleStartTime="00:02.357"
+			timeWallClock="09:36:07"
+			time="00:02.356"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_59017780_8d5b7e29_trace.jpg"
+			errthumb=".\Recordin_59017780_8d5b7e29_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;t' does not contain the specified value (actual='Mua b&#225;n nh&#224; &#273;&#7845;t', expected='b&#225;n nh&#224; &#273;&#7845;t16516516').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass40_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)&#13;&#10;   at viethouse.MODULE.TimKiem.Recording2.Ranorex.Core.Testing.ITestModule.Run() in g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				itempath=".//tag[#'main']/article//div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']/a[@innertext='Mua bán nhà đất']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐất"
+				id="179876181e4c44e7a5cb632f8bc69248"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

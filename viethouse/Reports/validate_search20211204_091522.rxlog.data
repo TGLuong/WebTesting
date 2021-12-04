@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10f440de4c369a90"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:15:23 AM"
+		timestampiso="2021-12-04T02:15:23"
+		endtime="12/04/2021 09:15:32 AM"
+		timeoutfactor="1"
+		module="validate_search">
+		<detail>
+			validate_search
+		</detail>
+		<errormessage>
+			Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie' can not be evaluated (Failed to find item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie'. No element found for path '/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ b&#225;n\ nh&#224;\ &#273;&#7845;t\ -\ B&#7845;t\ &#273;&#7897;n']' within 1m.).
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.619"
+			timeRelativeToTestModuleStartTime="00:01.619"
+			timeWallClock="09:15:25"
+			time="00:01.619"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.717"
+			timeRelativeToTestModuleStartTime="00:01.717"
+			timeWallClock="09:15:25"
+			time="00:01.717"
+			level="Warn"
+			category="Data"
+			errimg=".\validate_4d3ebcbe_d78b9283_trace.jpg"
+			errthumb=".\validate_4d3ebcbe_d78b9283_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>notification
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.726"
+			timeRelativeToTestModuleStartTime="00:01.726"
+			timeWallClock="09:15:25"
+			time="00:01.726"
+			level="Info"
+			category="Validation"
+			errimg=".\validate_4d3ebcbe_d78b9283_trace.jpg"
+			errthumb=".\validate_4d3ebcbe_d78b9283_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (InnerText&gt;$notification) on item 'TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				itempath=".//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐấtBấtĐộngSảnHouseVie"
+				id="179b97379c494749bcfcc56f55a7899d"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\validate_search.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.319"
+			timeRelativeToTestModuleStartTime="00:08.320"
+			timeWallClock="09:15:32"
+			time="00:08.319"
+			level="Failure"
+			category="Validation"
+			errimg=".\validate_4d3ebcbe_523d5fd4_trace.jpg"
+			errthumb=".\validate_4d3ebcbe_523d5fd4_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie' can not be evaluated (Failed to find item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie'. No element found for path '/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ b&#225;n\ nh&#224;\ &#273;&#7845;t\ -\ B&#7845;t\ &#273;&#7897;n']' within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				itempath=".//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐấtBấtĐộngSảnHouseVie"
+				id="179b97379c494749bcfcc56f55a7899d"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\validate_search.cs"
+				codeline="96"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.324"
+			timeRelativeToTestModuleStartTime="00:08.325"
+			timeWallClock="09:15:32"
+			time="00:08.324"
+			level="Error"
+			category="Module"
+			errimg=".\validate_4d3ebcbe_523d5fd4_trace.jpg"
+			errthumb=".\validate_4d3ebcbe_523d5fd4_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie' can not be evaluated (Failed to find item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie'. No element found for path '/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ b&#225;n\ nh&#224;\ &#273;&#7845;t\ -\ B&#7845;t\ &#273;&#7897;n']' within 1m.).<br/>Failed to find item 'viethouseRepository.TimKiem.MuaBanNha&#272;&#7845;tB&#7845;t&#272;&#7897;ngS&#7843;nHouseVie'.<br/>No element found for path '/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ b&#225;n\ nh&#224;\ &#273;&#7845;t\ -\ B&#7845;t\ &#273;&#7897;n']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   at Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)
+   at viethouse.MODULE.TimKiem.validate_search.Ranorex.Core.Testing.ITestModule.Run() in g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\validate_search.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\validate_search.cs"
+				codeline="96"
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				itempath=".//tag[#'main']/article//h1[@innertext~'^Mua\ bán\ nhà\ đất\ -\ Bất\ độn']"
+				fullname="viethouseRepository.TimKiem.MuaBanNhaĐấtBấtĐộngSảnHouseVie"
+				id="179b97379c494749bcfcc56f55a7899d"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

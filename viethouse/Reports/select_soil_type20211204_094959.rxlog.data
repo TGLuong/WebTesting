@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="35802633947af48"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:50:01 AM"
+		timestampiso="2021-12-04T02:50:01"
+		endtime="12/04/2021 09:50:05 AM"
+		timeoutfactor="1"
+		module="select_soil_type">
+		<detail>
+			select_soil_type
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.734"
+			timeRelativeToTestModuleStartTime="00:01.735"
+			timeWallClock="09:50:02"
+			time="00:01.734"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.838"
+			timeRelativeToTestModuleStartTime="00:01.839"
+			timeWallClock="09:50:02"
+			time="00:01.838"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.DropdownSelectionText' at 179;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//div[#'Cate']/div"
+				itempath=".//div[#'Cate']/div"
+				fullname="viethouseRepository.TimKiem.DropdownSelectionText"
+				id="a7f7a41e38c7499c99435fa43057230d"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\select_soil_type.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.508"
+			timeRelativeToTestModuleStartTime="00:03.509"
+			timeWallClock="09:50:04"
+			time="00:03.508"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.Checkmark' at 16;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//div[#'Cate']/div[2]/div[2]/div[1]/div/label[1]/span[2]"
+				itempath=".//div[#'Cate']/div[2]/div[2]/div[1]/div/label[1]/span[2]"
+				fullname="viethouseRepository.TimKiem.Checkmark"
+				id="ea69e42ddfb748b4aa3bf012cffe1a40"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\select_soil_type.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

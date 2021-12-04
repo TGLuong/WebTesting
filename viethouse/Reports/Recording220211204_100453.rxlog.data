@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="266a4784090a706"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 10:04:55 AM"
+		timestampiso="2021-12-04T03:04:55"
+		endtime="12/04/2021 10:05:16 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.718"
+			timeRelativeToTestModuleStartTime="00:01.720"
+			timeWallClock="10:04:56"
+			time="00:01.718"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.826"
+			timeRelativeToTestModuleStartTime="00:01.829"
+			timeWallClock="10:04:57"
+			time="00:01.826"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.DropdownSelectionText' at 187;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//div[#'Cate']/div"
+				itempath=".//div[#'Cate']/div"
+				fullname="viethouseRepository.TimKiem.DropdownSelectionText"
+				id="83de2626e5e14dbb9bff803426dfe85b"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.448"
+			timeRelativeToTestModuleStartTime="00:03.450"
+			timeWallClock="10:04:58"
+			time="00:03.448"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.DropdownSelectionItem' at 258;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//div[#'Cate']/div[2]/div[2]/div[1]/div/label[3]"
+				itempath=".//div[#'Cate']/div[2]/div[2]/div[1]/div/label[3]"
+				fullname="viethouseRepository.TimKiem.DropdownSelectionItem"
+				id="84d6473e87e7456ba74602c562718122"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.477"
+			timeRelativeToTestModuleStartTime="00:04.479"
+			timeWallClock="10:04:59"
+			time="00:04.477"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.ButtonTagTimKi&#7871;m' at 70;41.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']"
+				itempath=".//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']"
+				fullname="viethouseRepository.TimKiem.ButtonTagTimKiếm"
+				id="2d50b3d377634842ae93bc5cba0d806f"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

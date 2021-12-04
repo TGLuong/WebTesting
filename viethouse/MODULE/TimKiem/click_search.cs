@@ -79,8 +79,8 @@ namespace viethouse.MODULE.TimKiem
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TimKiem.ButtonTagTimKiếm' at 87;18.", repo.TimKiem.ButtonTagTimKiếmInfo, new RecordItemIndex(0));
-            repo.TimKiem.ButtonTagTimKiếm.Click("87;18");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TimKiem.btnsearch' at 87;18.", repo.TimKiem.btnsearchInfo, new RecordItemIndex(0));
+            repo.TimKiem.btnsearch.Click("87;18");
             Delay.Milliseconds(200);
             
         }

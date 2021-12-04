@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10fda6e62dd9c48c"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/04/2021 09:24:28 AM"
+		timestampiso="2021-12-04T02:24:28"
+		endtime="12/04/2021 09:24:34 AM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Failed to move to location '1911;859' within element '{WebDocument:B&#7845;t &#273;&#7897;ng s&#7843;n House Viet | &#272;&#259;ng tin B&#272;S c&#244;ng ngh&#7879; 4.0}'.
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.620"
+			timeRelativeToTestModuleStartTime="00:01.621"
+			timeWallClock="09:24:30"
+			time="00:01.620"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.728"
+			timeRelativeToTestModuleStartTime="00:01.729"
+			timeWallClock="09:24:30"
+			time="00:01.728"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>radSoilType
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.738"
+			timeRelativeToTestModuleStartTime="00:01.739"
+			timeWallClock="09:24:30"
+			time="00:01.738"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.DropdownSelectionText' at 168;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//div[#'Cate']/div"
+				itempath=".//div[#'Cate']/div"
+				fullname="viethouseRepository.TimKiem.DropdownSelectionText"
+				id="a7f7a41e38c7499c99435fa43057230d"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.929"
+			timeRelativeToTestModuleStartTime="00:03.930"
+			timeWallClock="09:24:32"
+			time="00:03.929"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TimKiem.Checkmark' at 64;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//div[#'Cate']/div[2]/div[2]/div[1]/div/label[1]/span[1]"
+				itempath=".//div[#'Cate']/div[2]/div[2]/div[1]/div/label[1]/span[$radSoilType]"
+				fullname="viethouseRepository.TimKiem.Checkmark"
+				id="ea69e42ddfb748b4aa3bf012cffe1a40"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.103"
+			timeRelativeToTestModuleStartTime="00:04.104"
+			timeWallClock="09:24:32"
+			time="00:04.103"
+			level="Warn"
+			category="Click"
+			errimg=".\Recordin_ab42f36_rxlog.jpg"
+			errthumb=".\Recordin_ab42f36_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="97"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.089"
+			timeRelativeToTestModuleStartTime="00:05.090"
+			timeWallClock="09:24:33"
+			time="00:05.089"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_fcc78e4d_552dedbd_trace.jpg"
+			errthumb=".\Recordin_fcc78e4d_552dedbd_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'TimKiem.ButtonTagTimKi&#7871;m' at 94;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']"
+				itempath=".//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']"
+				fullname="viethouseRepository.TimKiem.ButtonTagTimKiếm"
+				id="2d50b3d377634842ae93bc5cba0d806f"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.974"
+			timeRelativeToTestModuleStartTime="00:05.975"
+			timeWallClock="09:24:34"
+			time="00:05.974"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_fcc78e4d_2d36022a_trace.jpg"
+			errthumb=".\Recordin_fcc78e4d_2d36022a_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'TimKiem' at 1911;859.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']"
+				itempath="/dom[@domain='houseviet.vn']"
+				fullname="viethouseRepository.TimKiem.Self"
+				id="94d5d36805fa47a1852410fd8f7ebbf9"
+				timeout="30000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="104"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.107"
+			timeRelativeToTestModuleStartTime="00:06.108"
+			timeWallClock="09:24:34"
+			time="00:06.107"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_fcc78e4d_7be76e89_trace.jpg"
+			errthumb=".\Recordin_fcc78e4d_7be76e89_trace_thumb.jpg">
+			<message>
+				Failed to move to location '1911;859' within element '{WebDocument:B&#7845;t &#273;&#7897;ng s&#7843;n House Viet | &#272;&#259;ng tin B&#272;S c&#244;ng ngh&#7879; 4.0}'.<br/>The pointer cannot be moved to point '{X=1911,Y=1004}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at viethouse.MODULE.TimKiem.Recording2.Ranorex.Core.Testing.ITestModule.Run() in g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\Recording2.cs"
+				codeline="105"
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']"
+				itempath="/dom[@domain='houseviet.vn']"
+				fullname="viethouseRepository.TimKiem.Self"
+				id="94d5d36805fa47a1852410fd8f7ebbf9"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>
