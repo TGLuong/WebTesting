@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.84s"
+		durationms="8840"
+		type="root"
+		rid="5bb7e2661559ccc"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="8.3.2.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="2/12/2021 8:42:34 PM"
+		timestampiso="2021-12-02T13:42:34"
+		endtime="2/12/2021 8:42:43 PM"
+		timeoutfactor="1"
+		module="CMT10KyTuSo">
+		<detail>
+			CMT10KyTuSo
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.891"
+			timeRelativeToTestModuleStartTime="00:01.891"
+			timeWallClock="20:42:36"
+			time="00:01.891"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.001"
+			timeRelativeToTestModuleStartTime="00:02.001"
+			timeWallClock="20:42:36"
+			time="00:02.001"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ThongTinTaiKho&#7843;n2.ProfileIdentityNo' at 275;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]//input[#'Profile_IdentityNo']"
+				itempath=".//input[#'Profile_IdentityNo']"
+				fullname="viethouseRepository.ThongTinTaiKhoản2.ProfileIdentityNo"
+				id="2cc241bb43f842d891262701321d7844"
+				timeout="60000"
+				codefile="d:\Document\class Material\Kiểm thử\project\viethouse\viethouse\MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.672"
+			timeRelativeToTestModuleStartTime="00:03.672"
+			timeWallClock="20:42:37"
+			time="00:03.672"
+			level="Warn"
+			category="Click"
+			errimg=".\CMT10KyT_54c62b23_rxlog.jpg"
+			errthumb=".\CMT10KyT_54c62b23_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="d:\Document\class Material\Kiểm thử\project\viethouse\viethouse\MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.612"
+			timeRelativeToTestModuleStartTime="00:04.612"
+			timeWallClock="20:42:38"
+			time="00:04.612"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'ThongTinTaiKho&#7843;n2.ProfileIdentityNo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]//input[#'Profile_IdentityNo']"
+				itempath=".//input[#'Profile_IdentityNo']"
+				fullname="viethouseRepository.ThongTinTaiKhoản2.ProfileIdentityNo"
+				id="2cc241bb43f842d891262701321d7844"
+				timeout="60000"
+				codefile="d:\Document\class Material\Kiểm thử\project\viethouse\viethouse\MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.840"
+			timeRelativeToTestModuleStartTime="00:04.840"
+			timeWallClock="20:42:39"
+			time="00:04.840"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '0352000011' with focus on 'ThongTinTaiKho&#7843;n2.ProfileIdentityNo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]//input[#'Profile_IdentityNo']"
+				itempath=".//input[#'Profile_IdentityNo']"
+				fullname="viethouseRepository.ThongTinTaiKhoản2.ProfileIdentityNo"
+				id="2cc241bb43f842d891262701321d7844"
+				timeout="60000"
+				codefile="d:\Document\class Material\Kiểm thử\project\viethouse\viethouse\MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.352"
+			timeRelativeToTestModuleStartTime="00:06.352"
+			timeWallClock="20:42:40"
+			time="00:06.352"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ThongTinTaiKho&#7843;n3.ChangeInfo' at 105;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[5]//button[#'ChangeInfo']"
+				itempath=".//button[#'ChangeInfo']"
+				fullname="viethouseRepository.ThongTinTaiKhoản3.ChangeInfo"
+				id="46d60624c32946db8d12379a72f52dee"
+				timeout="60000"
+				codefile="d:\Document\class Material\Kiểm thử\project\viethouse\viethouse\MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.840"
+			timeRelativeToTestModuleStartTime="00:08.840"
+			timeWallClock="20:42:43"
+			time="00:08.840"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -42,6 +42,26 @@ rxversion="8.3">
 			searchtimeout="30000ms">
 				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='T&#7843;i l&#7841;i']
 			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="62a313e0-ffa9-4850-ad41-7e6ab9a3920c"
+			name="ThongTinTaiKhoản"
+			refimgid="9ef0a26a-f5cf-4106-87a8-522e5f3d4b84"
+			refpath="/form[@title~'^Thông\ tin\ tài\ khoản\ -\ Goo']/container/container/container/container[2]/container[1]/tabpagelist/container[1]/tabpage[@accessiblename='Thông tin tài khoản' and @accessiblerole='PageTab' and @title='Thông tin tài khoản' and @index='1']"
+			searchtimeout="30000ms">
+				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblerole='PageTab' and @title='Th&#244;ng tin t&#224;i kho&#7843;n' and @index='1']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="e8a611c5-98ac-438d-a408-6de362571747"
+			name="KiểmThửNhom2"
+			refimgid="8681d3e2-b017-43be-8377-44c02a8f4df5"
+			refpath="/form[@title~'^Thông\ tin\ tài\ khoản\ -\ Goo']/container/container/container/container[2]/container[1]/tabpagelist/container[1]/tabpage[@accessiblename='Kiểm-thử-nhom-2']"
+			searchtimeout="30000ms">
+				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Ki&#7875;m-th&#7917;-nhom-2']
+			</item>
 			<basepath>
 				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']
 			</basepath>
@@ -72,6 +92,7 @@ gg==
 		id="8bf2f4f1-7755-434a-81c1-0200264cb700"
 		isrooted="True"
 		name="ThongTinTaiKhoản"
+		refimgid="8744fe6f-9f6a-47ef-81bc-23bf83973fa7"
 		refpath="/dom[3]"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -104,6 +125,76 @@ gg==
 			refpath="/dom[3]//span[#'Profile_FullName-error']"
 			searchtimeout="30000ms">
 				/dom[3]//span[#'Profile_FullName-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="31b5ae70-1c71-441f-821d-dd1366b597a2"
+			name="ProfileIdentityNo"
+			refimgid="4f72d69d-b1bf-41e3-a790-949bb45dbb2f"
+			refpath="/dom[3]//input[#'Profile_IdentityNo']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'Profile_IdentityNo']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="002a6e7d-f1c1-40ca-9f12-8b9da3e6c140"
+			name="UserBgWhiteRoundedTopP3"
+			refimgid="06c73c4d-21bd-4f06-a119-01155c7590af"
+			refpath="/dom[3]/body/tag[@tagname='main']/div/div/div[1]/div[1]"
+			searchtimeout="30000ms">
+				/dom[3]/body/tag[@tagname='main']/div/div/div[1]/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,formtag"
+			capname="formtag"
+			id="7086f91e-02ff-4378-91de-9670fa23585d"
+			name="ChangeInfo1"
+			refimgid="7cd8fceb-6ea4-459d-aa4c-0b6501b0f040"
+			refpath="/dom[3]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']"
+			searchtimeout="30000ms">
+				/dom[3]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5de2f9c0-505d-408e-8e84-4ec936add49a"
+			name="UsernameOrEmailAddress"
+			refimgid="f962f274-9564-44ef-8dfa-8f8bfe44766d"
+			refpath="/dom[@domain='houseviet.vn']//input[#'UsernameOrEmailAddress']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'UsernameOrEmailAddress']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="05ecd351-4bb3-491b-95cb-20a8de902452"
+			name="Password"
+			refimgid="77c2c176-d4b0-4a88-b269-bc1538571787"
+			refpath="/dom[@domain='houseviet.vn']//input[#'Password']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'Password']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="8ae46438-9728-4610-a981-4e6137999999"
+			name="ĐăngNhập"
+			refimgid="17a870ab-ba5d-42e2-9ac9-9c17ca9b3886"
+			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/section/div/div/div[1]/div/form/div[4]/button[@innertext='Đăng nhập']"
+			searchtimeout="30000ms">
+				/dom[3]//tag[#'main']/section//form[@name='login-form']/div[4]/button[@innertext='&#272;&#259;ng nh&#7853;p']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b94f815f-961f-40d5-ab83-bd89fa13bc1e"
+			name="ATagĐăngTin"
+			refimgid="1abfebec-d7ae-4eac-8727-b185834faf6f"
+			refpath="/dom[@domain='houseviet.vn']//div[#'main-nav']/div/a[@innertext=' Đăng tin ']"
+			searchtimeout="30000ms">
+				/dom[3]//div[#'main-nav']/?/?/a[@innertext=' &#272;&#259;ng tin ']
 			</item>
 			<basepath>
 				/dom[3]
@@ -211,66 +302,135 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[2]/body/div[4]//div[@innertext~'^C&#7853;p\ nh&#7853;t\ th&#244;ng\ tin\ t&#224;i\ kh']
 			</item>
-			<basepath>
-				/dom[2]
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
-yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
-9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
-cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
-bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
-dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
-6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
-lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
-zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
-8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
-F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="container,webdocument"
-		capname="webdocument"
-		id="4c78907c-1b8d-4a2e-ba76-6760d78380ee"
-		isrooted="True"
-		name="ThongTinTaiKhoản3"
-		refpath="/dom[5]"
-		searchtimeout="30000ms"
-		usecache="False">
 			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
-			id="f4b2dccd-11c3-4bc4-8f66-11dc20a368ec"
-			name="ProfileFullName"
-			refimgid="b7dd09ce-0fd2-4dd8-a5a8-179f43fdc353"
-			refpath="/dom[5]//input[#'Profile_FullName']"
+			id="2cc241bb-43f8-42d8-9126-2701321d7844"
+			name="ProfileIdentityNo"
+			refimgid="ecb36377-8f1d-440b-911e-dfd134411d14"
+			refpath="/dom[2]//input[#'Profile_IdentityNo']"
 			searchtimeout="30000ms">
-				/dom[5]//input[#'Profile_FullName']
+				/dom[2]//input[#'Profile_IdentityNo']
 			</item>
 			<item
-			addcaps="unknown,webelement,buttontag"
-			capname="buttontag"
-			id="46d60624-c329-46db-8d12-379a72f52dee"
-			name="ChangeInfo"
-			refimgid="80451b59-a5b3-4b6c-9188-e8543e74f924"
-			refpath="/dom[5]//button[#'ChangeInfo']"
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="325536b8-2187-48a3-90c1-0a9061e27d83"
+			name="ProfileIssueDate"
+			refimgid="ecf4b9b9-9876-4ca1-8bf4-65313fc21663"
+			refpath="/dom[@domain='houseviet.vn']//input[#'Profile_IssueDate']"
 			searchtimeout="30000ms">
-				/dom[5]//button[#'ChangeInfo']
+				/dom[2]//input[#'Profile_IssueDate']
 			</item>
 			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="6b085aa5-e5c9-491f-92a9-0d4d8361e5d7"
-			name="CậpNhậtThongTinTaiKhoảnThanhCong"
-			refimgid="eb01e0ab-5f33-409e-ac85-2a02565a893d"
-			refpath="/dom[5]/body/div[4]/div/div[1]/div[@innertext='Cập nhật thông tin tài khoản thành công.']"
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4859dd3c-ea21-4fda-ac82-6f24d9518407"
+			name="ProfileDateOfBirth"
+			refimgid="fa984398-4106-46fa-afa1-119ac81e1784"
+			refpath="/dom[@domain='houseviet.vn']//input[#'Profile_DateOfBirth']"
 			searchtimeout="30000ms">
-				/dom[5]/body/div[4]//div[@innertext~'^C&#7853;p\ nh&#7853;t\ th&#244;ng\ tin\ t&#224;i\ kh']
+				/dom[2]//input[#'Profile_DateOfBirth']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f6d382a3-43fc-4f40-b7e6-1e1f44b02b20"
+			name="Checkmark"
+			refimgid="eb669d0e-5bc1-4afd-a0ed-8e5af5b28814"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form/div[6]/div/div/label[@innertext=' Nam ']/span"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]//label[@innertext=' Nam ']/span
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="3397f6e9-9b62-4ca9-801a-e565f6e33dcb"
+			name="LabelTagNam"
+			refimgid="098534a4-59ff-4804-9b83-9bfe74b669ac"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]/div/div/label[@innertext=' Nam ']"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]//label[@innertext=' Nam ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0493d899-7056-4638-be55-ff2ac774b359"
+			name="Checkmark1"
+			refimgid="dd959e60-449e-4652-b0af-f1b0e08ad6a9"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form/div[6]/div/div/label[@innertext=' Nữ ']/span"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]//label[@innertext=' N&#7919; ']/span
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="2ed66e75-6286-48db-8244-cad0f2d9a840"
+			name="LabelTagNữ"
+			refimgid="4c13f08b-17a5-4173-af4b-3a7578ee151b"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]/div/div/label[@innertext=' Nữ ']"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]//label[@innertext=' N&#7919; ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="cef12685-d685-4c80-a278-f83d7dfac73f"
+			name="Checkmark2"
+			refimgid="38408541-e950-4509-9a68-37a0aac8a3d8"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form/div[6]/div/div/label[@innertext=' Khác ']/span"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]//label[@innertext=' Kh&#225;c ']/span
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="056e138a-d231-463e-a891-037d9af87a87"
+			name="LabelTagKhac"
+			refimgid="6a1973a7-97d7-4685-86d3-304d18294e06"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]/div/div/label[@innertext=' Khác ']"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[6]//label[@innertext=' Kh&#225;c ']
+			</item>
+			<item
+			capname="unknown"
+			id="b23bab4e-80b9-4adf-8db2-fd541cb933b6"
+			name="NewItem"
+			searchtimeout="30000ms">
+				/dom[2]/element
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="56d1cdff-5b63-4f69-a8aa-0423d742df0a"
+			name="Select2ProvinceIdContainer"
+			refimgid="b160e9af-57e6-434c-bd64-27db843160bf"
+			refpath="/dom[@domain='houseviet.vn']//span[#'select2-ProvinceId-container']"
+			searchtimeout="30000ms">
+				/dom[2]//span[#'select2-ProvinceId-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="29a74e84-8048-4910-8847-9f395a458d0c"
+			name="Search"
+			refimgid="c8899c42-8e8d-4fbb-93d6-0e0d45499cdb"
+			refpath="/dom[@domain='houseviet.vn']/body/span/span/span[1]/input[@type='search']"
+			searchtimeout="30000ms">
+				/dom[2]/body/span//input[@type='search']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="2d4e68e7-5128-4673-a08e-64206ba94057"
+			name="KhongTimThấyKếtQuả"
+			refimgid="8ea9b5ca-0f3e-414c-abd4-9f56a1c94d6f"
+			refpath="/dom[@domain='houseviet.vn']//ul[#'select2-ProvinceId-results']/li[@innertext='Không tìm thấy kết quả']"
+			searchtimeout="30000ms">
+				/dom[2]//ul[#'select2-ProvinceId-results']/li[@innertext='Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843;']
 			</item>
 			<basepath>
-				/dom[5]
+				/dom[2]
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
