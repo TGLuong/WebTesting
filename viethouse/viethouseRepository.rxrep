@@ -182,6 +182,26 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='houseviet.vn']//tag[#'main']/article//div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']/a[@innertext=$element]
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b6f0b7b5-8930-45df-8291-ec36b831ea01"
+			name="validateSearch"
+			refimgid="fd41c6cd-3475-4545-8e23-d9784e89bc46"
+			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext='Bạn đang xem 15 tin rao trong tổng số 21.211 tin .']"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="da5dbc3c-6a42-4635-ae46-2cafebe521d1"
+			name="validateType"
+			refimgid="fd41c6cd-3475-4545-8e23-d9784e89bc46"
+			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext='Bạn đang xem 15 tin rao trong tổng số 21.211 tin .']"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']
+			</item>
 			<basepath>
 				/dom[@domain='houseviet.vn']
 			</basepath>

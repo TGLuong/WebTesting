@@ -345,6 +345,8 @@ namespace viethouse
             RepoItemInfo _itemsoiltypeInfo;
             RepoItemInfo _mainnavInfo;
             RepoItemInfo _validatesoiltypeInfo;
+            RepoItemInfo _validatesearchInfo;
+            RepoItemInfo _validatetypeInfo;
 
             /// <summary>
             /// Creates a new TimKiem  folder.
@@ -358,6 +360,8 @@ namespace viethouse
                 _itemsoiltypeInfo = new RepoItemInfo(this, "itemSoilType", ".//div[#'Cate']/div[2]/div[2]/div[1]/div/label[$itemSoilType]", 30000, null, "84d6473e-87e7-456b-a746-02c562718122");
                 _mainnavInfo = new RepoItemInfo(this, "MainNav", ".//div[#'main-nav']", 30000, null, "a37d7a8e-a373-49bb-b2f0-c5e8247a942b");
                 _validatesoiltypeInfo = new RepoItemInfo(this, "validateSoilType", ".//tag[#'main']/article//div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']/a[@innertext=$element]", 30000, null, "f8dbb079-3d76-4475-b0be-255bec3f0392");
+                _validatesearchInfo = new RepoItemInfo(this, "validateSearch", ".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']", 30000, null, "b6f0b7b5-8930-45df-8291-ec36b831ea01");
+                _validatetypeInfo = new RepoItemInfo(this, "validateType", ".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']", 30000, null, "da5dbc3c-6a42-4635-ae46-2cafebe521d1");
             }
 
             /// <summary>
@@ -525,6 +529,54 @@ namespace viethouse
                 get
                 {
                     return _validatesoiltypeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The validateSearch item.
+            /// </summary>
+            [RepositoryItem("b6f0b7b5-8930-45df-8291-ec36b831ea01")]
+            public virtual Ranorex.DivTag validateSearch
+            {
+                get
+                {
+                    return _validatesearchInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateSearch item info.
+            /// </summary>
+            [RepositoryItemInfo("b6f0b7b5-8930-45df-8291-ec36b831ea01")]
+            public virtual RepoItemInfo validateSearchInfo
+            {
+                get
+                {
+                    return _validatesearchInfo;
+                }
+            }
+
+            /// <summary>
+            /// The validateType item.
+            /// </summary>
+            [RepositoryItem("da5dbc3c-6a42-4635-ae46-2cafebe521d1")]
+            public virtual Ranorex.DivTag validateType
+            {
+                get
+                {
+                    return _validatetypeInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateType item info.
+            /// </summary>
+            [RepositoryItemInfo("da5dbc3c-6a42-4635-ae46-2cafebe521d1")]
+            public virtual RepoItemInfo validateTypeInfo
+            {
+                get
+                {
+                    return _validatetypeInfo;
                 }
             }
         }

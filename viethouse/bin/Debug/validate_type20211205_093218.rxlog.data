@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6d9383ba9cb58c"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ducle"
+		rxversion="8.3.2.0"
+		host="LAPTOP_DUC"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/05/2021 09:32:19 AM"
+		timestampiso="2021-12-05T02:32:19"
+		endtime="12/05/2021 09:32:23 AM"
+		timeoutfactor="1"
+		module="validate_type">
+		<detail>
+			validate_type
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.595"
+			timeRelativeToTestModuleStartTime="00:01.596"
+			timeWallClock="09:32:21"
+			time="00:01.595"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.692"
+			timeRelativeToTestModuleStartTime="00:01.693"
+			timeWallClock="09:32:21"
+			time="00:01.692"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>validateType
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.139"
+			timeRelativeToTestModuleStartTime="00:02.140"
+			timeWallClock="09:32:21"
+			time="00:02.139"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (InnerText&gt;$validateType) on item 'TimKiem.validateType'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				itempath=".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				fullname="viethouseRepository.TimKiem.validateType"
+				id="da5dbc3c6a424635ae462cafebe521d1"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\validate_type.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.796"
+			timeRelativeToTestModuleStartTime="00:03.797"
+			timeWallClock="09:32:23"
+			time="00:03.796"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'viethouseRepository.TimKiem.validateType' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				itempath=".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\ đang\ xem\ 15\ tin\ rao\ t']"
+				fullname="viethouseRepository.TimKiem.validateType"
+				id="da5dbc3c6a424635ae462cafebe521d1"
+				timeout="60000"
+				codefile="g:\RanorexTesting\WebTesting\viethouse\MODULE\TimKiem\validate_type.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ecb519f7-53ce-4e1c-9844-b4346665be21"
+mode="Global"
+rxversion="8.3">
+	<name>
+		validate_type
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="validate_type"
+	namespace="viethouse.MODULE.TimKiem">
+	</codegen>
+	<variables>
+		<var
+		id="ac17df41-a1bc-4f43-b7d3-d8710f226ffd"
+		name="validateType">
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="81c26000-ef9d-4872-beb7-326e2ba2cfb2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="validateType">
+				</binding>
+			</bindings>
+			<info
+			id="da5dbc3c-6a42-4635-ae46-2cafebe521d1"
+			sourcename="ElementTree">
+				<path>
+					/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				$validateType
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="2bc6c29c-7ba3-44ae-93ec-45465825dc8a"
+	name="viethouseRepository"
+	relativepath="..\..\viethouseRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="viethouseRepository"
+		namespace="viethouse">
+		</codegen>
+		<rootfolder
+		id="be12804b-861a-458d-8a69-b5351599e914"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		validate_type.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

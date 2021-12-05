@@ -23,6 +23,37 @@ rxversion="8.3">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testmodule
+			id="06098dfa-fba7-45c0-8a74-e48d7cd7b323"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="notification"
+					datasourceid="92f77902-56b2-4105-a09c-01ef86e73066"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+					<var
+					dataname="element"
+					datasourceid="92f77902-56b2-4105-a09c-01ef86e73066"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="0679e129-6d9b-49bf-a979-9e6e73c5199c"
+			name="end_search"
+			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
+			type="Recording">
+			</testmodule>
+			<testcase
+			datasource="dataTK8"
+			id="13190204-433d-40d0-bee0-eea38a338570"
+			name="TK8">
+			</testcase>
 			<testcase
 			datasource="dataTK6"
 			id="19520dfe-24d1-41a6-875b-b37e369c6e1c"
@@ -123,10 +154,44 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="3966dcb0-8226-482a-a9cc-9103308888ee"
+			name="insert_search"
+			ref="1811eb31-c2f1-40d7-99bd-512ff8a6f5ea"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="edtSearch"
+					datasourceid="92f77902-56b2-4105-a09c-01ef86e73066"
+					variableid="c6f0db6a-7d1c-4759-837c-727da26f72a5"
+					variablename="edtSearch">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="3d572f24-d411-4247-bf7b-6ffe9d57af73"
+			name="click_search"
+			ref="ed219a3e-1579-4abd-b5fa-c8c5586d6865"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="48e7b96e-c607-4ea7-bd1f-15344d6abe62"
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4a3fbce7-ca94-4bff-9942-54a0de71463f"
+			name="validate_search"
+			ref="6ec231b7-0c52-4f8f-8c23-f1eec65a1988"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="validateSearch"
+					datasourceid="a3566d3a-022e-4a1d-8e5c-41fa4baf204c"
+					variableid="8dd886d4-dae0-4888-99a0-ee62615b7f8e"
+					variablename="validateSearch">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="50c36948-12dd-4808-8ad2-a47be84b6651"
@@ -190,10 +255,30 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="62c9deb1-7233-4c4c-86b0-c9e721c22615"
+			name="validate_search"
+			ref="6ec231b7-0c52-4f8f-8c23-f1eec65a1988"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="validateSearch"
+					datasourceid="6a06b6b1-01ba-4a9c-96f0-c5317986c7e7"
+					variableid="8dd886d4-dae0-4888-99a0-ee62615b7f8e"
+					variablename="validateSearch">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="dataTK5"
 			id="64980cbf-2c31-451b-ae20-34d4d8eaf59a"
 			name="TK5">
+				<parameters>
+					<param
+					name="NewParameter"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			id="66da05cc-9430-46e7-93f7-9ab693078360"
@@ -210,6 +295,32 @@ rxversion="8.3">
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="684a40b6-91c4-4dd0-96cc-74ef6668714a"
+			name="start_search"
+			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6cdb3049-7edd-4af7-ae8f-afc08d72cd8c"
+			name="validate_search"
+			ref="6ec231b7-0c52-4f8f-8c23-f1eec65a1988"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="validateSearch"
+					datasourceid="dc591ae8-3801-4dc3-aeb2-5e9749749aad"
+					variableid="8dd886d4-dae0-4888-99a0-ee62615b7f8e"
+					variablename="validateSearch">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="6ceb85a6-baba-4563-b492-9c62c9da6d15"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="6e13f58e-77df-47b8-8237-3e92dd680b63"
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
@@ -219,6 +330,12 @@ rxversion="8.3">
 			id="700e8d78-cf4c-4ee1-aa0c-b82bffaa0c10"
 			name="space"
 			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="70855851-cf32-40d7-b058-11c5309e2a40"
+			name="start_search"
+			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -250,6 +367,20 @@ rxversion="8.3">
 			name="space"
 			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="8451c947-dcf6-4e62-b004-737b15c4a300"
+			name="selec_soil_type"
+			ref="555e3ea0-9237-479a-a2b2-5f1257ae4068"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="stt"
+					datasourceid="92f77902-56b2-4105-a09c-01ef86e73066"
+					variableid="95119461-757d-4f9e-a9a6-38b051d9100d"
+					variablename="itemSoilType">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="892fca74-35d6-418a-924d-632d49c4bcbe"
@@ -293,6 +424,11 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="dataTK9"
+			id="a313307e-fab1-4dfa-9f19-742e3718a6d8"
+			name="TK9">
+			</testcase>
 			<testmodule
 			id="a498fba5-d7d0-46f5-abc9-64bdde70f7cf"
 			name="validate_soil_type"
@@ -300,16 +436,30 @@ rxversion="8.3">
 			type="Recording">
 				<databinding>
 					<var
+					dataname="element"
+					datasourceid="f768a69e-1b88-41d8-b23d-4c271f213f3d"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+					<var
 					dataname="notification"
 					datasourceid="f768a69e-1b88-41d8-b23d-4c271f213f3d"
 					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
 					variablename="notification">
 					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="b66f75b0-653c-4e09-9af8-677e3ff0e2c0"
+			name="validate_search"
+			ref="6ec231b7-0c52-4f8f-8c23-f1eec65a1988"
+			type="Recording">
+				<databinding>
 					<var
-					dataname="element"
-					datasourceid="f768a69e-1b88-41d8-b23d-4c271f213f3d"
-					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
-					variablename="element">
+					dataname="validateSearch"
+					datasourceid="92f77902-56b2-4105-a09c-01ef86e73066"
+					variableid="8dd886d4-dae0-4888-99a0-ee62615b7f8e"
+					variablename="validateSearch">
 					</var>
 				</databinding>
 			</testmodule>
@@ -346,6 +496,12 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="c1e45aa3-6f5e-47c5-9c3f-ea2a0ca2d9db"
+			name="space"
+			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="c6f80be7-adbc-416c-8a38-3fb24bbcc9ff"
 			name="validate_soil_type"
 			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
@@ -362,6 +518,26 @@ rxversion="8.3">
 					datasourceid="a3566d3a-022e-4a1d-8e5c-41fa4baf204c"
 					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
 					variablename="element">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="cacd24b2-35a9-4a11-806c-715cecfc054f"
+			name="end_search"
+			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cdd61068-8ae7-4825-b88c-b2f2202c1e5d"
+			name="selec_soil_type"
+			ref="555e3ea0-9237-479a-a2b2-5f1257ae4068"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="stt"
+					datasourceid="3c5619ed-6a47-4a8f-a91a-6c52545c492b"
+					variableid="95119461-757d-4f9e-a9a6-38b051d9100d"
+					variablename="itemSoilType">
 					</var>
 				</databinding>
 			</testmodule>
@@ -386,6 +562,12 @@ rxversion="8.3">
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="d9b077c9-b182-48cb-bb24-193ea8d2b648"
+			name="click_search"
+			ref="ed219a3e-1579-4abd-b5fa-c8c5586d6865"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="ded17e4b-b5d1-4db5-9802-9a84072c75bc"
 			name="space"
 			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
@@ -396,6 +578,20 @@ rxversion="8.3">
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="e24babcf-7c07-48e4-aa9b-bc857c0e446e"
+			name="validate_search"
+			ref="6ec231b7-0c52-4f8f-8c23-f1eec65a1988"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="validateSearch"
+					datasourceid="3c5619ed-6a47-4a8f-a91a-6c52545c492b"
+					variableid="8dd886d4-dae0-4888-99a0-ee62615b7f8e"
+					variablename="validateSearch">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="e44dfd68-80e5-4a0f-a976-d21dea91bcf0"
@@ -431,6 +627,26 @@ rxversion="8.3">
 			ref="4988d830-dca2-4891-a1b0-27154bc8b465"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="e97eed07-9f4e-4899-b6ee-6b0c97ab2ba5"
+			name="validate_soil_type"
+			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="element"
+					datasourceid="3c5619ed-6a47-4a8f-a91a-6c52545c492b"
+					variableid="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
+					variablename="element">
+					</var>
+					<var
+					dataname="notification"
+					datasourceid="3c5619ed-6a47-4a8f-a91a-6c52545c492b"
+					variableid="bbad96b1-ce22-4841-bd34-735530116d87"
+					variablename="notification">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="dataTK2"
 			id="e9fe24a1-5a9e-413c-ab7d-860d0cd576e3"
@@ -463,6 +679,20 @@ rxversion="8.3">
 			name="start_search"
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="fb087311-dba9-4cd8-b8af-52b120add0c5"
+			name="insert_search"
+			ref="1811eb31-c2f1-40d7-99bd-512ff8a6f5ea"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="edtSearch"
+					datasourceid="3c5619ed-6a47-4a8f-a91a-6c52545c492b"
+					variableid="c6f0db6a-7d1c-4759-837c-727da26f72a5"
+					variablename="edtSearch">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datasource="dataTK4"
@@ -573,6 +803,10 @@ rxversion="8.3">
 							id="c6f80be7-adbc-416c-8a38-3fb24bbcc9ff"
 							name="validate_soil_type">
 							</testmodule>
+							<testmodule
+							id="4a3fbce7-ca94-4bff-9942-54a0de71463f"
+							name="validate_search">
+							</testmodule>
 						</testcase>
 						<testcase
 						id="fdbc25f3-3ddb-4fad-856a-20da2d491623"
@@ -601,6 +835,10 @@ rxversion="8.3">
 							id="2438b9c4-ee2d-4795-8761-7b321dab2803"
 							name="validate_soil_type">
 							</testmodule>
+							<testmodule
+							id="62c9deb1-7233-4c4c-86b0-c9e721c22615"
+							name="validate_search">
+							</testmodule>
 						</testcase>
 						<testcase
 						id="64980cbf-2c31-451b-ae20-34d4d8eaf59a"
@@ -628,6 +866,10 @@ rxversion="8.3">
 							<testmodule
 							id="be34d6ae-1a83-411d-99c3-3ebe6911196a"
 							name="validate_soil_type">
+							</testmodule>
+							<testmodule
+							id="6cdb3049-7edd-4af7-ae8f-afc08d72cd8c"
+							name="validate_search">
 							</testmodule>
 						</testcase>
 						<testcase
@@ -688,6 +930,78 @@ rxversion="8.3">
 							<testmodule
 							id="50c36948-12dd-4808-8ad2-a47be84b6651"
 							name="validate_soil_type">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="13190204-433d-40d0-bee0-eea38a338570"
+						name="TK8">
+							<testmodule
+							id="0679e129-6d9b-49bf-a979-9e6e73c5199c"
+							name="end_search">
+							</testmodule>
+							<testmodule
+							id="684a40b6-91c4-4dd0-96cc-74ef6668714a"
+							name="start_search">
+							</testmodule>
+							<testmodule
+							id="8451c947-dcf6-4e62-b004-737b15c4a300"
+							name="selec_soil_type">
+							</testmodule>
+							<testmodule
+							id="3966dcb0-8226-482a-a9cc-9103308888ee"
+							name="insert_search">
+							</testmodule>
+							<testmodule
+							id="3d572f24-d411-4247-bf7b-6ffe9d57af73"
+							name="click_search">
+							</testmodule>
+							<testmodule
+							id="6ceb85a6-baba-4563-b492-9c62c9da6d15"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="06098dfa-fba7-45c0-8a74-e48d7cd7b323"
+							name="validate_soil_type">
+							</testmodule>
+							<testmodule
+							id="b66f75b0-653c-4e09-9af8-677e3ff0e2c0"
+							name="validate_search">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="a313307e-fab1-4dfa-9f19-742e3718a6d8"
+						name="TK9">
+							<testmodule
+							id="cacd24b2-35a9-4a11-806c-715cecfc054f"
+							name="end_search">
+							</testmodule>
+							<testmodule
+							id="70855851-cf32-40d7-b058-11c5309e2a40"
+							name="start_search">
+							</testmodule>
+							<testmodule
+							id="cdd61068-8ae7-4825-b88c-b2f2202c1e5d"
+							name="selec_soil_type">
+							</testmodule>
+							<testmodule
+							id="fb087311-dba9-4cd8-b8af-52b120add0c5"
+							name="insert_search">
+							</testmodule>
+							<testmodule
+							id="d9b077c9-b182-48cb-bb24-193ea8d2b648"
+							name="click_search">
+							</testmodule>
+							<testmodule
+							id="c1e45aa3-6f5e-47c5-9c3f-ea2a0ca2d9db"
+							name="space">
+							</testmodule>
+							<testmodule
+							id="e97eed07-9f4e-4899-b6ee-6b0c97ab2ba5"
+							name="validate_soil_type">
+							</testmodule>
+							<testmodule
+							id="e24babcf-7c07-48e4-aa9b-bc857c0e446e"
+							name="validate_search">
 							</testmodule>
 						</testcase>
 					</smartfoldernode>
@@ -783,6 +1097,9 @@ rxversion="8.3">
 					edtSearch
 				</column>
 				<column>
+					validateSearch
+				</column>
+				<column>
 					notification
 				</column>
 				<column>
@@ -795,6 +1112,9 @@ rxversion="8.3">
 				<tr>
 					<th>
 						edtSearch
+					</th>
+					<th>
+						validateSearch
 					</th>
 					<th>
 						notification
@@ -811,6 +1131,9 @@ rxversion="8.3">
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -820,6 +1143,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -833,6 +1159,9 @@ rxversion="8.3">
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -844,6 +1173,9 @@ rxversion="8.3">
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -853,6 +1185,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -870,6 +1205,9 @@ rxversion="8.3">
 					edtSearch
 				</column>
 				<column>
+					validateSearch
+				</column>
+				<column>
 					notification
 				</column>
 				<column>
@@ -882,6 +1220,9 @@ rxversion="8.3">
 				<tr>
 					<th>
 						edtSearch
+					</th>
+					<th>
+						validateSearch
 					</th>
 					<th>
 						notification
@@ -898,6 +1239,9 @@ rxversion="8.3">
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -907,6 +1251,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -920,6 +1267,9 @@ rxversion="8.3">
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -931,6 +1281,9 @@ rxversion="8.3">
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -940,6 +1293,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -957,6 +1313,9 @@ rxversion="8.3">
 					edtSearch
 				</column>
 				<column>
+					validateSearch
+				</column>
+				<column>
 					notification
 				</column>
 				<column>
@@ -969,6 +1328,9 @@ rxversion="8.3">
 				<tr>
 					<th>
 						edtSearch
+					</th>
+					<th>
+						validateSearch
 					</th>
 					<th>
 						notification
@@ -985,6 +1347,9 @@ rxversion="8.3">
 						H&#7891; Ch&#237; Minh
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -994,6 +1359,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -1007,6 +1375,9 @@ rxversion="8.3">
 						B&#236;nh D&#432;&#417;ng
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -1018,6 +1389,9 @@ rxversion="8.3">
 						B&#224; R&#7883;a V&#361;ng T&#224;u
 					</td>
 					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
+					</td>
+					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 				</tr>
@@ -1027,6 +1401,9 @@ rxversion="8.3">
 					</td>
 					<td>
 						&#272;&#7891;ng Nai
+					</td>
+					<td>
+						b&#225;n nh&#224; &#273;&#7845;t
 					</td>
 					<td>
 						Mua b&#225;n nh&#224; &#273;&#7845;t
@@ -1379,11 +1756,850 @@ rxversion="8.3">
 				</tr>
 			</table>
 		</DataSource>
+		<DataSource
+		id="92f77902-56b2-4105-a09c-01ef86e73066"
+		lastknownrowcount="22"
+		name="dataTK8"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					stt
+				</column>
+				<column>
+					edtSearch
+				</column>
+				<column>
+					validateSearch
+				</column>
+				<column>
+					notification
+				</column>
+				<column>
+					element
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						stt
+					</th>
+					<th>
+						edtSearch
+					</th>
+					<th>
+						validateSearch
+					</th>
+					<th>
+						notification
+					</th>
+					<th>
+						element
+					</th>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						c&#259;n h&#7897; chung c&#432;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; chung c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						c&#259;n h&#7897; chung c&#432;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; chung c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+					<td>
+						B&#225;n nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+					<td>
+						B&#225;n nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						&#32;       aaaaaaaaaaaaaaaaaaaaaaaa   &#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+					<td>
+						B&#225;n bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+					<td>
+						B&#225;n bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						&#32;       aaaaaaaaaaaaaaaaaaaaaaaa   &#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						&#273;&#7845;t n&#7873;n
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t n&#7873;n
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						&#273;&#7845;t n&#7873;n
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t n&#7873;n
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						&#273;&#7845;t th&#7893; c&#432;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t th&#7893; c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						&#273;&#7845;t th&#7893; c&#432;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t th&#7893; c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						&#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						&#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+					<td>
+						B&#225;n kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						&#32;                      bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+					<td>
+						B&#225;n kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+					<td>
+						B&#225;n nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+					<td>
+						B&#225;n nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						c&#259;n h&#7897; Condotel&#32;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; Condotel&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						c&#259;n h&#7897; Condotel&#32;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; Condotel&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+					<td>
+						B&#225;n to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+					<td>
+						B&#225;n to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						aaaaaaaaaaaaaaaaaaaaaaaa
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						c&#259;n h&#7897; officetel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; officetel
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						&#32;                      bbbbbbbbbbbbbbbb&#32;
+					</td>
+					<td>
+						Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843; ph&#249; h&#7907;p
+					</td>
+					<td>
+						c&#259;n h&#7897; officetel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; officetel
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		id="3c5619ed-6a47-4a8f-a91a-6c52545c492b"
+		lastknownrowcount="22"
+		name="dataTK9"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					stt
+				</column>
+				<column>
+					edtSearch
+				</column>
+				<column>
+					validateSearch
+				</column>
+				<column>
+					notification
+				</column>
+				<column>
+					element
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						stt
+					</th>
+					<th>
+						edtSearch
+					</th>
+					<th>
+						validateSearch
+					</th>
+					<th>
+						notification
+					</th>
+					<th>
+						element
+					</th>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						c&#259;n h&#7897; chung c&#432;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; chung c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						c&#259;n h&#7897; chung c&#432;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; chung c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+					<td>
+						B&#225;n nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						2
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+					<td>
+						B&#225;n nh&#224; ri&#234;ng, nh&#224; m&#7863;t ph&#7889;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+					<td>
+						B&#225;n bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+					<td>
+						B&#225;n bi&#7879;t th&#7921;, nh&#224; li&#7873;n k&#7873;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						&#273;&#7845;t n&#7873;n
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t n&#7873;n
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						&#273;&#7845;t n&#7873;n
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t n&#7873;n
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						&#273;&#7845;t th&#7893; c&#432;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t th&#7893; c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						&#273;&#7845;t th&#7893; c&#432;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t th&#7893; c&#432;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						&#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						&#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+					<td>
+						B&#225;n &#273;&#7845;t trang tr&#7841;i, ngh&#7881; d&#432;&#7905;ng&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+					<td>
+						B&#225;n kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+					<td>
+						B&#225;n kho, nh&#224; x&#432;&#7903;ng, kiot
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+					<td>
+						B&#225;n nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+					<td>
+						B&#225;n nh&#224; &#273;&#7845;t kh&#225;c&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						c&#259;n h&#7897; Condotel&#32;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; Condotel&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						c&#259;n h&#7897; Condotel&#32;
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; Condotel&#32;
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+					<td>
+						B&#225;n to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+					<td>
+						B&#225;n to&#224; nh&#224; v&#259;n ph&#242;ng
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						H&#7891; Ch&#237; Minh
+					</td>
+					<td>
+						c&#259;n h&#7897; officetel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; officetel
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						Ha&#768; N&#244;&#803;i
+					</td>
+					<td>
+						c&#259;n h&#7897; officetel
+					</td>
+					<td>
+						B&#225;n c&#259;n h&#7897; officetel
+					</td>
+				</tr>
+			</table>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="13190204-433d-40d0-bee0-eea38a338570">
+			</testcontainer>
 			<testcontainer
 			id="19520dfe-24d1-41a6-875b-b37e369c6e1c">
 			</testcontainer>
@@ -1404,6 +2620,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="9d42ae22-4b3c-4296-9fca-9e868c817442">
+			</testcontainer>
+			<testcontainer
+			id="a313307e-fab1-4dfa-9f19-742e3718a6d8">
 			</testcontainer>
 			<testcontainer
 			id="e9fe24a1-5a9e-413c-ab7d-860d0cd576e3">

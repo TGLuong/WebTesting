@@ -1,11 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="START\start_search.rxrec" />
+    <Element value="viethouse.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="viethouse.rxtst" />
-    <Element value="START\start_search.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

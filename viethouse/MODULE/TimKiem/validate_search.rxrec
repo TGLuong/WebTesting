@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6ec231b7-0c52-4f8f-8c23-f1eec65a1988"
+mode="Global"
+rxversion="8.3">
+	<name>
+		validate_search
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="validate_search"
+	namespace="viethouse.MODULE.TimKiem">
+	</codegen>
+	<variables>
+		<var
+		id="8dd886d4-dae0-4888-99a0-ee62615b7f8e"
+		name="validateSearch">
+			B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 21.211 tin .
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeContains"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="81c26000-ef9d-4872-beb7-326e2ba2cfb2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="validateSearch">
+				</binding>
+			</bindings>
+			<info
+			id="b6f0b7b5-8930-45df-8291-ec36b831ea01"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="140,298,540,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						article-header fs-7
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 21.211 tin .
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f11cb423-ab9b-4ffa-b4c8-5630275570a7">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABDAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigDN/s25/wCgjL+v+NH9m3P/AEEZf1/xrR3AEDI56UtTyojkiZv9m3P/AEEZf1/x
+o/s25/6CMv6/41ZluilxFEsRcO2CwIwOPrVjcu7bkZ9M0cqHyRM7+zbn/oIy/r/jR/Ztz/0EZf1/
+xrRLAdSB9aCQBkkAe9HKhckTO/s25/6CMv6/40f2bc/9BGX9f8a0QwPQg/SjIxnI4o5UHJEzv7Nu
+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
+KKKKACiiigAooooAKKKKACiiigD/2Q==
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				B&#7841;n &#273;ang xem 15 tin rao trong t&#7893;ng s&#7889; 21.211 tin .
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="2bc6c29c-7ba3-44ae-93ec-45465825dc8a"
+	name="viethouseRepository"
+	relativepath="..\..\viethouseRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="viethouseRepository"
+		namespace="viethouse">
+		</codegen>
+		<rootfolder
+		id="be12804b-861a-458d-8a69-b5351599e914"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		validate_search.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

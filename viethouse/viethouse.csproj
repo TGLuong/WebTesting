@@ -201,6 +201,18 @@
       <UserCode>true</UserCode>
       <id>8ff99a94-e942-41c9-9e94-7242f441a28a</id>
     </Compile>
+    <Compile Include="MODULE\TimKiem\Recording2.cs">
+      <BoundTo>28713e9c-8871-4d6f-96e2-b9de480e9909</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e3d96b2-42e5-4fc9-93d9-d030931f3b7e</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\Recording2.UserCode.cs">
+      <BoundTo>28713e9c-8871-4d6f-96e2-b9de480e9909</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73250720-a276-480d-bb33-cf523999c3f8</id>
+    </Compile>
     <Compile Include="MODULE\TimKiem\selec_soil_type.cs">
       <BoundTo>290c39f8-b143-4f25-b5fe-9e14d3b829e0</BoundTo>
       <DependentUpon>selec_soil_type.rxrec</DependentUpon>
@@ -225,6 +237,18 @@
       <UserCode>true</UserCode>
       <id>31f0d939-fa75-41bc-be26-cdae1debb136</id>
     </Compile>
+    <Compile Include="MODULE\TimKiem\validate_search.cs">
+      <BoundTo>35bb38c3-5114-482e-b932-fff57c2b7fcb</BoundTo>
+      <DependentUpon>validate_search.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>542634b0-7a77-4914-a0e1-468908be6ed9</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\validate_search.UserCode.cs">
+      <BoundTo>35bb38c3-5114-482e-b932-fff57c2b7fcb</BoundTo>
+      <DependentUpon>validate_search.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c94daab-cee7-4a4d-bc70-95a51022dff6</id>
+    </Compile>
     <Compile Include="MODULE\TimKiem\validate_soil_type.cs">
       <BoundTo>af78021c-c6e9-4da9-a1e0-af88a4333c32</BoundTo>
       <DependentUpon>validate_soil_type.rxrec</DependentUpon>
@@ -236,6 +260,18 @@
       <DependentUpon>validate_soil_type.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>cf122299-bfe6-450f-b626-81db3691991f</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\validate_type.cs">
+      <BoundTo>f2c6aa99-2b66-4d43-adc5-50f470a5a1c3</BoundTo>
+      <DependentUpon>validate_type.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb5bf9aa-eac6-456e-a986-4c56f4b5bf00</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\validate_type.UserCode.cs">
+      <BoundTo>f2c6aa99-2b66-4d43-adc5-50f470a5a1c3</BoundTo>
+      <DependentUpon>validate_type.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a19e1f2c-83d7-476e-b23f-7fa420e901a7</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>dc08efd1-fbb9-47e9-b3f4-a7f4b8eff065</id>
@@ -310,6 +346,11 @@
       <id>285512f1-eef4-4484-b404-414dec99eb86</id>
       <recordtableid>c10772c5-0e86-44fd-b04d-6ba61adace1e</recordtableid>
     </None>
+    <None Include="MODULE\TimKiem\Recording2.rxrec">
+      <id>28713e9c-8871-4d6f-96e2-b9de480e9909</id>
+      <recordtableid>e09477b8-1779-4dc4-8657-74d258e24e01</recordtableid>
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+    </None>
     <None Include="MODULE\TimKiem\selec_soil_type.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>290c39f8-b143-4f25-b5fe-9e14d3b829e0</id>
@@ -320,10 +361,20 @@
       <id>c9f2792a-adbc-49f9-bba6-841d9712e710</id>
       <recordtableid>4988d830-dca2-4891-a1b0-27154bc8b465</recordtableid>
     </None>
+    <None Include="MODULE\TimKiem\validate_search.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>35bb38c3-5114-482e-b932-fff57c2b7fcb</id>
+      <recordtableid>6ec231b7-0c52-4f8f-8c23-f1eec65a1988</recordtableid>
+    </None>
     <None Include="MODULE\TimKiem\validate_soil_type.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>af78021c-c6e9-4da9-a1e0-af88a4333c32</id>
       <recordtableid>d2c2b827-a9df-4f54-a683-e790016c721a</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\validate_type.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>f2c6aa99-2b66-4d43-adc5-50f470a5a1c3</id>
+      <recordtableid>ecb519f7-53ce-4e1c-9844-b4346665be21</recordtableid>
     </None>
     <None Include="START\start_search.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
