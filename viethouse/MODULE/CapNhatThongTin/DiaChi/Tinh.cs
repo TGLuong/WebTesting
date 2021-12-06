@@ -87,8 +87,8 @@ namespace viethouse.MODULE.CapNhatThongTin.DiaChi
             repo.ThongTinTaiKhoản2.Search.Click("100;31");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'H{LShiftKey up}a Noi' with focus on 'ThongTinTaiKhoản2.Search'.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(2));
-            repo.ThongTinTaiKhoản2.Search.PressKeys("H{LShiftKey up}a Noi");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Ha Noi' with focus on 'ThongTinTaiKhoản2.Search'.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(2));
+            repo.ThongTinTaiKhoản2.Search.PressKeys("Ha Noi");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ThongTinTaiKhoản2.KhongTimThấyKếtQuả'.", repo.ThongTinTaiKhoản2.KhongTimThấyKếtQuảInfo, new RecordItemIndex(3));

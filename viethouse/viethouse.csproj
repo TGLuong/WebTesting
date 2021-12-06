@@ -225,6 +225,54 @@
       <UserCode>true</UserCode>
       <id>ff682626-d2d1-4970-884a-93d9f838df70</id>
     </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXa.cs">
+      <BoundTo>e207b617-2a11-48c2-91f8-f45b93885136</BoundTo>
+      <DependentUpon>PhuongXa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04de4fec-0f4d-483e-a2bf-b6c1ad64cb11</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXa.UserCode.cs">
+      <BoundTo>e207b617-2a11-48c2-91f8-f45b93885136</BoundTo>
+      <DependentUpon>PhuongXa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de52e293-1d34-4f99-99ed-3a17dd0a2487</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXaSai.cs">
+      <BoundTo>be128dc9-4fcf-4db5-ab76-0ce32b16f9b0</BoundTo>
+      <DependentUpon>PhuongXaSai.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c67cd072-0ecc-47f6-a419-ccb185eb4e52</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXaSai.UserCode.cs">
+      <BoundTo>be128dc9-4fcf-4db5-ab76-0ce32b16f9b0</BoundTo>
+      <DependentUpon>PhuongXaSai.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6ab1dc5-e2e9-4216-98e9-d54066d60bb7</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyen.cs">
+      <BoundTo>59013cbf-06f8-4dba-83ed-00cf64b93bb7</BoundTo>
+      <DependentUpon>QuanHuyen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>edf87bfb-97ac-4804-ae1f-666a65024a23</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyen.UserCode.cs">
+      <BoundTo>59013cbf-06f8-4dba-83ed-00cf64b93bb7</BoundTo>
+      <DependentUpon>QuanHuyen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3552abef-7cde-4f4d-b233-974028a75322</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyenSai.cs">
+      <BoundTo>d7dd5a53-4ed2-4d0d-8b2d-af8b8fc47303</BoundTo>
+      <DependentUpon>QuanHuyenSai.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c7c7c6c6-dac4-4269-800e-a7a66b60eb2c</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyenSai.UserCode.cs">
+      <BoundTo>d7dd5a53-4ed2-4d0d-8b2d-af8b8fc47303</BoundTo>
+      <DependentUpon>QuanHuyenSai.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f9632fe-77dc-4703-a307-1200ef512ae0</id>
+    </Compile>
     <Compile Include="MODULE\CapNhatThongTin\DiaChi\Tinh.cs">
       <BoundTo>2d34ab95-6e1a-4562-9acd-1103135886fb</BoundTo>
       <DependentUpon>Tinh.rxrec</DependentUpon>
@@ -236,6 +284,18 @@
       <DependentUpon>Tinh.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>88957f6f-055b-4534-acca-6db335a6d985</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\TinhSai.cs">
+      <BoundTo>a27463a9-100a-446b-a148-293e0be43dfa</BoundTo>
+      <DependentUpon>TinhSai.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e2b59b7e-cb5c-4907-9348-1b03e97bf01a</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\TinhSai.UserCode.cs">
+      <BoundTo>a27463a9-100a-446b-a148-293e0be43dfa</BoundTo>
+      <DependentUpon>TinhSai.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2cd0f123-64ab-4ffb-bf26-f41ff837fa16</id>
     </Compile>
     <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Khac.cs">
       <BoundTo>98f0abe7-0b55-438c-8ec2-d598470828b7</BoundTo>
@@ -500,10 +560,35 @@
       <id>06df8e36-a32d-4aca-a9d3-8b8fafff220c</id>
       <recordtableid>84084232-9edf-4792-bc0c-c1a7d8ac17f5</recordtableid>
     </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\PhuongXa.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>e207b617-2a11-48c2-91f8-f45b93885136</id>
+      <recordtableid>7e011c5d-0d12-4468-a9c4-f413836b8079</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\PhuongXaSai.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>be128dc9-4fcf-4db5-ab76-0ce32b16f9b0</id>
+      <recordtableid>76d8899a-7543-4a8a-b959-7d3d13c6a54e</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyen.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>59013cbf-06f8-4dba-83ed-00cf64b93bb7</id>
+      <recordtableid>ee3626c0-f4f5-4b2e-b5d3-fac75eb5f77a</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyenSai.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>d7dd5a53-4ed2-4d0d-8b2d-af8b8fc47303</id>
+      <recordtableid>fe9df41b-75e6-4dad-80dd-bbace2447d77</recordtableid>
+    </None>
     <None Include="MODULE\CapNhatThongTin\DiaChi\Tinh.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>2d34ab95-6e1a-4562-9acd-1103135886fb</id>
       <recordtableid>ca0d0350-9b59-4c82-89d4-c8e9ab599d12</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\TinhSai.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>a27463a9-100a-446b-a148-293e0be43dfa</id>
+      <recordtableid>ed4ccee2-c498-4ea3-9811-b5ba619f151c</recordtableid>
     </None>
     <None Include="MODULE\CapNhatThongTin\GioiTinh\Khac.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>

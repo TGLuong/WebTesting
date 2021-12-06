@@ -44,6 +44,12 @@ rxversion="8.3">
 			name="TC-NamSinh2003">
 			</testcase>
 			<testmodule
+			id="07419a35-c2ea-46fb-8847-bfd1e9d225e7"
+			name="PhuongXa"
+			ref="7e011c5d-0d12-4468-a9c4-f413836b8079"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="09856369-f8b1-470f-9eab-becb5aa37342"
 			name="Tinh"
 			ref="ca0d0350-9b59-4c82-89d4-c8e9ab599d12"
@@ -99,6 +105,12 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="1dfb3aee-2c63-41d8-82b0-921b0f07be29"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="1e3ba8e1-00b9-4832-b950-edfda1eb27e4"
 			name="HoTen">
@@ -109,6 +121,10 @@ rxversion="8.3">
 			ref="8961edc5-72f1-4587-8f3e-91911d1b786d"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="20828260-6f70-4428-8968-c6d537094c9c"
+			name="TC-PhuongXa">
+			</testcase>
 			<setup
 			id="2089afde-3da6-4236-8055-1a77be99e563"
 			name="setup">
@@ -199,6 +215,12 @@ rxversion="8.3">
 			ref="e4f51c2d-e4fe-4d92-b9c9-f96ee1c583e3"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="3c0ad0b8-1f9f-4182-9ab5-4be02e8ba43e"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="3c273540-18b4-48ad-b9c8-2bce32a4c29c"
 			name="TC-Nu">
@@ -216,6 +238,10 @@ rxversion="8.3">
 			<testcase
 			id="3f11cf69-3c38-48ed-990a-d0beaeca14a5"
 			name="TC-CMT10KyTuSo">
+			</testcase>
+			<testcase
+			id="4016a67f-fa6c-4440-b380-5783cfd4dd0c"
+			name="TC-QuanHuyen">
 			</testcase>
 			<testmodule
 			id="41652763-e3f2-4965-8a06-37742817c5ce"
@@ -307,6 +333,10 @@ rxversion="8.3">
 			id="58b41c77-f341-4a6c-8b50-e48400cc8ad2"
 			name="teardown">
 			</teardown>
+			<teardown
+			id="597d751e-13e4-4f25-8f20-247f4e2914aa"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="5bcf470e-39da-49fd-b51a-c08a560cc00f"
 			name="End_update_info"
@@ -334,7 +364,19 @@ rxversion="8.3">
 			name="TC-CMT9KyTuSo">
 			</testcase>
 			<testmodule
+			id="64845058-a1c0-49af-ab33-3a50aea06c4a"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="674179eb-3e73-4c94-81a2-650d68e98a71"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="679fb962-855d-48a1-b1ae-de980312f1c6"
 			name="End_update_info"
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
@@ -345,6 +387,10 @@ rxversion="8.3">
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="67dc634d-9b16-4651-9862-1bbbc8834268"
+			name="teardown">
+			</teardown>
 			<setup
 			id="6ab2698c-6dd3-4c6e-9999-d6c5db8dea0f"
 			name="setup">
@@ -389,6 +435,20 @@ rxversion="8.3">
 			id="7e73f294-d6a8-40a8-8bac-560557f0c6aa"
 			name="TC-CMT8KyTuSo">
 			</testcase>
+			<setup
+			id="7ef76d89-ba71-4c44-b72b-b08471e9cb19"
+			name="setup">
+			</setup>
+			<testmodule
+			id="80c0f24c-b8a0-4e2b-bc2d-01efb9458dce"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="80f93851-f0e0-46b8-9224-830f58bff9de"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="810874f4-18e9-48d7-b396-073508af9519"
 			name="start_update_info"
@@ -409,6 +469,12 @@ rxversion="8.3">
 			id="82115a81-e073-4b31-adcf-29017d0b7723"
 			name="setup">
 			</setup>
+			<testmodule
+			id="82351a4a-9e83-420e-8df8-51460abc20d4"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="827000d3-eb7c-4b09-8547-e1d295becee5"
 			name="End_update_info"
@@ -445,6 +511,10 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="92b123b1-2478-456c-9939-1b6c935693d7"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="956964c8-343a-4049-a526-499790a312e1"
 			name="End_update_info"
@@ -464,6 +534,10 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testcase
+			id="9c344e46-dcaa-46ac-8770-50bc734f286b"
+			name="CT-QuanHuyenSai">
+			</testcase>
+			<testcase
 			id="9d42ae22-4b3c-4296-9fca-9e868c817442"
 			name="viethouse"
 			reportlevel="Info;20">
@@ -472,10 +546,20 @@ rxversion="8.3">
 			id="a0beea87-da23-4e87-8c25-126b4314e7ff"
 			name="setup">
 			</setup>
+			<teardown
+			id="a5c49789-2742-4ed3-8197-a0b43d1b153d"
+			name="teardown">
+			</teardown>
 			<smartfoldernode
 			id="a6dc7c23-ebf6-4049-8655-9d6a41e264f4"
 			name="CapNhatNamSinh">
 			</smartfoldernode>
+			<testmodule
+			id="a921ebc7-8cde-4cdd-bb9e-e91483d2a42a"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="ab31e9ce-3f3f-41d2-8a05-327b49258b37"
 			name="teardown">
@@ -538,6 +622,10 @@ rxversion="8.3">
 			id="be03944f-26a9-4ccf-98f2-12ea0c4fbf54"
 			name="GioiTinh">
 			</smartfoldernode>
+			<testcase
+			id="be90438f-0a11-4183-b0ff-b2ef7ccb1851"
+			name="TC-DiaChiTinhSai">
+			</testcase>
 			<teardown
 			id="bf09570c-379c-4321-8e0c-f102bc81f4b4"
 			name="teardown">
@@ -580,6 +668,10 @@ rxversion="8.3">
 			ref="5e312137-9ea3-41fd-afd0-be3b990a3729"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="cac1c486-1241-45f6-83d1-e65372039fad"
+			name="setup">
+			</setup>
 			<testmodule
 			id="cb73649f-f240-451f-ac51-55dd8aad2a82"
 			name="start_update_info"
@@ -596,6 +688,10 @@ rxversion="8.3">
 			id="cba94f06-348b-4dde-83eb-e868774a1bb3"
 			name="setup">
 			</setup>
+			<setup
+			id="cc6f8cc2-57a4-4861-bcbd-3ebcec49fcbd"
+			name="setup">
+			</setup>
 			<testmodule
 			id="cf575d14-5b9f-4b80-ba06-18cddeae9202"
 			name="HoTen19KyTu"
@@ -606,16 +702,38 @@ rxversion="8.3">
 			id="d03a778d-c8bd-4b88-a9f9-4633ff631fe4"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="d0d30eef-5685-4d13-beea-a4877639382a"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="d11913d8-56f1-4049-ab34-722f96b7c509"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="d1e61882-bcbe-4e92-aad2-960e81619b09"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="d49bcf33-f35c-4005-ae87-effcc880650d"
 			name="start_update_info"
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="d4be3928-50b2-47c6-a5e3-341cb12864f3"
+			name="QuanHuyen"
+			ref="ee3626c0-f4f5-4b2e-b5d3-fac75eb5f77a"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="d6445f31-9fb2-4cf7-9b7d-247c6eda89f3"
+			name="setup">
+			</setup>
 			<testmodule
 			id="d647aabb-6bec-42d8-9f74-244aa36c5639"
 			name="End_update_info"
@@ -640,8 +758,16 @@ rxversion="8.3">
 			id="dbd986a6-6d62-4bdc-800c-3717b0414c53"
 			name="teardown">
 			</teardown>
+			<testcase
+			id="e1388142-684b-4a06-b70f-32a31e04bd83"
+			name="TC-PhuongXaSai">
+			</testcase>
 			<setup
 			id="e4471158-170e-4935-9817-e9314eac3c6d"
+			name="setup">
+			</setup>
+			<setup
+			id="e46d2aea-707e-4ded-8182-2c5a13fe7838"
 			name="setup">
 			</setup>
 			<teardown
@@ -666,10 +792,22 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="ec172bc3-cfde-4af3-806f-a647d209a931"
+			name="PhuongXaSai"
+			ref="76d8899a-7543-4a8a-b959-7d3d13c6a54e"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="edb3fe73-7948-4935-8877-564216aeb5db"
 			name="NamCap2004">
 			</testcase>
+			<testmodule
+			id="ee62f48c-2472-4f63-a29e-3001d1e4185d"
+			name="TinhSai"
+			ref="ed4ccee2-c498-4ea3-9811-b5ba619f151c"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="eed655e9-bdac-43d3-8531-1af59b3d68f1"
 			name="End_update_info"
@@ -712,6 +850,18 @@ rxversion="8.3">
 			id="fb3865b1-c7a1-4ea5-be5a-3f57c71f8202"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="fc9cb320-afe7-45c3-ac04-dd6ef0a985bc"
+			name="QuanHuyenSai"
+			ref="fe9df41b-75e6-4dad-80dd-bbace2447d77"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="fee46fed-072b-419a-a019-1d2864dbad6e"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -1266,6 +1416,126 @@ rxversion="8.3">
 								name="teardown">
 									<testmodule
 									id="52c86b05-0d4d-452c-880c-744362a81506"
+									name="End_update_info">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="be90438f-0a11-4183-b0ff-b2ef7ccb1851"
+							name="TC-DiaChiTinhSai">
+								<setup
+								id="cc6f8cc2-57a4-4861-bcbd-3ebcec49fcbd"
+								name="setup">
+									<testmodule
+									id="a921ebc7-8cde-4cdd-bb9e-e91483d2a42a"
+									name="start_update_info">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="ee62f48c-2472-4f63-a29e-3001d1e4185d"
+								name="TinhSai">
+								</testmodule>
+								<teardown
+								id="a5c49789-2742-4ed3-8197-a0b43d1b153d"
+								name="teardown">
+									<testmodule
+									id="679fb962-855d-48a1-b1ae-de980312f1c6"
+									name="End_update_info">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="4016a67f-fa6c-4440-b380-5783cfd4dd0c"
+							name="TC-QuanHuyen">
+								<setup
+								id="d6445f31-9fb2-4cf7-9b7d-247c6eda89f3"
+								name="setup">
+									<testmodule
+									id="1dfb3aee-2c63-41d8-82b0-921b0f07be29"
+									name="start_update_info">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="d4be3928-50b2-47c6-a5e3-341cb12864f3"
+								name="QuanHuyen">
+								</testmodule>
+								<teardown
+								id="597d751e-13e4-4f25-8f20-247f4e2914aa"
+								name="teardown">
+									<testmodule
+									id="80c0f24c-b8a0-4e2b-bc2d-01efb9458dce"
+									name="End_update_info">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="9c344e46-dcaa-46ac-8770-50bc734f286b"
+							name="CT-QuanHuyenSai">
+								<setup
+								id="cac1c486-1241-45f6-83d1-e65372039fad"
+								name="setup">
+									<testmodule
+									id="64845058-a1c0-49af-ab33-3a50aea06c4a"
+									name="start_update_info">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="fc9cb320-afe7-45c3-ac04-dd6ef0a985bc"
+								name="QuanHuyenSai">
+								</testmodule>
+								<teardown
+								id="92b123b1-2478-456c-9939-1b6c935693d7"
+								name="teardown">
+									<testmodule
+									id="82351a4a-9e83-420e-8df8-51460abc20d4"
+									name="End_update_info">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="20828260-6f70-4428-8968-c6d537094c9c"
+							name="TC-PhuongXa">
+								<setup
+								id="7ef76d89-ba71-4c44-b72b-b08471e9cb19"
+								name="setup">
+									<testmodule
+									id="fee46fed-072b-419a-a019-1d2864dbad6e"
+									name="start_update_info">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="07419a35-c2ea-46fb-8847-bfd1e9d225e7"
+								name="PhuongXa">
+								</testmodule>
+								<teardown
+								id="80f93851-f0e0-46b8-9224-830f58bff9de"
+								name="teardown">
+									<testmodule
+									id="3c0ad0b8-1f9f-4182-9ab5-4be02e8ba43e"
+									name="End_update_info">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="e1388142-684b-4a06-b70f-32a31e04bd83"
+							name="TC-PhuongXaSai">
+								<setup
+								id="e46d2aea-707e-4ded-8182-2c5a13fe7838"
+								name="setup">
+									<testmodule
+									id="d0d30eef-5685-4d13-beea-a4877639382a"
+									name="start_update_info">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="ec172bc3-cfde-4af3-806f-a647d209a931"
+								name="PhuongXaSai">
+								</testmodule>
+								<teardown
+								id="67dc634d-9b16-4651-9862-1bbbc8834268"
+								name="teardown">
+									<testmodule
+									id="d1e61882-bcbe-4e92-aad2-960e81619b09"
 									name="End_update_info">
 									</testmodule>
 								</teardown>

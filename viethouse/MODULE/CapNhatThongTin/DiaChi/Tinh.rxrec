@@ -475,7 +475,7 @@ FFFABRRRQAUUUUAFFFFABSL90fSiigBaKKKAP//Z
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="H{LShiftKey up}a Noi"
+		KeySequence="Ha Noi"
 		duration="100ms"
 		enabled="True"
 		optional="False"

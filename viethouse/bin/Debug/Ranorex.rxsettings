@@ -72,74 +72,6 @@ rxversion="8.3">
 	<rxpath.weights>
 		<rxpathweights>
 			<rule
-			attribute="class"
-			capability="nativewindow"
-			conditionsoperator="and"
-			enabled="True"
-			name="RxWinForms ControlNet11 Classnames"
-			setweight="0">
-				<condition
-				attribute="class"
-				match="^WindowsForms10.Window"
-				negate="False"
-				source="self">
-				</condition>
-			</rule>
-			<rule
-			attribute="id"
-			capability="webelement"
-			conditionsoperator="or"
-			enabled="True"
-			name="RxWeb YUI (Yahoo User Interface Library)"
-			setweight="0">
-				<condition
-				attribute="id"
-				match="^yui(_\d+)"
-				negate="False"
-				source="self">
-				</condition>
-				<condition
-				attribute="id"
-				match="^yui-gen.*"
-				negate="False"
-				source="self">
-				</condition>
-			</rule>
-			<rule
-			attribute="id"
-			capability="webelement"
-			conditionsoperator="or"
-			enabled="True"
-			name="RxWeb JS Frameworks (ExtJS, Sencha, Ozone Widget ,...)"
-			setweight="0">
-				<condition
-				attribute="id"
-				match="^ext-.*\d+.*"
-				negate="False"
-				source="self">
-				</condition>
-				<condition
-				attribute="id"
-				match="^[a-z]+-\d{4}(-[a-z]*(-\d*)?)?"
-				negate="False"
-				source="self">
-				</condition>
-			</rule>
-			<rule
-			attribute="id"
-			capability="webelement"
-			conditionsoperator="or"
-			enabled="True"
-			name="RxWeb jQuery"
-			setweight="0">
-				<condition
-				attribute="id"
-				match="^ui-id-\d+"
-				negate="False"
-				source="self">
-				</condition>
-			</rule>
-			<rule
 			attribute="id"
 			capability="webelement"
 			conditionsoperator="or"
@@ -178,11 +110,65 @@ rxversion="8.3">
 			capability="webelement"
 			conditionsoperator="or"
 			enabled="True"
+			name="RxWeb JS Frameworks (ExtJS, Sencha, Ozone Widget ,...)"
+			setweight="0">
+				<condition
+				attribute="id"
+				match="^ext-.*\d+.*"
+				negate="False"
+				source="self">
+				</condition>
+				<condition
+				attribute="id"
+				match="^[a-z]+-\d{4}(-[a-z]*(-\d*)?)?"
+				negate="False"
+				source="self">
+				</condition>
+			</rule>
+			<rule
+			attribute="id"
+			capability="webelement"
+			conditionsoperator="or"
+			enabled="True"
 			name="RxWeb MS Dynamics CRM"
 			setweight="0">
 				<condition
 				attribute="id"
 				match="[a-zA-Z_]+_\{[0-9 A-F-]+\}_\d+"
+				negate="False"
+				source="self">
+				</condition>
+			</rule>
+			<rule
+			attribute="id"
+			capability="webelement"
+			conditionsoperator="or"
+			enabled="True"
+			name="RxWeb YUI (Yahoo User Interface Library)"
+			setweight="0">
+				<condition
+				attribute="id"
+				match="^yui(_\d+)"
+				negate="False"
+				source="self">
+				</condition>
+				<condition
+				attribute="id"
+				match="^yui-gen.*"
+				negate="False"
+				source="self">
+				</condition>
+			</rule>
+			<rule
+			attribute="id"
+			capability="webelement"
+			conditionsoperator="or"
+			enabled="True"
+			name="RxWeb jQuery"
+			setweight="0">
+				<condition
+				attribute="id"
+				match="^ui-id-\d+"
 				negate="False"
 				source="self">
 				</condition>
@@ -194,6 +180,20 @@ rxversion="8.3">
 			enabled="False"
 			name="RxWin32 Random ControlIds"
 			setweight="0">
+			</rule>
+			<rule
+			attribute="class"
+			capability="nativewindow"
+			conditionsoperator="and"
+			enabled="True"
+			name="RxWinForms ControlNet11 Classnames"
+			setweight="0">
+				<condition
+				attribute="class"
+				match="^WindowsForms10.Window"
+				negate="False"
+				source="self">
+				</condition>
 			</rule>
 		</rxpathweights>
 	</rxpath.weights>
