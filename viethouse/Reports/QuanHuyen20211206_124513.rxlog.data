@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.62s"
+		durationms="10624"
+		type="root"
+		rid="66e184a1bded360"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="8.3.2.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/12/2021 12:45:14 PM"
+		timestampiso="2021-12-06T05:45:14"
+		endtime="6/12/2021 12:45:25 PM"
+		timeoutfactor="1"
+		module="QuanHuyen">
+		<detail>
+			QuanHuyen
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.670"
+			timeRelativeToTestModuleStartTime="00:01.672"
+			timeWallClock="12:45:16"
+			time="00:01.670"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.787"
+			timeRelativeToTestModuleStartTime="00:01.789"
+			timeWallClock="12:45:16"
+			time="00:01.787"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ThongTinTaiKho&#7843;n2.XoaT&#7845;tC&#7843;CacM&#7909;c&#272;aCh&#7885;n' at 14;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[1]//button[@title~'^Xóa\ tất\ cả\ các\ mục\ đã\ chọ']"
+				itempath="body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[1]//button[@title~'^Xóa\ tất\ cả\ các\ mục\ đã\ chọ']"
+				fullname="viethouseRepository.ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọn"
+				id="6f62918371a4433fbc355119208d630d"
+				timeout="60000"
+				codefile="d:\Document\class Material\Kiểm thử\project\viethouse\viethouse\MODULE\CapNhatThongTin\DiaChi\QuanHuyen.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.623"
+			timeRelativeToTestModuleStartTime="00:10.625"
+			timeWallClock="12:45:25"
+			time="00:10.623"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

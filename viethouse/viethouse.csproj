@@ -129,17 +129,329 @@
       <UserCode>true</UserCode>
       <id>a7b1d2a3-207e-4ec1-8eb0-f9116835968b</id>
     </Compile>
-    <Compile Include="MODULE\CapNhatThongTin\Recording1.cs">
-      <BoundTo>bb710248-b620-4648-af02-51c9e7a0615d</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="MODULE\CapNhatThongTin\CapNhatKhongHoTen.cs">
+      <BoundTo>ba9632f8-a3b6-4c22-91c8-5a7b06e9cc50</BoundTo>
+      <DependentUpon>CapNhatKhongHoTen.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>e540a91b-e032-41cb-849d-0fc445510606</id>
+      <id>63af7621-d0d6-4997-9c12-70fb3bf8dbd3</id>
     </Compile>
-    <Compile Include="MODULE\CapNhatThongTin\Recording1.UserCode.cs">
-      <BoundTo>bb710248-b620-4648-af02-51c9e7a0615d</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="MODULE\CapNhatThongTin\CapNhatKhongHoTen.UserCode.cs">
+      <BoundTo>ba9632f8-a3b6-4c22-91c8-5a7b06e9cc50</BoundTo>
+      <DependentUpon>CapNhatKhongHoTen.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>5bbc5f13-61be-45c1-a45f-186560d86d54</id>
+      <id>be667f0e-0aab-42fb-8aa1-033691857a83</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.cs">
+      <BoundTo>795e900c-c5e8-416d-8d6c-58176c8a20f3</BoundTo>
+      <DependentUpon>CMT10KyTuSo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2be9fafa-a268-4fed-a4d4-bd3bcee697d5</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.UserCode.cs">
+      <BoundTo>795e900c-c5e8-416d-8d6c-58176c8a20f3</BoundTo>
+      <DependentUpon>CMT10KyTuSo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9019ef3f-bbe6-4c47-b546-65cf722c407a</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT12KuTuSoChuDB.cs">
+      <BoundTo>619e652e-5362-4144-bc65-3810dabd8a40</BoundTo>
+      <DependentUpon>CMT12KuTuSoChuDB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b0841506-f1f8-455a-bcb3-239400d9f82e</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT12KuTuSoChuDB.UserCode.cs">
+      <BoundTo>619e652e-5362-4144-bc65-3810dabd8a40</BoundTo>
+      <DependentUpon>CMT12KuTuSoChuDB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>630264b4-add0-4811-9a2e-41eb063b9f7d</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT12KyTuSo.cs">
+      <BoundTo>ead407ba-bf24-4bf6-b3d4-fed382e9af7b</BoundTo>
+      <DependentUpon>CMT12KyTuSo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dad482e7-1c53-4d77-ab49-2395b1ebc633</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT12KyTuSo.UserCode.cs">
+      <BoundTo>ead407ba-bf24-4bf6-b3d4-fed382e9af7b</BoundTo>
+      <DependentUpon>CMT12KyTuSo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d94b0125-538d-48e6-a60c-0f3b07e9b94a</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT13KyTuSo.cs">
+      <BoundTo>a2298913-3cc6-4b70-bf1f-59fcf0fa9fae</BoundTo>
+      <DependentUpon>CMT13KyTuSo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b208f3dc-7591-4c75-9d9f-fd1751e6de2e</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT13KyTuSo.UserCode.cs">
+      <BoundTo>a2298913-3cc6-4b70-bf1f-59fcf0fa9fae</BoundTo>
+      <DependentUpon>CMT13KyTuSo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>68b504d2-f80d-44f3-810a-89ce445fd54e</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT8KyTuSo.cs">
+      <BoundTo>136a00d3-c704-4c3d-bae8-1a4a47c9b8b3</BoundTo>
+      <DependentUpon>CMT8KyTuSo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f9c4c2e-b33c-40f4-bfab-2370e8537ab8</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT8KyTuSo.UserCode.cs">
+      <BoundTo>136a00d3-c704-4c3d-bae8-1a4a47c9b8b3</BoundTo>
+      <DependentUpon>CMT8KyTuSo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>99646cb7-92cf-41f7-aedd-2cc7b34c5079</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT9KyTuSo.cs">
+      <BoundTo>8ea9f3b0-638f-4903-9604-31866ec7e869</BoundTo>
+      <DependentUpon>CMT9KyTuSo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3ca9c82-9bbb-482a-9a21-0f45d54bb697</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT9KyTuSo.UserCode.cs">
+      <BoundTo>8ea9f3b0-638f-4903-9604-31866ec7e869</BoundTo>
+      <DependentUpon>CMT9KyTuSo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>15af00e3-cc7f-41f7-8c4d-c2354ffeef2a</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT9SoChuDB.cs">
+      <BoundTo>06df8e36-a32d-4aca-a9d3-8b8fafff220c</BoundTo>
+      <DependentUpon>CMT9SoChuDB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c1ca61ca-50be-4272-804b-bd0e18fb93ee</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\CMT\CMT9SoChuDB.UserCode.cs">
+      <BoundTo>06df8e36-a32d-4aca-a9d3-8b8fafff220c</BoundTo>
+      <DependentUpon>CMT9SoChuDB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff682626-d2d1-4970-884a-93d9f838df70</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXa.cs">
+      <BoundTo>e207b617-2a11-48c2-91f8-f45b93885136</BoundTo>
+      <DependentUpon>PhuongXa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04de4fec-0f4d-483e-a2bf-b6c1ad64cb11</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXa.UserCode.cs">
+      <BoundTo>e207b617-2a11-48c2-91f8-f45b93885136</BoundTo>
+      <DependentUpon>PhuongXa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de52e293-1d34-4f99-99ed-3a17dd0a2487</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXaSai.cs">
+      <BoundTo>be128dc9-4fcf-4db5-ab76-0ce32b16f9b0</BoundTo>
+      <DependentUpon>PhuongXaSai.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c67cd072-0ecc-47f6-a419-ccb185eb4e52</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\PhuongXaSai.UserCode.cs">
+      <BoundTo>be128dc9-4fcf-4db5-ab76-0ce32b16f9b0</BoundTo>
+      <DependentUpon>PhuongXaSai.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6ab1dc5-e2e9-4216-98e9-d54066d60bb7</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyen.cs">
+      <BoundTo>59013cbf-06f8-4dba-83ed-00cf64b93bb7</BoundTo>
+      <DependentUpon>QuanHuyen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>edf87bfb-97ac-4804-ae1f-666a65024a23</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyen.UserCode.cs">
+      <BoundTo>59013cbf-06f8-4dba-83ed-00cf64b93bb7</BoundTo>
+      <DependentUpon>QuanHuyen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3552abef-7cde-4f4d-b233-974028a75322</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyenSai.cs">
+      <BoundTo>d7dd5a53-4ed2-4d0d-8b2d-af8b8fc47303</BoundTo>
+      <DependentUpon>QuanHuyenSai.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c7c7c6c6-dac4-4269-800e-a7a66b60eb2c</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyenSai.UserCode.cs">
+      <BoundTo>d7dd5a53-4ed2-4d0d-8b2d-af8b8fc47303</BoundTo>
+      <DependentUpon>QuanHuyenSai.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f9632fe-77dc-4703-a307-1200ef512ae0</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\Tinh.cs">
+      <BoundTo>2d34ab95-6e1a-4562-9acd-1103135886fb</BoundTo>
+      <DependentUpon>Tinh.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d278895-54a6-40fc-8a52-eb19ba1d4e25</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\Tinh.UserCode.cs">
+      <BoundTo>2d34ab95-6e1a-4562-9acd-1103135886fb</BoundTo>
+      <DependentUpon>Tinh.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88957f6f-055b-4534-acca-6db335a6d985</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\TinhSai.cs">
+      <BoundTo>a27463a9-100a-446b-a148-293e0be43dfa</BoundTo>
+      <DependentUpon>TinhSai.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e2b59b7e-cb5c-4907-9348-1b03e97bf01a</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\DiaChi\TinhSai.UserCode.cs">
+      <BoundTo>a27463a9-100a-446b-a148-293e0be43dfa</BoundTo>
+      <DependentUpon>TinhSai.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2cd0f123-64ab-4ffb-bf26-f41ff837fa16</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Khac.cs">
+      <BoundTo>98f0abe7-0b55-438c-8ec2-d598470828b7</BoundTo>
+      <DependentUpon>Khac.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9009fd3d-2e54-43b9-85dd-bd4e997784a7</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Khac.UserCode.cs">
+      <BoundTo>98f0abe7-0b55-438c-8ec2-d598470828b7</BoundTo>
+      <DependentUpon>Khac.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aadceb8e-3ae8-48ff-8d45-c1dec961142b</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Nam.cs">
+      <BoundTo>a0493843-f696-4671-9067-838e3f1d23bb</BoundTo>
+      <DependentUpon>Nam.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2ec3baae-1992-42b5-9933-2b9c6beb7b45</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Nam.UserCode.cs">
+      <BoundTo>a0493843-f696-4671-9067-838e3f1d23bb</BoundTo>
+      <DependentUpon>Nam.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a3cff01b-4a22-4617-8568-cf05f6435613</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Nu.cs">
+      <BoundTo>de0d771b-536a-4f86-a05a-059643b28a1b</BoundTo>
+      <DependentUpon>Nu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fac6c050-40aa-4e47-863a-fe66cc3cd6ac</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\GioiTinh\Nu.UserCode.cs">
+      <BoundTo>de0d771b-536a-4f86-a05a-059643b28a1b</BoundTo>
+      <DependentUpon>Nu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>589c9271-e9d6-4225-aa76-44e4f7275860</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen10KyTu.cs">
+      <BoundTo>887e80b8-4dd6-421f-aa47-ac185a8fc60c</BoundTo>
+      <DependentUpon>HoTen10KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>013a9255-57a4-4bee-aec9-24f4497a304c</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen10KyTu.UserCode.cs">
+      <BoundTo>887e80b8-4dd6-421f-aa47-ac185a8fc60c</BoundTo>
+      <DependentUpon>HoTen10KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f5f7e865-a33c-4b68-884b-f47ea004378c</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen19KyTu.cs">
+      <BoundTo>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</BoundTo>
+      <DependentUpon>HoTen19KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0be62bf2-1879-4efb-ad69-9bd890a19c47</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen19KyTu.UserCode.cs">
+      <BoundTo>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</BoundTo>
+      <DependentUpon>HoTen19KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>00b7feff-ca67-4299-a8da-f0b32165c634</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen20KyTu.cs">
+      <BoundTo>191fa418-bef0-450e-8849-34d0fd14b7b3</BoundTo>
+      <DependentUpon>HoTen20KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d04b0121-fcd2-47a6-9e4b-c1e3cc48fc26</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen20KyTu.UserCode.cs">
+      <BoundTo>191fa418-bef0-450e-8849-34d0fd14b7b3</BoundTo>
+      <DependentUpon>HoTen20KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1efd22fe-abe1-4f84-bb37-f017514848b1</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen21KyTu.cs">
+      <BoundTo>01026775-5359-452c-80cf-04191107a0a6</BoundTo>
+      <DependentUpon>HoTen21KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba47c678-2d86-4028-b972-2bf40356e5c7</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\HoTen21KyTu.UserCode.cs">
+      <BoundTo>01026775-5359-452c-80cf-04191107a0a6</BoundTo>
+      <DependentUpon>HoTen21KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>59f94d22-b4c2-4064-95d8-18ead5051faf</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2002.cs">
+      <BoundTo>39e06f6d-9c74-429a-8e9d-1c7448d86f99</BoundTo>
+      <DependentUpon>NamCap2002.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cf6d1dc5-596a-4cb7-bd68-05f2bb26625e</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2002.UserCode.cs">
+      <BoundTo>39e06f6d-9c74-429a-8e9d-1c7448d86f99</BoundTo>
+      <DependentUpon>NamCap2002.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32fe7f35-d8a7-4a35-bcbe-a6320ab95c89</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2003.cs">
+      <BoundTo>e10d376c-5fbe-4de6-8fb1-14747af579e4</BoundTo>
+      <DependentUpon>NamCap2003.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42914800-219d-4728-af6d-eec9dd943493</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2003.UserCode.cs">
+      <BoundTo>e10d376c-5fbe-4de6-8fb1-14747af579e4</BoundTo>
+      <DependentUpon>NamCap2003.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f65b0ec6-7797-47b7-8995-06dbfded8e64</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2004.cs">
+      <BoundTo>ee1c0da9-287b-4585-a0b8-c26b380f8e04</BoundTo>
+      <DependentUpon>NamCap2004.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d4d5e9f1-b0db-4521-b3f4-d93d0564eb45</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2004.UserCode.cs">
+      <BoundTo>ee1c0da9-287b-4585-a0b8-c26b380f8e04</BoundTo>
+      <DependentUpon>NamCap2004.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7f0e80f0-f229-4f08-9aee-d954066f4b3f</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2002.cs">
+      <BoundTo>8d11e74f-6783-4aa3-9b6d-d6ea89c77215</BoundTo>
+      <DependentUpon>NamSinh2002.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>581f7baa-d911-458f-9e2e-1191d306bbe6</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2002.UserCode.cs">
+      <BoundTo>8d11e74f-6783-4aa3-9b6d-d6ea89c77215</BoundTo>
+      <DependentUpon>NamSinh2002.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6867c968-fdd4-4615-bebc-21fdc44664cd</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2003.cs">
+      <BoundTo>8a178dd9-8a02-4e87-aba6-70cdc8163188</BoundTo>
+      <DependentUpon>NamSinh2003.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f33621cc-d903-415e-b07f-1ca150455bec</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2003.UserCode.cs">
+      <BoundTo>8a178dd9-8a02-4e87-aba6-70cdc8163188</BoundTo>
+      <DependentUpon>NamSinh2003.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>44fe3003-82e9-4afe-b9df-71625c7b88ad</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2004.cs">
+      <BoundTo>c3d9545f-e07b-4887-822a-e70aa6d50475</BoundTo>
+      <DependentUpon>NamSinh2004.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ab6ea6d-2441-480f-8ae3-d9b11885d67f</id>
+    </Compile>
+    <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2004.UserCode.cs">
+      <BoundTo>c3d9545f-e07b-4887-822a-e70aa6d50475</BoundTo>
+      <DependentUpon>NamSinh2004.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ee5f025a-2924-4e4d-8cf5-6b472cc5094b</id>
     </Compile>
     <Compile Include="MODULE\DangKy\Recording1.cs">
       <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
@@ -167,6 +479,18 @@
     </Compile>
     <Compile Include="Program.cs">
       <id>dc08efd1-fbb9-47e9-b3f4-a7f4b8eff065</id>
+    </Compile>
+    <Compile Include="START\login_updateinfo.cs">
+      <BoundTo>df9d7da1-5695-475b-85d6-c1fbf02dc7f0</BoundTo>
+      <DependentUpon>login_updateinfo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d173bae-a5b6-41f7-aa42-4cb6d3c24a64</id>
+    </Compile>
+    <Compile Include="START\login_updateinfo.UserCode.cs">
+      <BoundTo>df9d7da1-5695-475b-85d6-c1fbf02dc7f0</BoundTo>
+      <DependentUpon>login_updateinfo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>69bdc65d-d260-41e7-ac70-1284d4c9bdc1</id>
     </Compile>
     <Compile Include="START\start_update_info.cs">
       <BoundTo>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</BoundTo>
@@ -196,10 +520,140 @@
       <id>81918fa6-c9fa-4a5c-874b-88122393f5b8</id>
       <recordtableid>e213a0f9-50d3-4ca3-9337-1b99a86cc366</recordtableid>
     </None>
-    <None Include="MODULE\CapNhatThongTin\Recording1.rxrec">
+    <None Include="MODULE\CapNhatThongTin\CapNhatKhongHoTen.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
-      <id>bb710248-b620-4648-af02-51c9e7a0615d</id>
-      <recordtableid>04ff684c-2f1c-4ecc-afff-5896e69d54f9</recordtableid>
+      <id>ba9632f8-a3b6-4c22-91c8-5a7b06e9cc50</id>
+      <recordtableid>97b5afd1-b474-428c-81dc-28297b2754ea</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT10KyTuSo.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>795e900c-c5e8-416d-8d6c-58176c8a20f3</id>
+      <recordtableid>989035d6-eec1-4009-ab2a-ee660a4c0fc3</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT12KuTuSoChuDB.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>619e652e-5362-4144-bc65-3810dabd8a40</id>
+      <recordtableid>d15302bf-d797-457e-b1b2-d3f2427185f4</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT12KyTuSo.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ead407ba-bf24-4bf6-b3d4-fed382e9af7b</id>
+      <recordtableid>bd0c13a4-72a3-4303-ba0a-62e45bc8e3dc</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT13KyTuSo.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>a2298913-3cc6-4b70-bf1f-59fcf0fa9fae</id>
+      <recordtableid>8a92f91d-17d6-4138-afe5-051449f69d28</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT8KyTuSo.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>136a00d3-c704-4c3d-bae8-1a4a47c9b8b3</id>
+      <recordtableid>f04e989a-b9a9-43fa-997b-2b8e23dfd5bf</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT9KyTuSo.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>8ea9f3b0-638f-4903-9604-31866ec7e869</id>
+      <recordtableid>f5dae702-5bd0-41a8-97d8-18d4d47e6926</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\CMT\CMT9SoChuDB.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>06df8e36-a32d-4aca-a9d3-8b8fafff220c</id>
+      <recordtableid>84084232-9edf-4792-bc0c-c1a7d8ac17f5</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\PhuongXa.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>e207b617-2a11-48c2-91f8-f45b93885136</id>
+      <recordtableid>7e011c5d-0d12-4468-a9c4-f413836b8079</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\PhuongXaSai.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>be128dc9-4fcf-4db5-ab76-0ce32b16f9b0</id>
+      <recordtableid>76d8899a-7543-4a8a-b959-7d3d13c6a54e</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyen.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>59013cbf-06f8-4dba-83ed-00cf64b93bb7</id>
+      <recordtableid>ee3626c0-f4f5-4b2e-b5d3-fac75eb5f77a</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\QuanHuyenSai.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>d7dd5a53-4ed2-4d0d-8b2d-af8b8fc47303</id>
+      <recordtableid>fe9df41b-75e6-4dad-80dd-bbace2447d77</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\Tinh.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>2d34ab95-6e1a-4562-9acd-1103135886fb</id>
+      <recordtableid>ca0d0350-9b59-4c82-89d4-c8e9ab599d12</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\DiaChi\TinhSai.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>a27463a9-100a-446b-a148-293e0be43dfa</id>
+      <recordtableid>ed4ccee2-c498-4ea3-9811-b5ba619f151c</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\GioiTinh\Khac.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>98f0abe7-0b55-438c-8ec2-d598470828b7</id>
+      <recordtableid>8961edc5-72f1-4587-8f3e-91911d1b786d</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\GioiTinh\Nam.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>a0493843-f696-4671-9067-838e3f1d23bb</id>
+      <recordtableid>6e602d3e-5da1-4f3d-9a10-ca0ef108d571</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\GioiTinh\Nu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>de0d771b-536a-4f86-a05a-059643b28a1b</id>
+      <recordtableid>644e648b-694a-42c1-be48-44b4ef6b5bda</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen10KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>887e80b8-4dd6-421f-aa47-ac185a8fc60c</id>
+      <recordtableid>66aa08c4-1cdb-4725-9e93-6979ef4bb4ba</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen19KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>d3db45bb-2d2d-4498-a8aa-b7a2bad7d609</id>
+      <recordtableid>1245edad-ed6d-4d7a-b90a-8abcb61dce5c</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen20KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>191fa418-bef0-450e-8849-34d0fd14b7b3</id>
+      <recordtableid>d85508a7-2a2b-423e-8293-fa31fe3bb799</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\HoTen21KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>01026775-5359-452c-80cf-04191107a0a6</id>
+      <recordtableid>e4f51c2d-e4fe-4d92-b9c9-f96ee1c583e3</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2002.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>39e06f6d-9c74-429a-8e9d-1c7448d86f99</id>
+      <recordtableid>72f3c93b-03fd-4172-bf91-9ca2e8ccff51</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2003.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>e10d376c-5fbe-4de6-8fb1-14747af579e4</id>
+      <recordtableid>2840f7ca-345c-4b0a-b94f-b11203a506ed</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2004.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ee1c0da9-287b-4585-a0b8-c26b380f8e04</id>
+      <recordtableid>d6066378-f5ba-4fe4-b307-445bf56361cf</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2002.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>8d11e74f-6783-4aa3-9b6d-d6ea89c77215</id>
+      <recordtableid>5e312137-9ea3-41fd-afd0-be3b990a3729</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2003.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>8a178dd9-8a02-4e87-aba6-70cdc8163188</id>
+      <recordtableid>d5316763-2d03-4c40-8481-17675c2f6535</recordtableid>
+    </None>
+    <None Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2004.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>c3d9545f-e07b-4887-822a-e70aa6d50475</id>
+      <recordtableid>5c467f2d-74fe-45c4-9351-1c5aaf999f63</recordtableid>
     </None>
     <None Include="MODULE\DangKy\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -210,6 +664,11 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>285512f1-eef4-4484-b404-414dec99eb86</id>
       <recordtableid>c10772c5-0e86-44fd-b04d-6ba61adace1e</recordtableid>
+    </None>
+    <None Include="START\login_updateinfo.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>df9d7da1-5695-475b-85d6-c1fbf02dc7f0</id>
+      <recordtableid>73377792-8b4a-450e-9427-60135e15f188</recordtableid>
     </None>
     <None Include="START\start_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -247,6 +706,21 @@
     </Folder>
     <Folder Include="MODULE\CapNhatThongTin">
       <id>f9e74022-39d3-4ecd-b2f0-057f809ef538</id>
+    </Folder>
+    <Folder Include="MODULE\CapNhatThongTin\CMT">
+      <id>3e3f0255-ff27-4a2f-82b6-a7f047314059</id>
+    </Folder>
+    <Folder Include="MODULE\CapNhatThongTin\NamCapCMT">
+      <id>e080f3e8-acfe-4333-b223-7fdbac8bfdcf</id>
+    </Folder>
+    <Folder Include="MODULE\CapNhatThongTin\NamSinh">
+      <id>a68c63ad-1324-4ff5-bb11-c82eeea7a63d</id>
+    </Folder>
+    <Folder Include="MODULE\CapNhatThongTin\GioiTinh">
+      <id>a08ce0f1-74a1-4ad6-a567-07553ce09d40</id>
+    </Folder>
+    <Folder Include="MODULE\CapNhatThongTin\DiaChi">
+      <id>ee667769-e22b-4570-a89d-0f8ba6adedd9</id>
     </Folder>
     <Folder Include="MODULE\DangKy">
       <id>4f44a8a0-810c-4521-9fa5-e3781a117746</id>
