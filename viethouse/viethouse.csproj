@@ -201,17 +201,41 @@
       <UserCode>true</UserCode>
       <id>8ff99a94-e942-41c9-9e94-7242f441a28a</id>
     </Compile>
-    <Compile Include="MODULE\TimKiem\Recording2.cs">
-      <BoundTo>28713e9c-8871-4d6f-96e2-b9de480e9909</BoundTo>
-      <DependentUpon>Recording2.rxrec</DependentUpon>
+    <Compile Include="MODULE\TimKiem\selec_area.cs">
+      <BoundTo>48b10f8b-572b-4e69-871c-a4b43ff979f8</BoundTo>
+      <DependentUpon>selec_area.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>1e3d96b2-42e5-4fc9-93d9-d030931f3b7e</id>
+      <id>ad3d3de2-e685-4616-a68a-793473060d65</id>
     </Compile>
-    <Compile Include="MODULE\TimKiem\Recording2.UserCode.cs">
-      <BoundTo>28713e9c-8871-4d6f-96e2-b9de480e9909</BoundTo>
-      <DependentUpon>Recording2.rxrec</DependentUpon>
+    <Compile Include="MODULE\TimKiem\selec_area.UserCode.cs">
+      <BoundTo>48b10f8b-572b-4e69-871c-a4b43ff979f8</BoundTo>
+      <DependentUpon>selec_area.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>73250720-a276-480d-bb33-cf523999c3f8</id>
+      <id>ed7c1eee-6426-4443-8b2d-f43f1ac50604</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\selec_city.cs">
+      <BoundTo>5f6398f5-70bf-4608-ba25-56131ac8d62a</BoundTo>
+      <DependentUpon>selec_city.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa54bd47-fb30-4790-b2f6-da397fa0f0b6</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\selec_city.UserCode.cs">
+      <BoundTo>5f6398f5-70bf-4608-ba25-56131ac8d62a</BoundTo>
+      <DependentUpon>selec_city.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>337be880-a656-4639-be77-e1f8ffcb4743</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\selec_price.cs">
+      <BoundTo>c0e16116-012b-4cd7-9e98-bdfee689f36d</BoundTo>
+      <DependentUpon>selec_price.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>137a858d-07b0-45cc-88ab-41e73a0b6503</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\selec_price.UserCode.cs">
+      <BoundTo>c0e16116-012b-4cd7-9e98-bdfee689f36d</BoundTo>
+      <DependentUpon>selec_price.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>34568845-35f6-4b0d-a27c-d9086738a0bc</id>
     </Compile>
     <Compile Include="MODULE\TimKiem\selec_soil_type.cs">
       <BoundTo>290c39f8-b143-4f25-b5fe-9e14d3b829e0</BoundTo>
@@ -346,10 +370,20 @@
       <id>285512f1-eef4-4484-b404-414dec99eb86</id>
       <recordtableid>c10772c5-0e86-44fd-b04d-6ba61adace1e</recordtableid>
     </None>
-    <None Include="MODULE\TimKiem\Recording2.rxrec">
-      <id>28713e9c-8871-4d6f-96e2-b9de480e9909</id>
-      <recordtableid>e09477b8-1779-4dc4-8657-74d258e24e01</recordtableid>
+    <None Include="MODULE\TimKiem\selec_area.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>48b10f8b-572b-4e69-871c-a4b43ff979f8</id>
+      <recordtableid>e975cd19-d6e1-4ee4-b746-0fc4cdaf7714</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\selec_city.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>5f6398f5-70bf-4608-ba25-56131ac8d62a</id>
+      <recordtableid>a6502933-49ce-47b3-8c60-64cd80fb636d</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\selec_price.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>c0e16116-012b-4cd7-9e98-bdfee689f36d</id>
+      <recordtableid>b5c502df-387f-49d6-b629-41d63c251333</recordtableid>
     </None>
     <None Include="MODULE\TimKiem\selec_soil_type.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>

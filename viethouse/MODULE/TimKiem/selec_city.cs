@@ -24,34 +24,44 @@ namespace viethouse.MODULE.TimKiem
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording2 recording.
+    ///The selec_city recording.
     /// </summary>
-    [TestModule("e09477b8-1779-4dc4-8657-74d258e24e01", ModuleType.Recording, 1)]
-    public partial class Recording2 : ITestModule
+    [TestModule("a6502933-49ce-47b3-8c60-64cd80fb636d", ModuleType.Recording, 1)]
+    public partial class selec_city : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::viethouse.viethouseRepository repository.
         /// </summary>
         public static global::viethouse.viethouseRepository repo = global::viethouse.viethouseRepository.Instance;
 
-        static Recording2 instance = new Recording2();
+        static selec_city instance = new selec_city();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording2()
+        public selec_city()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording2 Instance
+        public static selec_city Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        /// <summary>
+        /// Gets or sets the value of variable itemCity.
+        /// </summary>
+        [TestVariable("a4fb7f91-26fd-4024-a1f0-990f2ca9b84e")]
+        public string itemCity
+        {
+            get { return repo.itemCity; }
+            set { repo.itemCity = value; }
+        }
 
 #endregion
 
@@ -79,6 +89,14 @@ namespace viethouse.MODULE.TimKiem
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TimKiem.spinCity' at 199;23.", repo.TimKiem.spinCityInfo, new RecordItemIndex(0));
+            repo.TimKiem.spinCity.Click("199;23");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TimKiem.itemCity' at 188;20.", repo.TimKiem.itemCityInfo, new RecordItemIndex(1));
+            repo.TimKiem.itemCity.Click("188;20");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

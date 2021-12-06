@@ -166,6 +166,63 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
+			id="86286acd-e504-40b7-b84e-b73db9320791"
+			name="spinCity"
+			refimgid="808787d9-677b-4a82-b3ee-ae5d62610de7"
+			refpath="/dom[@domain='houseviet.vn']//div[#'City']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'City']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="843f7ee8-314f-490e-8607-dfe794f9a272"
+			name="itemCity"
+			refimgid="353d766e-5f38-44ba-8885-3e8450e45260"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'City']/div[2]/div[2]/div[1]/div/label[$itemCity]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5bb57517-5790-48f1-ad68-23b890585b9c"
+			name="spinPrice"
+			refimgid="8a1cb0ee-c625-4ef7-961d-5d014fe0651c"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Price']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'Price']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="b2b94204-e065-4f09-8ea8-7308ab89bb54"
+			name="itemPrice"
+			refimgid="f9652e0a-2db0-4dc2-8928-cb3f5f466725"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'Price']/div[2]/div/div[1]/div/label[$itemPrice]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c17f0fc0-a6ce-4bd3-87ed-5c6e1be22449"
+			name="spinArea"
+			refimgid="b8055077-72a7-4f3a-80d5-b7c8d0dbf949"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Area']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'Area']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="d8a23012-93b5-407b-abae-f14651a0586d"
+			name="itemArea"
+			refimgid="83566877-5901-4b9a-b898-636a6ec0dc8f"
+			searchtimeout="30000ms">
+				/dom[@domain='houseviet.vn']//div[#'Area']/div[2]/div/div[1]/div/label[$itemArea]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
 			id="a37d7a8e-a373-49bb-b2f0-c5e8247a942b"
 			name="MainNav"
 			refimgid="17c2f22f-8ae7-466f-9bca-02b7f6a89192"
@@ -188,9 +245,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="b6f0b7b5-8930-45df-8291-ec36b831ea01"
 			name="validateSearch"
 			refimgid="fd41c6cd-3475-4545-8e23-d9784e89bc46"
-			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext='Bạn đang xem 15 tin rao trong tổng số 21.211 tin .']"
 			searchtimeout="30000ms">
-				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']
+				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;an']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -198,9 +254,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="da5dbc3c-6a42-4635-ae46-2cafebe521d1"
 			name="validateType"
 			refimgid="fd41c6cd-3475-4545-8e23-d9784e89bc46"
-			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext='Bạn đang xem 15 tin rao trong tổng số 21.211 tin .']"
 			searchtimeout="30000ms">
-				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;ang\ xem\ 15\ tin\ rao\ t']
+				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;an']
 			</item>
 			<basepath>
 				/dom[@domain='houseviet.vn']
@@ -244,6 +299,21 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="86bf0f96-bb1e-43e6-b947-1c34c4472a50"
 		name="element">
 			Mua b&#225;n nh&#224; &#273;&#7845;t - B&#7845;t &#273;&#7897;ng s&#7843;n House Viet T12/2021
+		</var>
+		<var
+		id="a4fb7f91-26fd-4024-a1f0-990f2ca9b84e"
+		name="itemCity">
+			1
+		</var>
+		<var
+		id="71f1d338-e7eb-49f6-8185-f2fca633bb94"
+		name="itemPrice">
+			1
+		</var>
+		<var
+		id="2b3fa6de-2378-4320-9585-8cde98cf4a5c"
+		name="itemArea">
+			1
 		</var>
 	</variables>
 </repository>

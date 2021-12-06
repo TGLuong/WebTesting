@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace viethouse.MODULE.TimKiem
 {
-    public partial class Recording2
+    public partial class selec_area
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -101,6 +101,42 @@ namespace viethouse
             set { _element = value; }
         }
 
+        string _itemCity = "1";
+
+        /// <summary>
+        /// Gets or sets the value of variable itemCity.
+        /// </summary>
+        [TestVariable("a4fb7f91-26fd-4024-a1f0-990f2ca9b84e")]
+        public string itemCity
+        {
+            get { return _itemCity; }
+            set { _itemCity = value; }
+        }
+
+        string _itemPrice = "1";
+
+        /// <summary>
+        /// Gets or sets the value of variable itemPrice.
+        /// </summary>
+        [TestVariable("71f1d338-e7eb-49f6-8185-f2fca633bb94")]
+        public string itemPrice
+        {
+            get { return _itemPrice; }
+            set { _itemPrice = value; }
+        }
+
+        string _itemArea = "1";
+
+        /// <summary>
+        /// Gets or sets the value of variable itemArea.
+        /// </summary>
+        [TestVariable("2b3fa6de-2378-4320-9585-8cde98cf4a5c")]
+        public string itemArea
+        {
+            get { return _itemArea; }
+            set { _itemArea = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -343,6 +379,12 @@ namespace viethouse
             RepoItemInfo _btnsearchInfo;
             RepoItemInfo _spinsoiltypeInfo;
             RepoItemInfo _itemsoiltypeInfo;
+            RepoItemInfo _spincityInfo;
+            RepoItemInfo _itemcityInfo;
+            RepoItemInfo _spinpriceInfo;
+            RepoItemInfo _itempriceInfo;
+            RepoItemInfo _spinareaInfo;
+            RepoItemInfo _itemareaInfo;
             RepoItemInfo _mainnavInfo;
             RepoItemInfo _validatesoiltypeInfo;
             RepoItemInfo _validatesearchInfo;
@@ -358,10 +400,16 @@ namespace viethouse
                 _btnsearchInfo = new RepoItemInfo(this, "btnsearch", ".//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']", 30000, null, "2d50b3d3-7763-4842-ae93-bc5cba0d806f");
                 _spinsoiltypeInfo = new RepoItemInfo(this, "spinSoilType", ".//div[#'Cate']/div", 30000, null, "83de2626-e5e1-4dbb-9bff-803426dfe85b");
                 _itemsoiltypeInfo = new RepoItemInfo(this, "itemSoilType", ".//div[#'Cate']/div[2]/div[2]/div[1]/div/label[$itemSoilType]", 30000, null, "84d6473e-87e7-456b-a746-02c562718122");
+                _spincityInfo = new RepoItemInfo(this, "spinCity", ".//div[#'City']/div", 30000, null, "86286acd-e504-40b7-b84e-b73db9320791");
+                _itemcityInfo = new RepoItemInfo(this, "itemCity", ".//div[#'City']/div[2]/div[2]/div[1]/div/label[$itemCity]", 30000, null, "843f7ee8-314f-490e-8607-dfe794f9a272");
+                _spinpriceInfo = new RepoItemInfo(this, "spinPrice", ".//div[#'Price']/div", 30000, null, "5bb57517-5790-48f1-ad68-23b890585b9c");
+                _itempriceInfo = new RepoItemInfo(this, "itemPrice", ".//div[#'Price']/div[2]/div/div[1]/div/label[$itemPrice]", 30000, null, "b2b94204-e065-4f09-8ea8-7308ab89bb54");
+                _spinareaInfo = new RepoItemInfo(this, "spinArea", ".//div[#'Area']/div", 30000, null, "c17f0fc0-a6ce-4bd3-87ed-5c6e1be22449");
+                _itemareaInfo = new RepoItemInfo(this, "itemArea", ".//div[#'Area']/div[2]/div/div[1]/div/label[$itemArea]", 30000, null, "d8a23012-93b5-407b-abae-f14651a0586d");
                 _mainnavInfo = new RepoItemInfo(this, "MainNav", ".//div[#'main-nav']", 30000, null, "a37d7a8e-a373-49bb-b2f0-c5e8247a942b");
                 _validatesoiltypeInfo = new RepoItemInfo(this, "validateSoilType", ".//tag[#'main']/article//div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']/a[@innertext=$element]", 30000, null, "f8dbb079-3d76-4475-b0be-255bec3f0392");
-                _validatesearchInfo = new RepoItemInfo(this, "validateSearch", ".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']", 30000, null, "b6f0b7b5-8930-45df-8291-ec36b831ea01");
-                _validatetypeInfo = new RepoItemInfo(this, "validateType", ".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\\ đang\\ xem\\ 15\\ tin\\ rao\\ t']", 30000, null, "da5dbc3c-6a42-4635-ae46-2cafebe521d1");
+                _validatesearchInfo = new RepoItemInfo(this, "validateSearch", ".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\\ đan']", 30000, null, "b6f0b7b5-8930-45df-8291-ec36b831ea01");
+                _validatetypeInfo = new RepoItemInfo(this, "validateType", ".//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^Bạn\\ đan']", 30000, null, "da5dbc3c-6a42-4635-ae46-2cafebe521d1");
             }
 
             /// <summary>
@@ -481,6 +529,150 @@ namespace viethouse
                 get
                 {
                     return _itemsoiltypeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The spinCity item.
+            /// </summary>
+            [RepositoryItem("86286acd-e504-40b7-b84e-b73db9320791")]
+            public virtual Ranorex.DivTag spinCity
+            {
+                get
+                {
+                    return _spincityInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The spinCity item info.
+            /// </summary>
+            [RepositoryItemInfo("86286acd-e504-40b7-b84e-b73db9320791")]
+            public virtual RepoItemInfo spinCityInfo
+            {
+                get
+                {
+                    return _spincityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The itemCity item.
+            /// </summary>
+            [RepositoryItem("843f7ee8-314f-490e-8607-dfe794f9a272")]
+            public virtual Ranorex.LabelTag itemCity
+            {
+                get
+                {
+                    return _itemcityInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The itemCity item info.
+            /// </summary>
+            [RepositoryItemInfo("843f7ee8-314f-490e-8607-dfe794f9a272")]
+            public virtual RepoItemInfo itemCityInfo
+            {
+                get
+                {
+                    return _itemcityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The spinPrice item.
+            /// </summary>
+            [RepositoryItem("5bb57517-5790-48f1-ad68-23b890585b9c")]
+            public virtual Ranorex.DivTag spinPrice
+            {
+                get
+                {
+                    return _spinpriceInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The spinPrice item info.
+            /// </summary>
+            [RepositoryItemInfo("5bb57517-5790-48f1-ad68-23b890585b9c")]
+            public virtual RepoItemInfo spinPriceInfo
+            {
+                get
+                {
+                    return _spinpriceInfo;
+                }
+            }
+
+            /// <summary>
+            /// The itemPrice item.
+            /// </summary>
+            [RepositoryItem("b2b94204-e065-4f09-8ea8-7308ab89bb54")]
+            public virtual Ranorex.LabelTag itemPrice
+            {
+                get
+                {
+                    return _itempriceInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The itemPrice item info.
+            /// </summary>
+            [RepositoryItemInfo("b2b94204-e065-4f09-8ea8-7308ab89bb54")]
+            public virtual RepoItemInfo itemPriceInfo
+            {
+                get
+                {
+                    return _itempriceInfo;
+                }
+            }
+
+            /// <summary>
+            /// The spinArea item.
+            /// </summary>
+            [RepositoryItem("c17f0fc0-a6ce-4bd3-87ed-5c6e1be22449")]
+            public virtual Ranorex.DivTag spinArea
+            {
+                get
+                {
+                    return _spinareaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The spinArea item info.
+            /// </summary>
+            [RepositoryItemInfo("c17f0fc0-a6ce-4bd3-87ed-5c6e1be22449")]
+            public virtual RepoItemInfo spinAreaInfo
+            {
+                get
+                {
+                    return _spinareaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The itemArea item.
+            /// </summary>
+            [RepositoryItem("d8a23012-93b5-407b-abae-f14651a0586d")]
+            public virtual Ranorex.LabelTag itemArea
+            {
+                get
+                {
+                    return _itemareaInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The itemArea item info.
+            /// </summary>
+            [RepositoryItemInfo("d8a23012-93b5-407b-abae-f14651a0586d")]
+            public virtual RepoItemInfo itemAreaInfo
+            {
+                get
+                {
+                    return _itemareaInfo;
                 }
             }
 
