@@ -137,6 +137,18 @@ namespace viethouse
             set { _itemArea = value; }
         }
 
+        string _validateList = "Đường 30/4, Thủ Dầu Một, Bình Dương";
+
+        /// <summary>
+        /// Gets or sets the value of variable validateList.
+        /// </summary>
+        [TestVariable("3839a5a7-e5dc-447c-9c4e-6833f66de8af")]
+        public string validateList
+        {
+            get { return _validateList; }
+            set { _validateList = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -375,6 +387,7 @@ namespace viethouse
         [RepositoryFolder("94d5d368-05fa-47a1-8524-10fd8f7ebbf9")]
         public partial class TimKiemAppFolder : RepoGenBaseFolder
         {
+            viethouseRepositoryFolders.ValidateListSearchFolder _validatelistsearch;
             RepoItemInfo _txtkeywordsInfo;
             RepoItemInfo _btnsearchInfo;
             RepoItemInfo _spinsoiltypeInfo;
@@ -396,6 +409,7 @@ namespace viethouse
             public TimKiemAppFolder(RepoGenBaseFolder parentFolder) :
                     base("TimKiem", "/dom[@domain='houseviet.vn']", parentFolder, 30000, null, false, "94d5d368-05fa-47a1-8524-10fd8f7ebbf9", "")
             {
+                _validatelistsearch = new viethouseRepositoryFolders.ValidateListSearchFolder(this);
                 _txtkeywordsInfo = new RepoItemInfo(this, "txtKeywords", ".//input[#'txtKeywords']", 30000, null, "ef67cfd5-a66f-4d90-bf87-ff41f2546dde");
                 _btnsearchInfo = new RepoItemInfo(this, "btnsearch", ".//tag[#'main']/section[1]/?/?/form[@name='search-form']//button[@innertext=' Tìm kiếm ']", 30000, null, "2d50b3d3-7763-4842-ae93-bc5cba0d806f");
                 _spinsoiltypeInfo = new RepoItemInfo(this, "spinSoilType", ".//div[#'Cate']/div", 30000, null, "83de2626-e5e1-4dbb-9bff-803426dfe85b");
@@ -769,6 +783,185 @@ namespace viethouse
                 get
                 {
                     return _validatetypeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The validateListSearch folder.
+            /// </summary>
+            [RepositoryFolder("af4a5c36-9e5d-4c41-b7eb-10413d92a65a")]
+            public virtual viethouseRepositoryFolders.ValidateListSearchFolder validateListSearch
+            {
+                get { return _validatelistsearch; }
+            }
+        }
+
+        /// <summary>
+        /// The ValidateListSearchFolder folder.
+        /// </summary>
+        [RepositoryFolder("af4a5c36-9e5d-4c41-b7eb-10413d92a65a")]
+        public partial class ValidateListSearchFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _validatelist1Info;
+            RepoItemInfo _validatelist2Info;
+            RepoItemInfo _validatelist3Info;
+            RepoItemInfo _validatelist4Info;
+            RepoItemInfo _validatelist5Info;
+
+            /// <summary>
+            /// Creates a new validateListSearch  folder.
+            /// </summary>
+            public ValidateListSearchFolder(RepoGenBaseFolder parentFolder) :
+                    base("validateListSearch", ".//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul", parentFolder, 30000, null, false, "af4a5c36-9e5d-4c41-b7eb-10413d92a65a", "")
+            {
+                _validatelist1Info = new RepoItemInfo(this, "validateList1", "li[2]/span[@innertext~$validateList]", 30000, null, "f1ccad8e-d24a-4b45-8402-f56147c1509d");
+                _validatelist2Info = new RepoItemInfo(this, "validateList2", "li[3]/span[@innertext~$validateList]", 30000, null, "0cb632c9-9e0a-4934-9e7d-4b0abef8a2f3");
+                _validatelist3Info = new RepoItemInfo(this, "validateList3", "li[4]/span[@innertext~$validateList]", 30000, null, "4b5fb9e6-a979-46c2-863f-7fcb8b687eb9");
+                _validatelist4Info = new RepoItemInfo(this, "validateList4", "li[5]/span[@innertext~$validateList]", 30000, null, "3d426cf6-89f8-4c52-8d7c-49f7c70e5bde");
+                _validatelist5Info = new RepoItemInfo(this, "validateList5", "li[6]/span[@innertext~$validateList]", 30000, null, "667c33bd-b983-4e28-b5e2-8da57b21f2da");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("af4a5c36-9e5d-4c41-b7eb-10413d92a65a")]
+            public virtual Ranorex.UlTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.UlTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("af4a5c36-9e5d-4c41-b7eb-10413d92a65a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The validateList1 item.
+            /// </summary>
+            [RepositoryItem("f1ccad8e-d24a-4b45-8402-f56147c1509d")]
+            public virtual Ranorex.SpanTag validateList1
+            {
+                get
+                {
+                    return _validatelist1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateList1 item info.
+            /// </summary>
+            [RepositoryItemInfo("f1ccad8e-d24a-4b45-8402-f56147c1509d")]
+            public virtual RepoItemInfo validateList1Info
+            {
+                get
+                {
+                    return _validatelist1Info;
+                }
+            }
+
+            /// <summary>
+            /// The validateList2 item.
+            /// </summary>
+            [RepositoryItem("0cb632c9-9e0a-4934-9e7d-4b0abef8a2f3")]
+            public virtual Ranorex.SpanTag validateList2
+            {
+                get
+                {
+                    return _validatelist2Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateList2 item info.
+            /// </summary>
+            [RepositoryItemInfo("0cb632c9-9e0a-4934-9e7d-4b0abef8a2f3")]
+            public virtual RepoItemInfo validateList2Info
+            {
+                get
+                {
+                    return _validatelist2Info;
+                }
+            }
+
+            /// <summary>
+            /// The validateList3 item.
+            /// </summary>
+            [RepositoryItem("4b5fb9e6-a979-46c2-863f-7fcb8b687eb9")]
+            public virtual Ranorex.SpanTag validateList3
+            {
+                get
+                {
+                    return _validatelist3Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateList3 item info.
+            /// </summary>
+            [RepositoryItemInfo("4b5fb9e6-a979-46c2-863f-7fcb8b687eb9")]
+            public virtual RepoItemInfo validateList3Info
+            {
+                get
+                {
+                    return _validatelist3Info;
+                }
+            }
+
+            /// <summary>
+            /// The validateList4 item.
+            /// </summary>
+            [RepositoryItem("3d426cf6-89f8-4c52-8d7c-49f7c70e5bde")]
+            public virtual Ranorex.SpanTag validateList4
+            {
+                get
+                {
+                    return _validatelist4Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateList4 item info.
+            /// </summary>
+            [RepositoryItemInfo("3d426cf6-89f8-4c52-8d7c-49f7c70e5bde")]
+            public virtual RepoItemInfo validateList4Info
+            {
+                get
+                {
+                    return _validatelist4Info;
+                }
+            }
+
+            /// <summary>
+            /// The validateList5 item.
+            /// </summary>
+            [RepositoryItem("667c33bd-b983-4e28-b5e2-8da57b21f2da")]
+            public virtual Ranorex.SpanTag validateList5
+            {
+                get
+                {
+                    return _validatelist5Info.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The validateList5 item info.
+            /// </summary>
+            [RepositoryItemInfo("667c33bd-b983-4e28-b5e2-8da57b21f2da")]
+            public virtual RepoItemInfo validateList5Info
+            {
+                get
+                {
+                    return _validatelist5Info;
                 }
             }
         }

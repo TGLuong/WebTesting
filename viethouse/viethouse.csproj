@@ -261,6 +261,18 @@
       <UserCode>true</UserCode>
       <id>31f0d939-fa75-41bc-be26-cdae1debb136</id>
     </Compile>
+    <Compile Include="MODULE\TimKiem\validate_list.cs">
+      <BoundTo>627fa704-2a98-4940-9d99-fa2e095ca36b</BoundTo>
+      <DependentUpon>validate_list.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2caae0a7-9138-4ea8-9801-784342114feb</id>
+    </Compile>
+    <Compile Include="MODULE\TimKiem\validate_list.UserCode.cs">
+      <BoundTo>627fa704-2a98-4940-9d99-fa2e095ca36b</BoundTo>
+      <DependentUpon>validate_list.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d4fef98e-cdda-49ed-bf84-71f06df5bb3c</id>
+    </Compile>
     <Compile Include="MODULE\TimKiem\validate_search.cs">
       <BoundTo>35bb38c3-5114-482e-b932-fff57c2b7fcb</BoundTo>
       <DependentUpon>validate_search.rxrec</DependentUpon>
@@ -394,6 +406,11 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>c9f2792a-adbc-49f9-bba6-841d9712e710</id>
       <recordtableid>4988d830-dca2-4891-a1b0-27154bc8b465</recordtableid>
+    </None>
+    <None Include="MODULE\TimKiem\validate_list.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>627fa704-2a98-4940-9d99-fa2e095ca36b</id>
+      <recordtableid>34eaa65b-b94c-40a5-82fc-4a224fc57480</recordtableid>
     </None>
     <None Include="MODULE\TimKiem\validate_search.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>

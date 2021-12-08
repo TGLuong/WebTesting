@@ -235,6 +235,12 @@ rxversion="8.3">
 			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="2a40a5fe-860b-4eec-b0da-5c559a6e2ae5"
+			name="start_search"
+			ref="3175bdf5-4448-4e90-993d-879713c6fc12"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
 			name="DangKy">
@@ -522,6 +528,20 @@ rxversion="8.3">
 			name="CapNhatThongTin">
 			</smartfoldernode>
 			<testmodule
+			id="5ea2f991-e0f0-4560-8514-8daaff894534"
+			name="validate_list"
+			ref="34eaa65b-b94c-40a5-82fc-4a224fc57480"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="edtSearch"
+					datasourceid="9cc123a6-4706-4d37-be23-e4da49a73925"
+					variableid="cb8c032d-34be-4178-8ad7-eeaddb9601c4"
+					variablename="validateList">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="5f05b52f-244f-449a-af75-42badee9680d"
 			name="validate_soil_type"
 			ref="d2c2b827-a9df-4f54-a683-e790016c721a"
@@ -585,6 +605,20 @@ rxversion="8.3">
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="656269d9-2507-4a89-a0bb-00febee9d8df"
+			name="insert_search"
+			ref="1811eb31-c2f1-40d7-99bd-512ff8a6f5ea"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="edtSearch"
+					datasourceid="9cc123a6-4706-4d37-be23-e4da49a73925"
+					variableid="c6f0db6a-7d1c-4759-837c-727da26f72a5"
+					variablename="edtSearch">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="66da05cc-9430-46e7-93f7-9ab693078360"
 			name="insert_search"
@@ -1282,6 +1316,11 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="dataTK22"
+			id="cd99bf4e-6055-4c16-a876-867b9dc2dd1e"
+			name="TK22">
+			</testcase>
 			<testmodule
 			id="cdd61068-8ae7-4825-b88c-b2f2202c1e5d"
 			name="selec_soil_type"
@@ -1457,6 +1496,12 @@ rxversion="8.3">
 					variablename="itemSoilType">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="e697df12-9a3f-4fef-8ff2-a5f81643ad22"
+			name="end_search"
+			ref="96a138bc-a702-4489-bb37-e7fa9888151d"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="e6c14f63-da80-457a-a928-c62c32003ada"
@@ -2294,6 +2339,26 @@ rxversion="8.3">
 							name="validate_search">
 							</testmodule>
 						</testcase>
+						<testcase
+						id="cd99bf4e-6055-4c16-a876-867b9dc2dd1e"
+						name="TK22">
+							<testmodule
+							id="e697df12-9a3f-4fef-8ff2-a5f81643ad22"
+							name="end_search">
+							</testmodule>
+							<testmodule
+							id="2a40a5fe-860b-4eec-b0da-5c559a6e2ae5"
+							name="start_search">
+							</testmodule>
+							<testmodule
+							id="656269d9-2507-4a89-a0bb-00febee9d8df"
+							name="insert_search">
+							</testmodule>
+							<testmodule
+							id="5ea2f991-e0f0-4560-8514-8daaff894534"
+							name="validate_list">
+							</testmodule>
+						</testcase>
 					</smartfoldernode>
 				</testcase>
 			</testsuite>
@@ -2534,7 +2599,7 @@ rxversion="8.3">
 		filename="G:\RanorexTesting\WebTesting\data\dataTK.xlsx"
 		id="52d14a39-df46-4858-9e9e-2af9ff07cfa7"
 		includefile="Unchecked"
-		lastknownrowcount="8"
+		lastknownrowcount="11"
 		name="dataTK19"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="dataTK19"
@@ -2623,6 +2688,23 @@ rxversion="8.3">
 				</column>
 				<column>
 					validateSearch
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="G:\RanorexTesting\WebTesting\data\dataTK.xlsx"
+		id="9cc123a6-4706-4d37-be23-e4da49a73925"
+		includefile="Unchecked"
+		lastknownrowcount="6"
+		name="dataTK22"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="dataTK22"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					edtSearch
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -2871,6 +2953,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="c2d8e12b-e4aa-43da-9691-a2fe121ada65">
+			</testcontainer>
+			<testcontainer
+			id="cd99bf4e-6055-4c16-a876-867b9dc2dd1e">
 			</testcontainer>
 			<testcontainer
 			id="d2486f09-a175-4083-98af-46ef649e8e40">

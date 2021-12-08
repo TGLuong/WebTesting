@@ -257,6 +257,64 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='houseviet.vn']//tag[#'main']/article/div/div/div[1]/div[1]/div[@innertext~'^B&#7841;n\ &#273;an']
 			</item>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="af4a5c36-9e5d-4c41-b7eb-10413d92a65a"
+			isrooted="True"
+			name="validateListSearch"
+			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']/div[2]/div[1]/div[1]/div/div/div/div[2]/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="f1ccad8e-d24a-4b45-8402-f56147c1509d"
+				name="validateList1"
+				refimgid="b94fbd1d-d299-4bda-9960-2230c7a0bc95"
+				searchtimeout="30000ms">
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul/li[2]/span[@innertext~$validateList]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0cb632c9-9e0a-4934-9e7d-4b0abef8a2f3"
+				name="validateList2"
+				refimgid="09e1f28c-9df3-4e2e-935f-036b94fb492e"
+				searchtimeout="30000ms">
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul/li[3]/span[@innertext~$validateList]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="4b5fb9e6-a979-46c2-863f-7fcb8b687eb9"
+				name="validateList3"
+				refimgid="067e3751-d8cf-4ef3-bfc7-126f902c4a49"
+				searchtimeout="30000ms">
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul/li[4]/span[@innertext~$validateList]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3d426cf6-89f8-4c52-8d7c-49f7c70e5bde"
+				name="validateList4"
+				refimgid="520106b0-d9a8-48fc-bd29-05916a0b0312"
+				searchtimeout="30000ms">
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul/li[5]/span[@innertext~$validateList]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="667c33bd-b983-4e28-b5e2-8da57b21f2da"
+				name="validateList5"
+				refimgid="8de1a018-6fd1-44d2-9936-c1e2e7942f9e"
+				searchtimeout="30000ms">
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul/li[6]/span[@innertext~$validateList]
+				</item>
+				<basepath>
+					/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']//ul
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='houseviet.vn']
 			</basepath>
@@ -314,6 +372,11 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="2b3fa6de-2378-4320-9585-8cde98cf4a5c"
 		name="itemArea">
 			1
+		</var>
+		<var
+		id="3839a5a7-e5dc-447c-9c4e-6833f66de8af"
+		name="validateList">
+			&#272;&#432;&#7901;ng 30/4, Th&#7911; D&#7847;u M&#7897;t, B&#236;nh D&#432;&#417;ng
 		</var>
 	</variables>
 </repository>
