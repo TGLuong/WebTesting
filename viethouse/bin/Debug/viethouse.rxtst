@@ -369,6 +369,10 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="669ea6d1-0e43-45a6-88a1-241dfbcb2456"
+			name="MatKhauTextBox">
+			</smartfoldernode>
 			<testmodule
 			id="674179eb-3e73-4c94-81a2-650d68e98a71"
 			name="End_update_info"
@@ -1545,6 +1549,10 @@ rxversion="8.3">
 					<smartfoldernode
 					id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
 					name="DangKy">
+						<smartfoldernode
+						id="669ea6d1-0e43-45a6-88a1-241dfbcb2456"
+						name="MatKhauTextBox">
+						</smartfoldernode>
 					</smartfoldernode>
 					<smartfoldernode
 					id="2999c164-9a74-4f6f-9344-5c5089af3a17"
@@ -1560,6 +1568,36 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="03619995-2d3a-4fce-9aa2-c2cdbbd44a28">
+			</testcontainer>
+			<testcontainer
+			id="1e3ba8e1-00b9-4832-b950-edfda1eb27e4">
+			</testcontainer>
+			<testcontainer
+			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8">
+			</testcontainer>
+			<testcontainer
+			id="43885777-724e-41e5-b4f0-fcee6f311b8b">
+			</testcontainer>
+			<testcontainer
+			id="5c576184-9e33-423f-ac24-b40ac062192d">
+			</testcontainer>
+			<testcontainer
+			id="669ea6d1-0e43-45a6-88a1-241dfbcb2456">
+			</testcontainer>
+			<testcontainer
+			id="813c3a57-6983-4483-95b0-4d082afaa190">
+			</testcontainer>
+			<testcontainer
+			id="9d42ae22-4b3c-4296-9fca-9e868c817442">
+			</testcontainer>
+			<testcontainer
+			id="c539bcb3-c1b2-4691-99e7-9de082b10296">
+			</testcontainer>
+			<testcontainer
+			id="f44d36e3-56d3-4b72-b775-e93f9727fa14">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
