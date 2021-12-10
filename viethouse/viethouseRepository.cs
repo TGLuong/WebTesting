@@ -133,6 +133,7 @@ namespace viethouse
             RepoItemInfo _tảilạiInfo;
             RepoItemInfo _thongtintaikhoảnInfo;
             RepoItemInfo _kiểmthửnhom2Info;
+            RepoItemInfo _kiểmthửnhom2xlsxInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoảnGoogleChrome  folder.
@@ -144,6 +145,7 @@ namespace viethouse
                 _tảilạiInfo = new RepoItemInfo(this, "TảiLại", "container[@accessiblename~'^Thông\\ tin\\ tài\\ khoản\\ -\\ Goo']/container[@accessiblename='Google Chrome']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Tải lại']", 30000, null, "ebbb1f96-4707-47b0-ab76-e5c0fd0219e3");
                 _thongtintaikhoảnInfo = new RepoItemInfo(this, "ThongTinTaiKhoản", "container[@accessiblename~'^Thông\\ tin\\ tài\\ khoản\\ -\\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblerole='PageTab' and @title='Thông tin tài khoản' and @index='1']", 30000, null, "62a313e0-ffa9-4850-ad41-7e6ab9a3920c");
                 _kiểmthửnhom2Info = new RepoItemInfo(this, "KiểmThửNhom2", "container[@accessiblename~'^Thông\\ tin\\ tài\\ khoản\\ -\\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Kiểm-thử-nhom-2']", 30000, null, "e8a611c5-98ac-438d-a408-6de362571747");
+                _kiểmthửnhom2xlsxInfo = new RepoItemInfo(this, "KiểmThửNhom2Xlsx", "container[@accessiblename~'^Thông\\ tin\\ tài\\ khoản\\ -\\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Kiểm thử nhóm2.xlsx']", 30000, null, "2453407e-1f0b-49a6-bc03-9662da2a41c6");
             }
 
             /// <summary>
@@ -265,6 +267,30 @@ namespace viethouse
                     return _kiểmthửnhom2Info;
                 }
             }
+
+            /// <summary>
+            /// The KiểmThửNhom2Xlsx item.
+            /// </summary>
+            [RepositoryItem("2453407e-1f0b-49a6-bc03-9662da2a41c6")]
+            public virtual Ranorex.TabPage KiểmThửNhom2Xlsx
+            {
+                get
+                {
+                    return _kiểmthửnhom2xlsxInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The KiểmThửNhom2Xlsx item info.
+            /// </summary>
+            [RepositoryItemInfo("2453407e-1f0b-49a6-bc03-9662da2a41c6")]
+            public virtual RepoItemInfo KiểmThửNhom2XlsxInfo
+            {
+                get
+                {
+                    return _kiểmthửnhom2xlsxInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -292,6 +318,9 @@ namespace viethouse
             RepoItemInfo _select2selectionselect2selectionsin2Info;
             RepoItemInfo _khongtimthấykếtquảInfo;
             RepoItemInfo _somebtagInfo;
+            RepoItemInfo _mainInfo;
+            RepoItemInfo _somebodytagInfo;
+            RepoItemInfo _ewrsheettableInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoản  folder.
@@ -318,6 +347,9 @@ namespace viethouse
                 _select2selectionselect2selectionsin2Info = new RepoItemInfo(this, "Select2SelectionSelect2SelectionSin2", "body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[3]/span/span[1]/span", 30000, null, "f45ea5ee-c1c4-4523-8696-903cabdb7eda");
                 _khongtimthấykếtquảInfo = new RepoItemInfo(this, "KhongTimThấyKếtQuả", ".//ul[#'select2-WardId-results']/li[@innertext='Không tìm thấy kết quả']", 30000, null, "27335b11-3b80-45ba-816e-2c2f4a80e7b4");
                 _somebtagInfo = new RepoItemInfo(this, "SomeBTag", "body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[3]/span//b", 30000, null, "129fbc98-7c8c-4bb5-95bf-1b10d9efa970");
+                _mainInfo = new RepoItemInfo(this, "Main", "?/?/tag[@tagname='main']", 30000, null, "5af38a74-3ae1-4846-8d89-68eaae7b0e8d");
+                _somebodytagInfo = new RepoItemInfo(this, "SomeBodyTag", "body", 30000, null, "54c042b4-548b-4f54-a2d1-7853a52232bc");
+                _ewrsheettableInfo = new RepoItemInfo(this, "EwrSheettable", ".//iframe[#'WebApplicationFrame']//div[#'m_excelWebRenderer_ewaCtl_sheetContentDiv_Flow_1']/div/div[2]/div/canvas[1]", 30000, null, "9d8bb26d-b90d-498b-9644-48da4be5e7e4");
             }
 
             /// <summary>
@@ -799,6 +831,78 @@ namespace viethouse
                     return _somebtagInfo;
                 }
             }
+
+            /// <summary>
+            /// The Main item.
+            /// </summary>
+            [RepositoryItem("5af38a74-3ae1-4846-8d89-68eaae7b0e8d")]
+            public virtual Ranorex.WebElement Main
+            {
+                get
+                {
+                    return _mainInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Main item info.
+            /// </summary>
+            [RepositoryItemInfo("5af38a74-3ae1-4846-8d89-68eaae7b0e8d")]
+            public virtual RepoItemInfo MainInfo
+            {
+                get
+                {
+                    return _mainInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeBodyTag item.
+            /// </summary>
+            [RepositoryItem("54c042b4-548b-4f54-a2d1-7853a52232bc")]
+            public virtual Ranorex.BodyTag SomeBodyTag
+            {
+                get
+                {
+                    return _somebodytagInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeBodyTag item info.
+            /// </summary>
+            [RepositoryItemInfo("54c042b4-548b-4f54-a2d1-7853a52232bc")]
+            public virtual RepoItemInfo SomeBodyTagInfo
+            {
+                get
+                {
+                    return _somebodytagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EwrSheettable item.
+            /// </summary>
+            [RepositoryItem("9d8bb26d-b90d-498b-9644-48da4be5e7e4")]
+            public virtual Ranorex.CanvasTag EwrSheettable
+            {
+                get
+                {
+                    return _ewrsheettableInfo.CreateAdapter<Ranorex.CanvasTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EwrSheettable item info.
+            /// </summary>
+            [RepositoryItemInfo("9d8bb26d-b90d-498b-9644-48da4be5e7e4")]
+            public virtual RepoItemInfo EwrSheettableInfo
+            {
+                get
+                {
+                    return _ewrsheettableInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -808,6 +912,11 @@ namespace viethouse
         public partial class ThongTinTaiKhoản1AppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _thongtintaikhoảnInfo;
+            RepoItemInfo _đăngkyInfo;
+            RepoItemInfo _emailaddressInfo;
+            RepoItemInfo _checkmarkInfo;
+            RepoItemInfo _đăngky1Info;
+            RepoItemInfo _fullnameerrorInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoản1  folder.
@@ -816,6 +925,11 @@ namespace viethouse
                     base("ThongTinTaiKhoản1", "/dom[4]", parentFolder, 30000, null, false, "3828bb29-0a0b-4d65-ba00-02b7d2fba14e", "")
             {
                 _thongtintaikhoảnInfo = new RepoItemInfo(this, "ThongTinTaiKhoản", "body/tag[@tagname='main']/div/div/div[2]/?/?/div[@innertext='Thông tin tài khoản']", 30000, null, "9335f715-6a11-4b65-bce6-61d9f0d7c048");
+                _đăngkyInfo = new RepoItemInfo(this, "ĐăngKy", ".//div[#'top-bar']//a[@innertext='Đăng ký']", 30000, null, "40043e58-b3e3-4173-a77b-993c268e79fb");
+                _emailaddressInfo = new RepoItemInfo(this, "EmailAddress", ".//input[#'EmailAddress']", 30000, null, "9c846c70-4b1b-44a3-8101-8880d992efb9");
+                _checkmarkInfo = new RepoItemInfo(this, "Checkmark", ".//div[#'Hsvn_Modal']/div[2]//form[@name='register-form-modal']/div[6]/label[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']/span", 30000, null, "1f738073-d53b-45a2-8c94-d5603b444a1f");
+                _đăngky1Info = new RepoItemInfo(this, "ĐăngKy1", ".//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/?/?/form[@name='register-form-modal']/button[@innertext='Đăng Ký']", 30000, null, "5fd1a608-4300-43f1-bdb0-152e7635f0a9");
+                _fullnameerrorInfo = new RepoItemInfo(this, "FullNameError", ".//label[#'FullName-error']", 30000, null, "73b85321-c147-4d26-bc0e-8f646a51f0b7");
             }
 
             /// <summary>
@@ -865,6 +979,126 @@ namespace viethouse
                     return _thongtintaikhoảnInfo;
                 }
             }
+
+            /// <summary>
+            /// The ĐăngKy item.
+            /// </summary>
+            [RepositoryItem("40043e58-b3e3-4173-a77b-993c268e79fb")]
+            public virtual Ranorex.ATag ĐăngKy
+            {
+                get
+                {
+                    return _đăngkyInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy item info.
+            /// </summary>
+            [RepositoryItemInfo("40043e58-b3e3-4173-a77b-993c268e79fb")]
+            public virtual RepoItemInfo ĐăngKyInfo
+            {
+                get
+                {
+                    return _đăngkyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddress item.
+            /// </summary>
+            [RepositoryItem("9c846c70-4b1b-44a3-8101-8880d992efb9")]
+            public virtual Ranorex.InputTag EmailAddress
+            {
+                get
+                {
+                    return _emailaddressInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("9c846c70-4b1b-44a3-8101-8880d992efb9")]
+            public virtual RepoItemInfo EmailAddressInfo
+            {
+                get
+                {
+                    return _emailaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Checkmark item.
+            /// </summary>
+            [RepositoryItem("1f738073-d53b-45a2-8c94-d5603b444a1f")]
+            public virtual Ranorex.SpanTag Checkmark
+            {
+                get
+                {
+                    return _checkmarkInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Checkmark item info.
+            /// </summary>
+            [RepositoryItemInfo("1f738073-d53b-45a2-8c94-d5603b444a1f")]
+            public virtual RepoItemInfo CheckmarkInfo
+            {
+                get
+                {
+                    return _checkmarkInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy1 item.
+            /// </summary>
+            [RepositoryItem("5fd1a608-4300-43f1-bdb0-152e7635f0a9")]
+            public virtual Ranorex.ButtonTag ĐăngKy1
+            {
+                get
+                {
+                    return _đăngky1Info.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy1 item info.
+            /// </summary>
+            [RepositoryItemInfo("5fd1a608-4300-43f1-bdb0-152e7635f0a9")]
+            public virtual RepoItemInfo ĐăngKy1Info
+            {
+                get
+                {
+                    return _đăngky1Info;
+                }
+            }
+
+            /// <summary>
+            /// The FullNameError item.
+            /// </summary>
+            [RepositoryItem("73b85321-c147-4d26-bc0e-8f646a51f0b7")]
+            public virtual Ranorex.LabelTag FullNameError
+            {
+                get
+                {
+                    return _fullnameerrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullNameError item info.
+            /// </summary>
+            [RepositoryItemInfo("73b85321-c147-4d26-bc0e-8f646a51f0b7")]
+            public virtual RepoItemInfo FullNameErrorInfo
+            {
+                get
+                {
+                    return _fullnameerrorInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -903,6 +1137,7 @@ namespace viethouse
             RepoItemInfo _phườngxaInfo;
             RepoItemInfo _copy_of_khongtimthấykếtquảInfo;
             RepoItemInfo _khongtimthấykếtquả1Info;
+            RepoItemInfo _divtagcolInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoản2  folder.
@@ -940,6 +1175,7 @@ namespace viethouse
                 _phườngxaInfo = new RepoItemInfo(this, "PhườngXa", ".//span[#'select2-WardId-container']/span[@innertext='Phường / Xã']", 30000, null, "c691710e-1e50-4fed-bb4e-695ac0b55403");
                 _copy_of_khongtimthấykếtquảInfo = new RepoItemInfo(this, "Copy_of_KhongTimThấyKếtQuả", ".//ul[#'select2-WardId-results']/li[@innertext='Không tìm thấy kết quả']", 30000, null, "fa026ae1-7855-4fa2-b88a-40b26258d7bd");
                 _khongtimthấykếtquả1Info = new RepoItemInfo(this, "KhongTimThấyKếtQuả1", ".//ul[#'select2-DistrictId-results']/li[@innertext='Không tìm thấy kết quả']", 30000, null, "9ab9386c-4dbe-4295-a12d-ebc9c4260acb");
+                _divtagcolInfo = new RepoItemInfo(this, "DivTagCol", "body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[4]/div/div/div[2]", 30000, null, "6481287c-c3e2-401d-a44d-a0afbad89c20");
             }
 
             /// <summary>
@@ -1659,6 +1895,30 @@ namespace viethouse
                 get
                 {
                     return _khongtimthấykếtquả1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DivTagCol item.
+            /// </summary>
+            [RepositoryItem("6481287c-c3e2-401d-a44d-a0afbad89c20")]
+            public virtual Ranorex.DivTag DivTagCol
+            {
+                get
+                {
+                    return _divtagcolInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTagCol item info.
+            /// </summary>
+            [RepositoryItemInfo("6481287c-c3e2-401d-a44d-a0afbad89c20")]
+            public virtual RepoItemInfo DivTagColInfo
+            {
+                get
+                {
+                    return _divtagcolInfo;
                 }
             }
 

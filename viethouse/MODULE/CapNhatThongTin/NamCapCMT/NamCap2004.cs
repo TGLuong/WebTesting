@@ -26,7 +26,7 @@ namespace viethouse.MODULE.CapNhatThongTin.NamCapCMT
     /// <summary>
     ///The NamCap2004 recording.
     /// </summary>
-    [TestModule("d6066378-f5ba-4fe4-b307-445bf56361cf", ModuleType.Recording, 1)]
+    [TestModule("b4d302c7-33dd-442a-a3ae-73c1342476aa", ModuleType.Recording, 1)]
     public partial class NamCap2004 : ITestModule
     {
         /// <summary>
@@ -79,8 +79,8 @@ namespace viethouse.MODULE.CapNhatThongTin.NamCapCMT
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.ProfileIssueDate' at 142;20.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(0));
-            repo.ThongTinTaiKhoản2.ProfileIssueDate.Click("142;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.ProfileIssueDate' at 146;22.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(0));
+            repo.ThongTinTaiKhoản2.ProfileIssueDate.Click("146;22");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ThongTinTaiKhoản2.ProfileIssueDate'.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(1));
@@ -88,16 +88,16 @@ namespace viethouse.MODULE.CapNhatThongTin.NamCapCMT
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}1' with focus on 'ThongTinTaiKhoản2.ProfileIssueDate'.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(2));
-            repo.ThongTinTaiKhoản2.ProfileIssueDate.PressKeys("{Back}1");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'ThongTinTaiKhoản2.ProfileIssueDate'.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(2));
+            repo.ThongTinTaiKhoản2.ProfileIssueDate.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '/1/2004' with focus on 'ThongTinTaiKhoản2.ProfileIssueDate'.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(3));
-            repo.ThongTinTaiKhoản2.ProfileIssueDate.PressKeys("/1/2004");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '1/1/2004' with focus on 'ThongTinTaiKhoản2.ProfileIssueDate'.", repo.ThongTinTaiKhoản2.ProfileIssueDateInfo, new RecordItemIndex(3));
+            repo.ThongTinTaiKhoản2.ProfileIssueDate.PressKeys("1/1/2004");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.ChangeInfo' at 91;33.", repo.ThongTinTaiKhoản2.ChangeInfoInfo, new RecordItemIndex(4));
-            repo.ThongTinTaiKhoản2.ChangeInfo.Click("91;33");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.ChangeInfo' at 150;30.", repo.ThongTinTaiKhoản2.ChangeInfoInfo, new RecordItemIndex(4));
+            repo.ThongTinTaiKhoản2.ChangeInfo.Click("150;30");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'ThongTinTaiKhoản2.CậpNhậtThongTinTaiKhoảnThanhCong'.", repo.ThongTinTaiKhoản2.CậpNhậtThongTinTaiKhoảnThanhCongInfo, new RecordItemIndex(5));
