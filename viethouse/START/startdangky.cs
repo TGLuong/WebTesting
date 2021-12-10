@@ -26,7 +26,11 @@ namespace viethouse.START
     /// <summary>
     ///The startdangky recording.
     /// </summary>
+<<<<<<< HEAD
     [TestModule("c373e43e-5f3b-4792-a7fe-fbb3493b2ce7", ModuleType.Recording, 1)]
+=======
+    [TestModule("5a3c4780-acd8-4aba-a032-14874882d56c", ModuleType.Recording, 1)]
+>>>>>>> main
     public partial class startdangky : ITestModule
     {
         /// <summary>
@@ -79,8 +83,13 @@ namespace viethouse.START
 
             Init();
 
+<<<<<<< HEAD
             Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://www.ranorex.com' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
             Host.Current.OpenBrowser("http://www.ranorex.com", "Chrome", "", false, false, false, false, false, true);
+=======
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://houseviet.vn/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://houseviet.vn/", "Chrome", "", false, false, false, false, false, true);
+>>>>>>> main
             Delay.Milliseconds(0);
             
         }

@@ -117,6 +117,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>2faab736-9475-4c19-98b7-c948f627947c</id>
     </Compile>
+    <Compile Include="END\Enddangky.cs">
+      <BoundTo>3c538554-76b6-47ef-acaf-ee9b99b1a486</BoundTo>
+      <DependentUpon>Enddangky.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>12bd73a2-cdc8-45bf-b477-e98504a385ff</id>
+    </Compile>
+    <Compile Include="END\Enddangky.UserCode.cs">
+      <BoundTo>3c538554-76b6-47ef-acaf-ee9b99b1a486</BoundTo>
+      <DependentUpon>Enddangky.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>501c1e9b-f669-40cd-9266-ab3daf850a4e</id>
+    </Compile>
     <Compile Include="END\end_update_info.cs">
       <BoundTo>81918fa6-c9fa-4a5c-874b-88122393f5b8</BoundTo>
       <DependentUpon>end_update_info.rxrec</DependentUpon>
@@ -406,16 +418,16 @@
       <id>f65b0ec6-7797-47b7-8995-06dbfded8e64</id>
     </Compile>
     <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2004.cs">
-      <BoundTo>ee1c0da9-287b-4585-a0b8-c26b380f8e04</BoundTo>
+      <BoundTo>479bdb08-22b5-4857-a65d-83f8b1ac7d46</BoundTo>
       <DependentUpon>NamCap2004.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>d4d5e9f1-b0db-4521-b3f4-d93d0564eb45</id>
+      <id>6ab1f381-b467-4cab-a10c-c48d6eb370b0</id>
     </Compile>
     <Compile Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2004.UserCode.cs">
-      <BoundTo>ee1c0da9-287b-4585-a0b8-c26b380f8e04</BoundTo>
+      <BoundTo>479bdb08-22b5-4857-a65d-83f8b1ac7d46</BoundTo>
       <DependentUpon>NamCap2004.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>7f0e80f0-f229-4f08-9aee-d954066f4b3f</id>
+      <id>e9844da6-64e1-4ef3-bc05-e5e2e4d26c34</id>
     </Compile>
     <Compile Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2002.cs">
       <BoundTo>8d11e74f-6783-4aa3-9b6d-d6ea89c77215</BoundTo>
@@ -452,6 +464,18 @@
       <DependentUpon>NamSinh2004.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>ee5f025a-2924-4e4d-8cf5-6b472cc5094b</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\khonghoten.cs">
+      <BoundTo>e2491f6f-ad5b-463c-a2cc-237b0043a910</BoundTo>
+      <DependentUpon>khonghoten.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>99bc2086-417c-41d7-9edc-efbf133925a1</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\khonghoten.UserCode.cs">
+      <BoundTo>e2491f6f-ad5b-463c-a2cc-237b0043a910</BoundTo>
+      <DependentUpon>khonghoten.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>93e06c70-8b5e-4dd7-b623-8e21683621ef</id>
     </Compile>
     <Compile Include="MODULE\DangKy\Recording1.cs">
       <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
@@ -492,6 +516,18 @@
       <UserCode>true</UserCode>
       <id>0bc60174-509d-4b70-a833-ba413286cb04</id>
     </Compile>
+    <Compile Include="START\startdangky.cs">
+      <BoundTo>0409db73-b177-487a-b1d6-4a36c3c3a0dd</BoundTo>
+      <DependentUpon>startdangky.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ad6d6b4-005e-481a-ba57-763c2c67d800</id>
+    </Compile>
+    <Compile Include="START\startdangky.UserCode.cs">
+      <BoundTo>0409db73-b177-487a-b1d6-4a36c3c3a0dd</BoundTo>
+      <DependentUpon>startdangky.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ecf99742-c306-42d5-8deb-ac5059acd897</id>
+    </Compile>
     <Compile Include="START\start_update_info.cs">
       <BoundTo>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</BoundTo>
       <DependentUpon>start_update_info.rxrec</DependentUpon>
@@ -514,6 +550,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>9b0b2761-811a-424a-a57b-ebd88b95d062</id>
+    </None>
+    <None Include="END\Enddangky.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>3c538554-76b6-47ef-acaf-ee9b99b1a486</id>
+      <recordtableid>80f8e435-db62-4230-97a4-6e72f9cb65aa</recordtableid>
     </None>
     <None Include="END\end_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -637,8 +678,8 @@
     </None>
     <None Include="MODULE\CapNhatThongTin\NamCapCMT\NamCap2004.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
-      <id>ee1c0da9-287b-4585-a0b8-c26b380f8e04</id>
-      <recordtableid>d6066378-f5ba-4fe4-b307-445bf56361cf</recordtableid>
+      <id>479bdb08-22b5-4857-a65d-83f8b1ac7d46</id>
+      <recordtableid>b4d302c7-33dd-442a-a3ae-73c1342476aa</recordtableid>
     </None>
     <None Include="MODULE\CapNhatThongTin\NamSinh\NamSinh2002.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -655,6 +696,11 @@
       <id>c3d9545f-e07b-4887-822a-e70aa6d50475</id>
       <recordtableid>5c467f2d-74fe-45c4-9351-1c5aaf999f63</recordtableid>
     </None>
+    <None Include="MODULE\DangKy\khonghoten.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>e2491f6f-ad5b-463c-a2cc-237b0043a910</id>
+      <recordtableid>2814fff6-e9f3-443a-9cde-cc066e385143</recordtableid>
+    </None>
     <None Include="MODULE\DangKy\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>dc5da82d-7273-4444-b042-64438a1a755f</id>
@@ -669,6 +715,11 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>1051d4ac-7d92-4d8c-b2f6-eac331c8a10d</id>
       <recordtableid>c373e43e-5f3b-4792-a7fe-fbb3493b2ce7</recordtableid>
+    </None>
+    <None Include="START\startdangky.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>0409db73-b177-487a-b1d6-4a36c3c3a0dd</id>
+      <recordtableid>5a3c4780-acd8-4aba-a032-14874882d56c</recordtableid>
     </None>
     <None Include="START\start_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>

@@ -79,36 +79,36 @@ namespace viethouse.MODULE.CapNhatThongTin.DiaChi
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọn' at 19;14.", repo.ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọnInfo, new RecordItemIndex(0));
-            repo.ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọn.Click("19;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọn' at 14;20.", repo.ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọnInfo, new RecordItemIndex(0));
+            repo.ThongTinTaiKhoản2.XoaTấtCảCacMụcĐaChọn.Click("14;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Search' at 130;22.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(1));
-            repo.ThongTinTaiKhoản2.Search.Click("130;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Search' at 51;32.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(1));
+            repo.ThongTinTaiKhoản2.Search.Click("51;32");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Return}' with focus on 'ThongTinTaiKhoản2.Search'.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(2));
             repo.ThongTinTaiKhoản2.Search.PressKeys("{Down}{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Select2DistrictIdContainer' at 222;15.", repo.ThongTinTaiKhoản2.Select2DistrictIdContainerInfo, new RecordItemIndex(3));
-            repo.ThongTinTaiKhoản2.Select2DistrictIdContainer.Click("222;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Select2DistrictIdContainer' at 226;16.", repo.ThongTinTaiKhoản2.Select2DistrictIdContainerInfo, new RecordItemIndex(3));
+            repo.ThongTinTaiKhoản2.Select2DistrictIdContainer.Click("226;16");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Search' at 137;24.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(4));
-            repo.ThongTinTaiKhoản2.Search.Click("137;24");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Search' at 112;27.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(4));
+            repo.ThongTinTaiKhoản2.Search.Click("112;27");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Hoang{Tab}' with focus on 'ThongTinTaiKhoản2.Search'.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(5));
-            repo.ThongTinTaiKhoản2.Search.PressKeys("Hoang{Tab}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Hoang M{Return}' with focus on 'ThongTinTaiKhoản2.Search'.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(5));
+            repo.ThongTinTaiKhoản2.Search.PressKeys("Hoang M{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.PhườngXa' at 142;8.", repo.ThongTinTaiKhoản2.PhườngXaInfo, new RecordItemIndex(6));
-            repo.ThongTinTaiKhoản2.PhườngXa.Click("142;8");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.PhườngXa' at 175;10.", repo.ThongTinTaiKhoản2.PhườngXaInfo, new RecordItemIndex(6));
+            repo.ThongTinTaiKhoản2.PhườngXa.Click("175;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Search' at 110;18.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(7));
-            repo.ThongTinTaiKhoản2.Search.Click("110;18");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản2.Search' at 136;14.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(7));
+            repo.ThongTinTaiKhoản2.Search.Click("136;14");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'abc' with focus on 'ThongTinTaiKhoản2.Search'.", repo.ThongTinTaiKhoản2.SearchInfo, new RecordItemIndex(8));

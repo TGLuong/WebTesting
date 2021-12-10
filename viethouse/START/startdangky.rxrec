@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
+<<<<<<< HEAD
 id="c373e43e-5f3b-4792-a7fe-fbb3493b2ce7"
+=======
+id="5a3c4780-acd8-4aba-a032-14874882d56c"
+>>>>>>> main
 mode="Global"
 rxversion="8.3">
 	<name>
@@ -45,7 +49,11 @@ rxversion="8.3">
 			<bindings>
 			</bindings>
 			<url>
+<<<<<<< HEAD
 				http://www.ranorex.com
+=======
+				https://houseviet.vn/
+>>>>>>> main
 			</url>
 		</openwebsiterecorditem>
 	</recorditems>

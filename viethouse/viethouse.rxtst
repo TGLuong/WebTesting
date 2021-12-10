@@ -61,12 +61,6 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="0c1ae225-8e4b-4ced-8eca-8c2b0a705ffc"
-			name="End_update_info"
-			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
-			type="Recording">
-			</testmodule>
 			<setup
 			id="11b07605-4844-4f07-8d97-a0a63c352a85"
 			name="setup">
@@ -77,6 +71,10 @@ rxversion="8.3">
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="14a2b964-30c8-4113-9675-7b33f98c34b6"
+			name="setup">
+			</setup>
 			<testmodule
 			id="182a5c64-b2d3-44ae-9b00-c138dcd1986c"
 			name="End_update_info"
@@ -201,6 +199,10 @@ rxversion="8.3">
 			ref="84084232-9edf-4792-bc0c-c1a7d8ac17f5"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="36a809b3-0a55-4c7a-bb2e-b548680b8472"
+			name="teardown">
+			</teardown>
 			<smartfoldernode
 			id="388c479a-ff37-4e55-80cf-0681af612782"
 			name="CMT">
@@ -259,6 +261,10 @@ rxversion="8.3">
 			id="429fcc14-13b2-4bf6-a62a-a3078b27d171"
 			name="teardown">
 			</teardown>
+			<teardown
+			id="42c7ef1a-893e-4f63-87d9-e6873fb3909c"
+			name="teardown">
+			</teardown>
 			<testcase
 			id="43885777-724e-41e5-b4f0-fcee6f311b8b"
 			name="TC-HoTen21KyTu">
@@ -288,6 +294,10 @@ rxversion="8.3">
 			<testcase
 			id="4b74edd5-295d-4e61-8335-bb475a0b054b"
 			name="TC-CMT12KyTuSo">
+			</testcase>
+			<testcase
+			id="4cf8ed2f-80d7-4b3b-b41d-f6dc722f36fd"
+			name="NamCap2004">
 			</testcase>
 			<setup
 			id="4f928f1e-0c87-4b0b-9fad-5d6030836a3e"
@@ -324,6 +334,18 @@ rxversion="8.3">
 			name="setup">
 			</setup>
 			<testmodule
+			id="57082618-1c3d-47e2-98c4-65ad6a20649a"
+			name="End_update_info"
+			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="57243fb5-4645-4fee-81aa-8859c44ea90f"
+			name="khonghoten"
+			ref="2814fff6-e9f3-443a-9cde-cc066e385143"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="5795124c-53e3-410c-8011-f5fd8c97b181"
 			name="start_update_info"
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
@@ -353,6 +375,10 @@ rxversion="8.3">
 			ref="f04e989a-b9a9-43fa-997b-2b8e23dfd5bf"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="5edb5187-bc31-4720-9034-9323a53c3bc6"
+			name="TC-KhongHoTen">
+			</testcase>
 			<testmodule
 			id="633af1ff-2fad-43c3-b306-da03e3bbe05a"
 			name="NamCap2002"
@@ -400,6 +426,12 @@ rxversion="8.3">
 			name="setup">
 			</setup>
 			<testmodule
+			id="6e1bc1b1-57d6-4945-9949-0de7a5714bae"
+			name="NamCap2004"
+			ref="b4d302c7-33dd-442a-a3ae-73c1342476aa"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="6ebb98d4-7569-4f40-ad5f-1674beffcee7"
 			name="CMT13KyTuSo"
 			ref="8a92f91d-17d6-4138-afe5-051449f69d28"
@@ -425,10 +457,6 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="7d56f1ce-8283-4de0-bee9-3d4b94e8fc39"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="7e5d21c9-735a-4b05-bdc6-ad1032ac7e4f"
 			name="End_update_info"
@@ -453,12 +481,6 @@ rxversion="8.3">
 			id="80f93851-f0e0-46b8-9224-830f58bff9de"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="810874f4-18e9-48d7-b396-073508af9519"
-			name="start_update_info"
-			ref="37a77da8-856a-405a-972c-ea2ede340876"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="813c3a57-6983-4483-95b0-4d082afaa190"
 			name="TC-HoTen20KyTu">
@@ -652,6 +674,10 @@ rxversion="8.3">
 			ref="2840f7ca-345c-4b0a-b94f-b11203a506ed"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="c2da1fea-6060-4233-8994-2dd02e9445e0"
+			name="setup">
+			</setup>
 			<testcase
 			id="c539bcb3-c1b2-4691-99e7-9de082b10296"
 			name="TC-HoTen19KyTu">
@@ -660,6 +686,12 @@ rxversion="8.3">
 			id="c5e17be4-6bdd-411b-b1c5-1d2832208453"
 			name="CMT10KyTuSo"
 			ref="989035d6-eec1-4009-ab2a-ee660a4c0fc3"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="c73332d1-5276-4b76-85ac-966afd0650eb"
+			name="start_update_info"
+			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -762,6 +794,12 @@ rxversion="8.3">
 			id="dbd986a6-6d62-4bdc-800c-3717b0414c53"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="e085fae6-979d-4b02-aa88-0a9e50c7e64b"
+			name="Enddangky"
+			ref="80f8e435-db62-4230-97a4-6e72f9cb65aa"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="e1388142-684b-4a06-b70f-32a31e04bd83"
 			name="TC-PhuongXaSai">
@@ -802,10 +840,6 @@ rxversion="8.3">
 			ref="76d8899a-7543-4a8a-b959-7d3d13c6a54e"
 			type="Recording">
 			</testmodule>
-			<testcase
-			id="edb3fe73-7948-4935-8877-564216aeb5db"
-			name="NamCap2004">
-			</testcase>
 			<testmodule
 			id="ee62f48c-2472-4f63-a29e-3001d1e4185d"
 			name="TinhSai"
@@ -818,10 +852,12 @@ rxversion="8.3">
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
-			<setup
-			id="f2964f73-0b65-4c38-9404-7235bd77c65a"
-			name="setup">
-			</setup>
+			<testmodule
+			id="f07366bc-6f29-4d97-a013-96f9a2334ca0"
+			name="startdangky"
+			ref="5a3c4780-acd8-4aba-a032-14874882d56c"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="f44d36e3-56d3-4b72-b775-e93f9727fa14"
 			name="TC-HoTen10KyTu">
@@ -1201,26 +1237,6 @@ rxversion="8.3">
 								</teardown>
 							</testcase>
 							<testcase
-							id="edb3fe73-7948-4935-8877-564216aeb5db"
-							name="NamCap2004">
-								<setup
-								id="f2964f73-0b65-4c38-9404-7235bd77c65a"
-								name="setup">
-									<testmodule
-									id="810874f4-18e9-48d7-b396-073508af9519"
-									name="start_update_info">
-									</testmodule>
-								</setup>
-								<teardown
-								id="7d56f1ce-8283-4de0-bee9-3d4b94e8fc39"
-								name="teardown">
-									<testmodule
-									id="0c1ae225-8e4b-4ced-8eca-8c2b0a705ffc"
-									name="End_update_info">
-									</testmodule>
-								</teardown>
-							</testcase>
-							<testcase
 							id="88a7f89d-ce79-4bd3-876c-ffd14fdddb5f"
 							name="NamCap2002">
 								<setup
@@ -1240,6 +1256,30 @@ rxversion="8.3">
 								name="teardown">
 									<testmodule
 									id="956964c8-343a-4049-a526-499790a312e1"
+									name="End_update_info">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="4cf8ed2f-80d7-4b3b-b41d-f6dc722f36fd"
+							name="NamCap2004">
+								<setup
+								id="14a2b964-30c8-4113-9675-7b33f98c34b6"
+								name="setup">
+									<testmodule
+									id="c73332d1-5276-4b76-85ac-966afd0650eb"
+									name="start_update_info">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="6e1bc1b1-57d6-4945-9949-0de7a5714bae"
+								name="NamCap2004">
+								</testmodule>
+								<teardown
+								id="36a809b3-0a55-4c7a-bb2e-b548680b8472"
+								name="teardown">
+									<testmodule
+									id="57082618-1c3d-47e2-98c4-65ad6a20649a"
 									name="End_update_info">
 									</testmodule>
 								</teardown>
@@ -1549,10 +1589,37 @@ rxversion="8.3">
 					<smartfoldernode
 					id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
 					name="DangKy">
+<<<<<<< HEAD
 						<smartfoldernode
 						id="669ea6d1-0e43-45a6-88a1-241dfbcb2456"
 						name="MatKhauTextBox">
 						</smartfoldernode>
+=======
+						<testcase
+						id="5edb5187-bc31-4720-9034-9323a53c3bc6"
+						name="TC-KhongHoTen">
+							<setup
+							id="c2da1fea-6060-4233-8994-2dd02e9445e0"
+							name="setup">
+								<testmodule
+								id="f07366bc-6f29-4d97-a013-96f9a2334ca0"
+								name="startdangky">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="57243fb5-4645-4fee-81aa-8859c44ea90f"
+							name="khonghoten">
+							</testmodule>
+							<teardown
+							id="42c7ef1a-893e-4f63-87d9-e6873fb3909c"
+							name="teardown">
+								<testmodule
+								id="e085fae6-979d-4b02-aa88-0a9e50c7e64b"
+								name="Enddangky">
+								</testmodule>
+							</teardown>
+						</testcase>
+>>>>>>> main
 					</smartfoldernode>
 					<smartfoldernode
 					id="2999c164-9a74-4f6f-9344-5c5089af3a17"
@@ -1572,30 +1639,128 @@ rxversion="8.3">
 			id="03619995-2d3a-4fce-9aa2-c2cdbbd44a28">
 			</testcontainer>
 			<testcontainer
+<<<<<<< HEAD
 			id="1e3ba8e1-00b9-4832-b950-edfda1eb27e4">
 			</testcontainer>
 			<testcontainer
 			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8">
+=======
+			id="0605d940-2acc-44fe-ac0a-0bf7d7421775">
+			</testcontainer>
+			<testcontainer
+			id="1c4d6dcb-0a6e-48f1-a8fe-c21c14950f19">
+			</testcontainer>
+			<testcontainer
+			id="1e3ba8e1-00b9-4832-b950-edfda1eb27e4">
+			</testcontainer>
+			<testcontainer
+			id="20828260-6f70-4428-8968-c6d537094c9c">
+			</testcontainer>
+			<testcontainer
+			id="236d2bbc-e736-44e0-a794-03c5196b56d5">
+			</testcontainer>
+			<testcontainer
+			id="23bf6c60-579c-4d0e-9c13-10d2fc398a39">
+			</testcontainer>
+			<testcontainer
+			id="241b5c6d-b610-455c-9f54-49c98f844299">
+			</testcontainer>
+			<testcontainer
+			id="26efa5be-cff6-4e25-b7a5-9330d3d8d5d3">
+			</testcontainer>
+			<testcontainer
+			id="388c479a-ff37-4e55-80cf-0681af612782">
+			</testcontainer>
+			<testcontainer
+			id="3c273540-18b4-48ad-b9c8-2bce32a4c29c">
+			</testcontainer>
+			<testcontainer
+			id="3e0c096d-158b-44c5-8a53-68734fdb40f5">
+			</testcontainer>
+			<testcontainer
+			id="3f11cf69-3c38-48ed-990a-d0beaeca14a5">
+			</testcontainer>
+			<testcontainer
+			id="4016a67f-fa6c-4440-b380-5783cfd4dd0c">
+>>>>>>> main
 			</testcontainer>
 			<testcontainer
 			id="43885777-724e-41e5-b4f0-fcee6f311b8b">
 			</testcontainer>
 			<testcontainer
+<<<<<<< HEAD
 			id="5c576184-9e33-423f-ac24-b40ac062192d">
 			</testcontainer>
 			<testcontainer
 			id="669ea6d1-0e43-45a6-88a1-241dfbcb2456">
+=======
+			id="4b18a877-aab7-4cb2-b6a9-d94dd7442a16">
+			</testcontainer>
+			<testcontainer
+			id="4b74edd5-295d-4e61-8335-bb475a0b054b">
+			</testcontainer>
+			<testcontainer
+			id="4cf8ed2f-80d7-4b3b-b41d-f6dc722f36fd">
+			</testcontainer>
+			<testcontainer
+			id="508d3d54-5552-498c-9cba-9186645d65dc">
+			</testcontainer>
+			<testcontainer
+			id="5c576184-9e33-423f-ac24-b40ac062192d">
+			</testcontainer>
+			<testcontainer
+			id="6459316d-be2c-4d65-a7af-f34a5fdb7d5e">
+			</testcontainer>
+			<testcontainer
+			id="7426d65d-36ab-4986-bc20-4bd3b2e4cfd9">
+			</testcontainer>
+			<testcontainer
+			id="7e73f294-d6a8-40a8-8bac-560557f0c6aa">
+>>>>>>> main
 			</testcontainer>
 			<testcontainer
 			id="813c3a57-6983-4483-95b0-4d082afaa190">
 			</testcontainer>
 			<testcontainer
+<<<<<<< HEAD
 			id="9d42ae22-4b3c-4296-9fca-9e868c817442">
 			</testcontainer>
 			<testcontainer
 			id="c539bcb3-c1b2-4691-99e7-9de082b10296">
 			</testcontainer>
 			<testcontainer
+=======
+			id="88a7f89d-ce79-4bd3-876c-ffd14fdddb5f">
+			</testcontainer>
+			<testcontainer
+			id="8ac11262-d6da-4bbc-8727-a2285caa3373">
+			</testcontainer>
+			<testcontainer
+			id="9c344e46-dcaa-46ac-8770-50bc734f286b">
+			</testcontainer>
+			<testcontainer
+			id="9d42ae22-4b3c-4296-9fca-9e868c817442">
+			</testcontainer>
+			<testcontainer
+			id="a6dc7c23-ebf6-4049-8655-9d6a41e264f4">
+			</testcontainer>
+			<testcontainer
+			id="be03944f-26a9-4ccf-98f2-12ea0c4fbf54">
+			</testcontainer>
+			<testcontainer
+			id="be90438f-0a11-4183-b0ff-b2ef7ccb1851">
+			</testcontainer>
+			<testcontainer
+			id="c539bcb3-c1b2-4691-99e7-9de082b10296">
+			</testcontainer>
+			<testcontainer
+			id="daef977b-72d9-4538-9624-2c4324471025">
+			</testcontainer>
+			<testcontainer
+			id="e1388142-684b-4a06-b70f-32a31e04bd83">
+			</testcontainer>
+			<testcontainer
+>>>>>>> main
 			id="f44d36e3-56d3-4b72-b775-e93f9727fa14">
 			</testcontainer>
 		</testconfiguration>

@@ -62,6 +62,16 @@ rxversion="8.3">
 			searchtimeout="30000ms">
 				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Ki&#7875;m-th&#7917;-nhom-2']
 			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="2453407e-1f0b-49a6-bc03-9662da2a41c6"
+			name="KiểmThửNhom2Xlsx"
+			refimgid="b85e351a-858c-4190-a056-d5ed9b09b05f"
+			refpath="/form[@title~'^Thông\ tin\ tài\ khoản\ -\ Goo']/container/container/container/container[2]/container[1]/tabpagelist/container[1]/tabpage[@accessiblename='Kiểm thử nhóm2.xlsx']"
+			searchtimeout="30000ms">
+				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]//tabpage[@accessiblename='Ki&#7875;m th&#7917; nh&#243;m2.xlsx']
+			</item>
 			<basepath>
 				/form[@title~'^Th&#244;ng\ tin\ t&#224;i\ kho&#7843;n\ -\ Goo']
 			</basepath>
@@ -283,6 +293,35 @@ gg==
 			searchtimeout="30000ms">
 				/dom[3]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[3]/span//b
 			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="5af38a74-3ae1-4846-8d89-68eaae7b0e8d"
+			name="Main"
+			refimgid="759d3b53-fb81-4abc-ae11-3f37c7920c6a"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']"
+			searchtimeout="30000ms">
+				/dom[3]/?/?/tag[@tagname='main']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="54c042b4-548b-4f54-a2d1-7853a52232bc"
+			name="SomeBodyTag"
+			refimgid="5e126cd7-c9d6-4f19-8b51-16692832e867"
+			searchtimeout="30000ms">
+				/dom[3]/body
+			</item>
+			<item
+			addcaps="unknown,webelement,canvastag"
+			capname="canvastag"
+			id="9d8bb26d-b90d-498b-9644-48da4be5e7e4"
+			name="EwrSheettable"
+			refimgid="25198813-f82e-4a9b-acab-fe819a5fe6ff"
+			refpath="/dom[@domain='actvneduvn-my.sharepoint.com']//iframe[#'WebApplicationFrame']//div[#'m_excelWebRenderer_ewaCtl_sheetContentDiv_Flow_1']/div/div[2]/div/canvas[1]"
+			searchtimeout="30000ms">
+				/dom[3]//iframe[#'WebApplicationFrame']//div[#'m_excelWebRenderer_ewaCtl_sheetContentDiv_Flow_1']/div/div[2]/div/canvas[1]
+			</item>
 			<basepath>
 				/dom[3]
 			</basepath>
@@ -320,6 +359,56 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			refpath="/dom[4]/body/tag[@tagname='main']/div/div/div[2]/div/div[@innertext='Thông tin tài khoản']"
 			searchtimeout="30000ms">
 				/dom[4]/body/tag[@tagname='main']/div/div/div[2]/?/?/div[@innertext='Th&#244;ng tin t&#224;i kho&#7843;n']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="40043e58-b3e3-4173-a77b-993c268e79fb"
+			name="ĐăngKy"
+			refimgid="3a5f7998-dc0d-4075-9fd1-5c982e09374c"
+			refpath="/dom[@domain='houseviet.vn']//div[#'top-bar']/div/div[2]/a[@innertext='Đăng ký']"
+			searchtimeout="30000ms">
+				/dom[4]//div[#'top-bar']//a[@innertext='&#272;&#259;ng k&#253;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9c846c70-4b1b-44a3-8101-8880d992efb9"
+			name="EmailAddress"
+			refimgid="7ff50740-483d-4972-97a7-d2e205a7ea9e"
+			refpath="/dom[@domain='houseviet.vn']//input[#'EmailAddress']"
+			searchtimeout="30000ms">
+				/dom[4]//input[#'EmailAddress']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1f738073-d53b-45a2-8c94-d5603b444a1f"
+			name="Checkmark"
+			refimgid="4127a473-176f-492c-80c3-1fc0008b1240"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/div/form/div[6]/label/span"
+			searchtimeout="30000ms">
+				/dom[4]//div[#'Hsvn_Modal']/div[2]//form[@name='register-form-modal']/div[6]/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']/span
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="5fd1a608-4300-43f1-bdb0-152e7635f0a9"
+			name="ĐăngKy1"
+			refimgid="dcee0d61-dc88-4a89-8f1e-7549c95510eb"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/div/form/button[@innertext='Đăng Ký']"
+			searchtimeout="30000ms">
+				/dom[4]//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/?/?/form[@name='register-form-modal']/button[@innertext='&#272;&#259;ng K&#253;']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="73b85321-c147-4d26-bc0e-8f646a51f0b7"
+			name="FullNameError"
+			refimgid="914425a5-6d76-4ba2-9d0b-9dba7ea511fa"
+			refpath="/dom[@domain='houseviet.vn']//label[#'FullName-error']"
+			searchtimeout="30000ms">
+				/dom[4]//label[#'FullName-error']
 			</item>
 			<basepath>
 				/dom[4]
@@ -676,6 +765,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			refpath="/dom[@domain='houseviet.vn']//ul[#'select2-DistrictId-results']/li[@innertext='Không tìm thấy kết quả']"
 			searchtimeout="30000ms">
 				/dom[2]//ul[#'select2-DistrictId-results']/li[@innertext='Kh&#244;ng t&#236;m th&#7845;y k&#7871;t qu&#7843;']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="6481287c-c3e2-401d-a44d-a0afbad89c20"
+			name="DivTagCol"
+			refimgid="17bb3549-2838-4560-aa0d-b4ca81e428fa"
+			refpath="/dom[@domain='houseviet.vn']/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form/div[4]/div/div/div[2]"
+			searchtimeout="30000ms">
+				/dom[2]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[4]/div/div/div[2]
 			</item>
 			<basepath>
 				/dom[2]
