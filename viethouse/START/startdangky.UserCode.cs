@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace viethouse.START
 {
-    public partial class login_updateinfo
+    public partial class startdangky
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
