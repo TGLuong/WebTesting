@@ -17,6 +17,12 @@ rxversion="8.3">
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="02176ec5-b5ec-46e0-8c01-3c56852afc71"
+			name="KhongNhapMatKhau"
+			ref="ff41e5aa-f985-4558-9383-ceeddd21b9cf"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="03619995-2d3a-4fce-9aa2-c2cdbbd44a28"
 			name="TC-BoTrongHoTen">
@@ -47,6 +53,12 @@ rxversion="8.3">
 			id="07419a35-c2ea-46fb-8847-bfd1e9d225e7"
 			name="PhuongXa"
 			ref="7e011c5d-0d12-4468-a9c4-f413836b8079"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="07a631be-65ac-441d-9334-e92bf63634c2"
+			name="enddangky"
+			ref="d62df46f-c213-4a08-91fd-2bf0f4ef9f35"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -87,6 +99,16 @@ rxversion="8.3">
 			id="19d2ca42-8681-4cb0-ba4e-c7aa63130b3e"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="1af0aff5-8ac7-4ea0-b525-f5aabc727f98"
+			name="enddangky"
+			ref="d62df46f-c213-4a08-91fd-2bf0f4ef9f35"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="1b848c01-aae0-4bc7-8b4b-c4a71e7ad237"
+			name="setup">
+			</setup>
 			<teardown
 			id="1c0e2315-65bb-4f77-989d-199a2a56c323"
 			name="teardown">
@@ -169,6 +191,10 @@ rxversion="8.3">
 			id="29cff627-fc52-4eb8-89ad-ee7e9fa17b51"
 			name="setup">
 			</setup>
+			<smartfoldernode
+			id="2a7bc598-db10-4388-bf18-941ebbcf7ecf"
+			name="MatKhauTextBox">
+			</smartfoldernode>
 			<smartfoldernode
 			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
 			name="DangKy">
@@ -407,6 +433,10 @@ rxversion="8.3">
 			ref="66aa08c4-1cdb-4725-9e93-6979ef4bb4ba"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="71d4b8e1-7210-4fc4-bfa7-d04fa9596b23"
+			name="teardown">
+			</teardown>
 			<setup
 			id="73eb1e5e-d673-4721-8dbc-69fca416f5e8"
 			name="setup">
@@ -419,6 +449,12 @@ rxversion="8.3">
 			id="79bb7345-f677-454e-8074-8412b5d30e09"
 			name="start_update_info"
 			ref="37a77da8-856a-405a-972c-ea2ede340876"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="7b3d7309-9346-417e-aa24-51bca2387b76"
+			name="startdangky"
+			ref="86ceb14e-f9ef-41ae-9568-df83f53b1062"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -546,6 +582,12 @@ rxversion="8.3">
 			id="a0beea87-da23-4e87-8c25-126b4314e7ff"
 			name="setup">
 			</setup>
+			<testmodule
+			id="a12da054-be92-4aa2-beea-950a786b831d"
+			name="MaHoaMatKhau"
+			ref="79f12f0e-648f-4152-b505-5e1c15ebf2f3"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="a5c49789-2742-4ed3-8197-a0b43d1b153d"
 			name="teardown">
@@ -588,6 +630,10 @@ rxversion="8.3">
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="b36473e6-4266-4aa5-aa68-0503e69583c9"
+			name="setup">
+			</setup>
 			<testmodule
 			id="b4153234-6ce2-4311-b21a-09068d133dcd"
 			name="End_update_info"
@@ -602,6 +648,12 @@ rxversion="8.3">
 			id="b7baccbd-90fd-4e1d-b9f5-81a512a446a4"
 			name="End_update_info"
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b80c473a-c944-4780-94f5-722f44f5454f"
+			name="startdangky"
+			ref="86ceb14e-f9ef-41ae-9568-df83f53b1062"
 			type="Recording">
 			</testmodule>
 			<setup
@@ -718,6 +770,10 @@ rxversion="8.3">
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="d42627d4-fbea-43b0-9e4d-20b8f4bb8194"
+			name="TC-MaHoaMatKhau">
+			</testcase>
 			<testmodule
 			id="d49bcf33-f35c-4005-ae87-effcc880650d"
 			name="start_update_info"
@@ -740,6 +796,10 @@ rxversion="8.3">
 			ref="e213a0f9-50d3-4ca3-9337-1b99a86cc366"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="d884f3ff-ce60-418b-8572-1eaf58e86a11"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="d88cfc43-5577-4785-969c-9b4b3f9bfc57"
 			name="End_update_info"
@@ -826,6 +886,10 @@ rxversion="8.3">
 			id="f45858ce-435f-444d-bec4-c46f3a58223b"
 			name="teardown">
 			</teardown>
+			<testcase
+			id="f46056af-5aa4-4de5-9c72-7036b4fadbd6"
+			name="TC-KhongNhapMatKhau">
+			</testcase>
 			<teardown
 			id="f6f6514f-3c0b-47b0-ace9-c8c2796fc6bc"
 			name="teardown">
@@ -1545,6 +1609,58 @@ rxversion="8.3">
 					<smartfoldernode
 					id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8"
 					name="DangKy">
+						<smartfoldernode
+						id="2a7bc598-db10-4388-bf18-941ebbcf7ecf"
+						name="MatKhauTextBox">
+							<testcase
+							id="f46056af-5aa4-4de5-9c72-7036b4fadbd6"
+							name="TC-KhongNhapMatKhau">
+								<setup
+								id="b36473e6-4266-4aa5-aa68-0503e69583c9"
+								name="setup">
+									<testmodule
+									id="b80c473a-c944-4780-94f5-722f44f5454f"
+									name="startdangky">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="02176ec5-b5ec-46e0-8c01-3c56852afc71"
+								name="KhongNhapMatKhau">
+								</testmodule>
+								<teardown
+								id="d884f3ff-ce60-418b-8572-1eaf58e86a11"
+								name="teardown">
+									<testmodule
+									id="1af0aff5-8ac7-4ea0-b525-f5aabc727f98"
+									name="enddangky">
+									</testmodule>
+								</teardown>
+							</testcase>
+							<testcase
+							id="d42627d4-fbea-43b0-9e4d-20b8f4bb8194"
+							name="TC-MaHoaMatKhau">
+								<setup
+								id="1b848c01-aae0-4bc7-8b4b-c4a71e7ad237"
+								name="setup">
+									<testmodule
+									id="7b3d7309-9346-417e-aa24-51bca2387b76"
+									name="startdangky">
+									</testmodule>
+								</setup>
+								<testmodule
+								id="a12da054-be92-4aa2-beea-950a786b831d"
+								name="MaHoaMatKhau">
+								</testmodule>
+								<teardown
+								id="71d4b8e1-7210-4fc4-bfa7-d04fa9596b23"
+								name="teardown">
+									<testmodule
+									id="07a631be-65ac-441d-9334-e92bf63634c2"
+									name="enddangky">
+									</testmodule>
+								</teardown>
+							</testcase>
+						</smartfoldernode>
 					</smartfoldernode>
 					<smartfoldernode
 					id="2999c164-9a74-4f6f-9344-5c5089af3a17"
@@ -1560,6 +1676,21 @@ rxversion="8.3">
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
+			<testcontainer
+			id="2a7bc598-db10-4388-bf18-941ebbcf7ecf">
+			</testcontainer>
+			<testcontainer
+			id="2b714f6e-a2a0-4b9d-adb0-970acca1bed8">
+			</testcontainer>
+			<testcontainer
+			id="9d42ae22-4b3c-4296-9fca-9e868c817442">
+			</testcontainer>
+			<testcontainer
+			id="d42627d4-fbea-43b0-9e4d-20b8f4bb8194">
+			</testcontainer>
+			<testcontainer
+			id="f46056af-5aa4-4de5-9c72-7036b4fadbd6">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>

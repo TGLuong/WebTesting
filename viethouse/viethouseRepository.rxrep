@@ -283,6 +283,66 @@ gg==
 			searchtimeout="30000ms">
 				/dom[3]/body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[3]/span//b
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="06b9bd86-477d-4d3d-a195-f9a06e3f897e"
+			name="ĐăngKy"
+			refimgid="7347b88c-516e-41a5-9928-3ac7ada66af2"
+			refpath="/dom[@domain='houseviet.vn']//div[#'top-bar']/div/div[2]/a[@innertext='Đăng ký']"
+			searchtimeout="30000ms">
+				/dom[3]//div[#'top-bar']//a[@innertext='&#272;&#259;ng k&#253;']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e4a0986b-c5d7-49fc-bb48-2fcb3ad0b25a"
+			name="FullName"
+			refimgid="47079405-3877-45f0-9451-8ecdce1edc77"
+			refpath="/dom[@domain='houseviet.vn']//input[#'FullName']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'FullName']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ea6a1f77-8d1b-46db-bdbb-9f8cfd3cdbae"
+			name="Checkmark"
+			refimgid="ce417324-5809-441c-b619-6ad53548356f"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/div/form/div[6]/label/span"
+			searchtimeout="30000ms">
+				/dom[3]//div[#'Hsvn_Modal']/div[2]//form[@name='register-form-modal']/div[6]/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']/span
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="d276ca4d-3164-4b66-9939-b37a119304f0"
+			name="ĐăngKy1"
+			refimgid="c32a0601-d4df-46ca-a752-6e7185cb7bfb"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/div/form/button[@innertext='Đăng Ký']"
+			searchtimeout="30000ms">
+				/dom[3]//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/?/?/form[@name='register-form-modal']/button[@innertext='&#272;&#259;ng K&#253;']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="bbcf139d-560f-4627-96fd-4e5255f68661"
+			name="RegModalPasswordError"
+			refimgid="c7d0f1d4-ff5d-4988-a482-d7b4237394cd"
+			refpath="/dom[@domain='houseviet.vn']//label[#'RegModalPassword-error']"
+			searchtimeout="30000ms">
+				/dom[3]//label[#'RegModalPassword-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="82f2dabc-8a27-474b-8466-a09a5826a5dd"
+			name="RegModalPassword"
+			refimgid="2a99f5e0-9342-4047-9a15-dfef718d7e8b"
+			refpath="/dom[@domain='houseviet.vn']//input[#'RegModalPassword']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'RegModalPassword']
+			</item>
 			<basepath>
 				/dom[3]
 			</basepath>

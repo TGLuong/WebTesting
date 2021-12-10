@@ -292,6 +292,12 @@ namespace viethouse
             RepoItemInfo _select2selectionselect2selectionsin2Info;
             RepoItemInfo _khongtimthấykếtquảInfo;
             RepoItemInfo _somebtagInfo;
+            RepoItemInfo _đăngkyInfo;
+            RepoItemInfo _fullnameInfo;
+            RepoItemInfo _checkmarkInfo;
+            RepoItemInfo _đăngky1Info;
+            RepoItemInfo _regmodalpassworderrorInfo;
+            RepoItemInfo _regmodalpasswordInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoản  folder.
@@ -318,6 +324,12 @@ namespace viethouse
                 _select2selectionselect2selectionsin2Info = new RepoItemInfo(this, "Select2SelectionSelect2SelectionSin2", "body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[3]/span/span[1]/span", 30000, null, "f45ea5ee-c1c4-4523-8696-903cabdb7eda");
                 _khongtimthấykếtquảInfo = new RepoItemInfo(this, "KhongTimThấyKếtQuả", ".//ul[#'select2-WardId-results']/li[@innertext='Không tìm thấy kết quả']", 30000, null, "27335b11-3b80-45ba-816e-2c2f4a80e7b4");
                 _somebtagInfo = new RepoItemInfo(this, "SomeBTag", "body/tag[@tagname='main']/div/div/div[2]/div/div[2]/form[@name='change-info']/div[7]/div/div/div[3]/span//b", 30000, null, "129fbc98-7c8c-4bb5-95bf-1b10d9efa970");
+                _đăngkyInfo = new RepoItemInfo(this, "ĐăngKy", ".//div[#'top-bar']//a[@innertext='Đăng ký']", 30000, null, "06b9bd86-477d-4d3d-a195-f9a06e3f897e");
+                _fullnameInfo = new RepoItemInfo(this, "FullName", ".//input[#'FullName']", 30000, null, "e4a0986b-c5d7-49fc-bb48-2fcb3ad0b25a");
+                _checkmarkInfo = new RepoItemInfo(this, "Checkmark", ".//div[#'Hsvn_Modal']/div[2]//form[@name='register-form-modal']/div[6]/label[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']/span", 30000, null, "ea6a1f77-8d1b-46db-bdbb-9f8cfd3cdbae");
+                _đăngky1Info = new RepoItemInfo(this, "ĐăngKy1", ".//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/?/?/form[@name='register-form-modal']/button[@innertext='Đăng Ký']", 30000, null, "d276ca4d-3164-4b66-9939-b37a119304f0");
+                _regmodalpassworderrorInfo = new RepoItemInfo(this, "RegModalPasswordError", ".//label[#'RegModalPassword-error']", 30000, null, "bbcf139d-560f-4627-96fd-4e5255f68661");
+                _regmodalpasswordInfo = new RepoItemInfo(this, "RegModalPassword", ".//input[#'RegModalPassword']", 30000, null, "82f2dabc-8a27-474b-8466-a09a5826a5dd");
             }
 
             /// <summary>
@@ -797,6 +809,150 @@ namespace viethouse
                 get
                 {
                     return _somebtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy item.
+            /// </summary>
+            [RepositoryItem("06b9bd86-477d-4d3d-a195-f9a06e3f897e")]
+            public virtual Ranorex.ATag ĐăngKy
+            {
+                get
+                {
+                    return _đăngkyInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy item info.
+            /// </summary>
+            [RepositoryItemInfo("06b9bd86-477d-4d3d-a195-f9a06e3f897e")]
+            public virtual RepoItemInfo ĐăngKyInfo
+            {
+                get
+                {
+                    return _đăngkyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FullName item.
+            /// </summary>
+            [RepositoryItem("e4a0986b-c5d7-49fc-bb48-2fcb3ad0b25a")]
+            public virtual Ranorex.InputTag FullName
+            {
+                get
+                {
+                    return _fullnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullName item info.
+            /// </summary>
+            [RepositoryItemInfo("e4a0986b-c5d7-49fc-bb48-2fcb3ad0b25a")]
+            public virtual RepoItemInfo FullNameInfo
+            {
+                get
+                {
+                    return _fullnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Checkmark item.
+            /// </summary>
+            [RepositoryItem("ea6a1f77-8d1b-46db-bdbb-9f8cfd3cdbae")]
+            public virtual Ranorex.SpanTag Checkmark
+            {
+                get
+                {
+                    return _checkmarkInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Checkmark item info.
+            /// </summary>
+            [RepositoryItemInfo("ea6a1f77-8d1b-46db-bdbb-9f8cfd3cdbae")]
+            public virtual RepoItemInfo CheckmarkInfo
+            {
+                get
+                {
+                    return _checkmarkInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy1 item.
+            /// </summary>
+            [RepositoryItem("d276ca4d-3164-4b66-9939-b37a119304f0")]
+            public virtual Ranorex.ButtonTag ĐăngKy1
+            {
+                get
+                {
+                    return _đăngky1Info.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ĐăngKy1 item info.
+            /// </summary>
+            [RepositoryItemInfo("d276ca4d-3164-4b66-9939-b37a119304f0")]
+            public virtual RepoItemInfo ĐăngKy1Info
+            {
+                get
+                {
+                    return _đăngky1Info;
+                }
+            }
+
+            /// <summary>
+            /// The RegModalPasswordError item.
+            /// </summary>
+            [RepositoryItem("bbcf139d-560f-4627-96fd-4e5255f68661")]
+            public virtual Ranorex.LabelTag RegModalPasswordError
+            {
+                get
+                {
+                    return _regmodalpassworderrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RegModalPasswordError item info.
+            /// </summary>
+            [RepositoryItemInfo("bbcf139d-560f-4627-96fd-4e5255f68661")]
+            public virtual RepoItemInfo RegModalPasswordErrorInfo
+            {
+                get
+                {
+                    return _regmodalpassworderrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RegModalPassword item.
+            /// </summary>
+            [RepositoryItem("82f2dabc-8a27-474b-8466-a09a5826a5dd")]
+            public virtual Ranorex.InputTag RegModalPassword
+            {
+                get
+                {
+                    return _regmodalpasswordInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RegModalPassword item info.
+            /// </summary>
+            [RepositoryItemInfo("82f2dabc-8a27-474b-8466-a09a5826a5dd")]
+            public virtual RepoItemInfo RegModalPasswordInfo
+            {
+                get
+                {
+                    return _regmodalpasswordInfo;
                 }
             }
         }

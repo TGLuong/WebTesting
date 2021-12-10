@@ -117,6 +117,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>2faab736-9475-4c19-98b7-c948f627947c</id>
     </Compile>
+    <Compile Include="END\enddangky.cs">
+      <BoundTo>bbebbbdd-8a63-4840-9baf-2d3092add9a4</BoundTo>
+      <DependentUpon>enddangky.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bbb408ff-c924-48ba-a98e-c3a4e22570ab</id>
+    </Compile>
+    <Compile Include="END\enddangky.UserCode.cs">
+      <BoundTo>bbebbbdd-8a63-4840-9baf-2d3092add9a4</BoundTo>
+      <DependentUpon>enddangky.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f42b6bc7-ec17-4a5c-b298-ba53050b846e</id>
+    </Compile>
     <Compile Include="END\end_update_info.cs">
       <BoundTo>81918fa6-c9fa-4a5c-874b-88122393f5b8</BoundTo>
       <DependentUpon>end_update_info.rxrec</DependentUpon>
@@ -453,6 +465,30 @@
       <UserCode>true</UserCode>
       <id>ee5f025a-2924-4e4d-8cf5-6b472cc5094b</id>
     </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.cs">
+      <BoundTo>35a235bb-8bd0-472b-91d5-1300cb6d7520</BoundTo>
+      <DependentUpon>KhongNhapMatKhau.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c51d3993-f999-48c0-a991-74976023ad38</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.UserCode.cs">
+      <BoundTo>35a235bb-8bd0-472b-91d5-1300cb6d7520</BoundTo>
+      <DependentUpon>KhongNhapMatKhau.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c417d667-263a-4753-9432-a58fb66c223a</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\MaHoaMatKhau.cs">
+      <BoundTo>23460497-1cc9-4eb0-bdb2-7ce247efaf84</BoundTo>
+      <DependentUpon>MaHoaMatKhau.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>604ecc6f-19d2-4392-a118-1a4ac74e6cf1</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\MaHoaMatKhau.UserCode.cs">
+      <BoundTo>23460497-1cc9-4eb0-bdb2-7ce247efaf84</BoundTo>
+      <DependentUpon>MaHoaMatKhau.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09056d08-7188-404b-b060-a3ec2b3b6eff</id>
+    </Compile>
     <Compile Include="MODULE\DangKy\Recording1.cs">
       <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
@@ -492,6 +528,18 @@
       <UserCode>true</UserCode>
       <id>69bdc65d-d260-41e7-ac70-1284d4c9bdc1</id>
     </Compile>
+    <Compile Include="START\startdangky.cs">
+      <BoundTo>ed5f4835-c28a-40e4-b79c-12d134fa5111</BoundTo>
+      <DependentUpon>startdangky.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98042bf7-2f82-494d-ab3d-90401fcb21bf</id>
+    </Compile>
+    <Compile Include="START\startdangky.UserCode.cs">
+      <BoundTo>ed5f4835-c28a-40e4-b79c-12d134fa5111</BoundTo>
+      <DependentUpon>startdangky.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0e6db90e-deee-4db9-806c-6432cd32d076</id>
+    </Compile>
     <Compile Include="START\start_update_info.cs">
       <BoundTo>ddac03e8-f04d-430f-95b5-d1b128a4b0d9</BoundTo>
       <DependentUpon>start_update_info.rxrec</DependentUpon>
@@ -514,6 +562,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>9b0b2761-811a-424a-a57b-ebd88b95d062</id>
+    </None>
+    <None Include="END\enddangky.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>bbebbbdd-8a63-4840-9baf-2d3092add9a4</id>
+      <recordtableid>d62df46f-c213-4a08-91fd-2bf0f4ef9f35</recordtableid>
     </None>
     <None Include="END\end_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -655,6 +708,16 @@
       <id>c3d9545f-e07b-4887-822a-e70aa6d50475</id>
       <recordtableid>5c467f2d-74fe-45c4-9351-1c5aaf999f63</recordtableid>
     </None>
+    <None Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>35a235bb-8bd0-472b-91d5-1300cb6d7520</id>
+      <recordtableid>ff41e5aa-f985-4558-9383-ceeddd21b9cf</recordtableid>
+    </None>
+    <None Include="MODULE\DangKy\MatKhauTextbox\MaHoaMatKhau.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>23460497-1cc9-4eb0-bdb2-7ce247efaf84</id>
+      <recordtableid>79f12f0e-648f-4152-b505-5e1c15ebf2f3</recordtableid>
+    </None>
     <None Include="MODULE\DangKy\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>dc5da82d-7273-4444-b042-64438a1a755f</id>
@@ -669,6 +732,11 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>df9d7da1-5695-475b-85d6-c1fbf02dc7f0</id>
       <recordtableid>73377792-8b4a-450e-9427-60135e15f188</recordtableid>
+    </None>
+    <None Include="START\startdangky.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ed5f4835-c28a-40e4-b79c-12d134fa5111</id>
+      <recordtableid>86ceb14e-f9ef-41ae-9568-df83f53b1062</recordtableid>
     </None>
     <None Include="START\start_update_info.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -724,6 +792,9 @@
     </Folder>
     <Folder Include="MODULE\DangKy">
       <id>4f44a8a0-810c-4521-9fa5-e3781a117746</id>
+    </Folder>
+    <Folder Include="MODULE\DangKy\MatKhauTextbox">
+      <id>10a3537a-8f7d-4c11-9123-30bb4eef72e1</id>
     </Folder>
     <Folder Include="MODULE\TimKiem">
       <id>4009e928-b582-44c7-9dbd-50a09a3a5219</id>
