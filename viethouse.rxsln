@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.3
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EEC59DEA-BD04-4BD9-95D0-4C98D3358A34}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viethouse", "viethouse\viethouse.csproj", "{5F143D2E-925B-4331-AE25-E57EF2623911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F143D2E-925B-4331-AE25-E57EF2623911}.Debug|x86.Build.0 = Debug|x86
+		{5F143D2E-925B-4331-AE25-E57EF2623911}.Debug|x86.ActiveCfg = Debug|x86
+		{5F143D2E-925B-4331-AE25-E57EF2623911}.Release|x86.Build.0 = Release|x86
+		{5F143D2E-925B-4331-AE25-E57EF2623911}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
