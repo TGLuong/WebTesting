@@ -79,36 +79,40 @@ namespace viethouse.MODULE.DangKy.MatKhauTextbox
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản.ĐăngKy' at 34;16.", repo.ThongTinTaiKhoản.ĐăngKyInfo, new RecordItemIndex(0));
-            repo.ThongTinTaiKhoản.ĐăngKy.Click("34;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản.ĐăngKy' at 25;16.", repo.ThongTinTaiKhoản.ĐăngKyInfo, new RecordItemIndex(0));
+            repo.ThongTinTaiKhoản.ĐăngKy.Click("25;16");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản.FullName' at 130;27.", repo.ThongTinTaiKhoản.FullNameInfo, new RecordItemIndex(1));
-            repo.ThongTinTaiKhoản.FullName.Click("130;27");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản.EmailAddress' at 97;34.", repo.ThongTinTaiKhoản.EmailAddressInfo, new RecordItemIndex(1));
+            repo.ThongTinTaiKhoản.EmailAddress.Click("97;34");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Tran Gia Luong' with focus on 'ThongTinTaiKhoản.FullName'.", repo.ThongTinTaiKhoản.FullNameInfo, new RecordItemIndex(2));
-            repo.ThongTinTaiKhoản.FullName.PressKeys("Tran Gia Luong");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'abc{LShiftKey down}@{LShiftKey up}gmail.com{Tab}' with focus on 'ThongTinTaiKhoản.EmailAddress'.", repo.ThongTinTaiKhoản.EmailAddressInfo, new RecordItemIndex(2));
+            repo.ThongTinTaiKhoản.EmailAddress.PressKeys("abc{LShiftKey down}@{LShiftKey up}gmail.com{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'ThongTinTaiKhoản.FullName'.", repo.ThongTinTaiKhoản.FullNameInfo, new RecordItemIndex(3));
-            repo.ThongTinTaiKhoản.FullName.PressKeys("{Tab}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0234234345{Tab}'.", new RecordItemIndex(3));
+            Keyboard.Press("0234234345{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'abc{LShiftKey down}@{LShiftKey up}gmail.com{Tab}0123456789'.", new RecordItemIndex(4));
-            Keyboard.Press("abc{LShiftKey down}@{LShiftKey up}gmail.com{Tab}0123456789");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '123{Tab}123{Tab}'.", new RecordItemIndex(4));
+            Keyboard.Press("123{Tab}123{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản.Checkmark' at 11;10.", repo.ThongTinTaiKhoản.CheckmarkInfo, new RecordItemIndex(5));
-            repo.ThongTinTaiKhoản.Checkmark.Click("11;10");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence ' '.", new RecordItemIndex(5));
+            Keyboard.Press(" ");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ThongTinTaiKhoản.ĐăngKy1' at 214;25.", repo.ThongTinTaiKhoản.ĐăngKy1Info, new RecordItemIndex(6));
-            repo.ThongTinTaiKhoản.ĐăngKy1.Click("214;25");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}{Tab}'.", new RecordItemIndex(6));
+            Keyboard.Press("{Tab}{Tab}");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ThongTinTaiKhoản.RegModalPasswordError'.", repo.ThongTinTaiKhoản.RegModalPasswordErrorInfo, new RecordItemIndex(7));
-            Validate.Exists(repo.ThongTinTaiKhoản.RegModalPasswordErrorInfo);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence ' '.", new RecordItemIndex(7));
+            Keyboard.Press(" ");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ThongTinTaiKhoản.FullNameError'.", repo.ThongTinTaiKhoản.FullNameErrorInfo, new RecordItemIndex(8));
+            Validate.Exists(repo.ThongTinTaiKhoản.FullNameErrorInfo);
             Delay.Milliseconds(100);
             
         }

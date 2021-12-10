@@ -465,6 +465,18 @@
       <UserCode>true</UserCode>
       <id>ee5f025a-2924-4e4d-8cf5-6b472cc5094b</id>
     </Compile>
+    <Compile Include="MODULE\DangKy\Checkbox\KhongTickDangKy.cs">
+      <BoundTo>ff843217-3545-4d0e-ac95-45dd682f3a5e</BoundTo>
+      <DependentUpon>KhongTickDangKy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c73f9264-96fe-47e8-b45c-1a9fdf5f0b39</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\Checkbox\KhongTickDangKy.UserCode.cs">
+      <BoundTo>ff843217-3545-4d0e-ac95-45dd682f3a5e</BoundTo>
+      <DependentUpon>KhongTickDangKy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f535fa7-9280-43b5-bdce-4b91286d7182</id>
+    </Compile>
     <Compile Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.cs">
       <BoundTo>35a235bb-8bd0-472b-91d5-1300cb6d7520</BoundTo>
       <DependentUpon>KhongNhapMatKhau.rxrec</DependentUpon>
@@ -488,6 +500,42 @@
       <DependentUpon>MaHoaMatKhau.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>09056d08-7188-404b-b060-a3ec2b3b6eff</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\MatKhau3KyTu.cs">
+      <BoundTo>2ddace06-7b06-477e-80fe-af95909daee6</BoundTo>
+      <DependentUpon>MatKhau3KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7f457f23-cac2-4fd4-9378-8f280dcfd24b</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\MatKhau3KyTu.UserCode.cs">
+      <BoundTo>2ddace06-7b06-477e-80fe-af95909daee6</BoundTo>
+      <DependentUpon>MatKhau3KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6bd04446-9175-4e52-9e02-5439c3d69d3f</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\MatKhauNhHon3KyTu.cs">
+      <BoundTo>a5ff4830-3d15-4fe3-aee0-3568308b9193</BoundTo>
+      <DependentUpon>MatKhauNhHon3KyTu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d492ec8-cb3d-4db0-b178-77d7d1381d9f</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\MatKhauTextbox\MatKhauNhHon3KyTu.UserCode.cs">
+      <BoundTo>a5ff4830-3d15-4fe3-aee0-3568308b9193</BoundTo>
+      <DependentUpon>MatKhauNhHon3KyTu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b31d5bd-6420-4fe8-856e-ed25f968eac3</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\NhapLaiMatKhau\NhapLaiMatKhau.cs">
+      <BoundTo>13711b88-ccf7-420e-a9ad-5f832ccdb310</BoundTo>
+      <DependentUpon>NhapLaiMatKhau.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b1ff9211-2f0d-4966-9500-61fcd355868b</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\NhapLaiMatKhau\NhapLaiMatKhau.UserCode.cs">
+      <BoundTo>13711b88-ccf7-420e-a9ad-5f832ccdb310</BoundTo>
+      <DependentUpon>NhapLaiMatKhau.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb97ced8-ff07-4780-b35e-e76a701da81c</id>
     </Compile>
     <Compile Include="MODULE\DangKy\Recording1.cs">
       <BoundTo>dc5da82d-7273-4444-b042-64438a1a755f</BoundTo>
@@ -708,6 +756,11 @@
       <id>c3d9545f-e07b-4887-822a-e70aa6d50475</id>
       <recordtableid>5c467f2d-74fe-45c4-9351-1c5aaf999f63</recordtableid>
     </None>
+    <None Include="MODULE\DangKy\Checkbox\KhongTickDangKy.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ff843217-3545-4d0e-ac95-45dd682f3a5e</id>
+      <recordtableid>343fa36c-16dc-4419-8f2e-ce2aa3937347</recordtableid>
+    </None>
     <None Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>35a235bb-8bd0-472b-91d5-1300cb6d7520</id>
@@ -717,6 +770,21 @@
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>23460497-1cc9-4eb0-bdb2-7ce247efaf84</id>
       <recordtableid>79f12f0e-648f-4152-b505-5e1c15ebf2f3</recordtableid>
+    </None>
+    <None Include="MODULE\DangKy\MatKhauTextbox\MatKhau3KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>2ddace06-7b06-477e-80fe-af95909daee6</id>
+      <recordtableid>81ce7027-91e5-4daa-8e4b-3da3fab02c1e</recordtableid>
+    </None>
+    <None Include="MODULE\DangKy\MatKhauTextbox\MatKhauNhHon3KyTu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>a5ff4830-3d15-4fe3-aee0-3568308b9193</id>
+      <recordtableid>6eb4f96d-e3ac-43a5-a963-9de88e042271</recordtableid>
+    </None>
+    <None Include="MODULE\DangKy\NhapLaiMatKhau\NhapLaiMatKhau.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>13711b88-ccf7-420e-a9ad-5f832ccdb310</id>
+      <recordtableid>79b558d3-2e5c-4127-8344-fdf7f9c20d85</recordtableid>
     </None>
     <None Include="MODULE\DangKy\Recording1.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
@@ -795,6 +863,12 @@
     </Folder>
     <Folder Include="MODULE\DangKy\MatKhauTextbox">
       <id>10a3537a-8f7d-4c11-9123-30bb4eef72e1</id>
+    </Folder>
+    <Folder Include="MODULE\DangKy\Checkbox">
+      <id>9c74c00c-0902-4171-aca5-a979c1874ca0</id>
+    </Folder>
+    <Folder Include="MODULE\DangKy\NhapLaiMatKhau">
+      <id>3b7a165c-61be-4f7b-9a91-5d85eef22228</id>
     </Folder>
     <Folder Include="MODULE\TimKiem">
       <id>4009e928-b582-44c7-9dbd-50a09a3a5219</id>

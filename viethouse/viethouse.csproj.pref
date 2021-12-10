@@ -5,6 +5,7 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="viethouse.rxtst" />
+    <Element value="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

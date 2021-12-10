@@ -343,6 +343,56 @@ gg==
 			searchtimeout="30000ms">
 				/dom[3]//input[#'RegModalPassword']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1db2e45a-a79c-4c43-a1ed-e6abab8f66d7"
+			name="MậtKhẩuPhảiCoItNhất3KyTự"
+			refimgid="c5a8e4ed-dbd1-4d31-afdf-3af06830d5fb"
+			refpath="/dom[@domain='houseviet.vn']/body/div[5]/div/div[1]/div[@innertext='Mật khẩu phải có ít nhất 3 ký tự.']"
+			searchtimeout="30000ms">
+				/dom[3]/body/div[5]//div[@innertext~'^M&#7853;t\ kh&#7849;u\ ph&#7843;i\ c&#243;\ &#237;t\ nh&#7845;t\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b3cea4c1-a289-4382-a057-6dc2f9d793d0"
+			name="EmailAddress"
+			refimgid="8d671558-29e9-43ca-9e6a-649dd056b8e9"
+			refpath="/dom[@domain='houseviet.vn']//input[#'EmailAddress']"
+			searchtimeout="30000ms">
+				/dom[3]//input[#'EmailAddress']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="93152a4b-d280-4e68-80cd-ab99aed3fc5c"
+			name="FullNameError"
+			refimgid="28a7b857-9094-458d-93e4-878f44056028"
+			refpath="/dom[@domain='houseviet.vn']//label[#'FullName-error']"
+			searchtimeout="30000ms">
+				/dom[3]//label[#'FullName-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="9566a3ea-3e27-4eb4-95bb-22d09f6c5bae"
+			name="PasswordRepeatError"
+			refimgid="1351bb63-100a-4c6a-b5e3-e4c55ef5672c"
+			refpath="/dom[3]//label[#'PasswordRepeat-error']"
+			searchtimeout="30000ms">
+				/dom[3]//label[#'PasswordRepeat-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="1cbe7c6a-a3ba-4162-8beb-aa04b2bf9fd0"
+			name="AcceptedError"
+			refimgid="6a1d778b-10b1-482a-b0bf-021c9b7c2000"
+			refpath="/dom[@domain='houseviet.vn']//label[#'Accepted-error']"
+			searchtimeout="30000ms">
+				/dom[3]//label[#'Accepted-error']
+			</item>
 			<basepath>
 				/dom[3]
 			</basepath>

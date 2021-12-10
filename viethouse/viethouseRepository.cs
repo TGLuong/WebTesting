@@ -298,6 +298,11 @@ namespace viethouse
             RepoItemInfo _đăngky1Info;
             RepoItemInfo _regmodalpassworderrorInfo;
             RepoItemInfo _regmodalpasswordInfo;
+            RepoItemInfo _mậtkhẩuphảicoitnhất3kytựInfo;
+            RepoItemInfo _emailaddressInfo;
+            RepoItemInfo _fullnameerrorInfo;
+            RepoItemInfo _passwordrepeaterrorInfo;
+            RepoItemInfo _acceptederrorInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoản  folder.
@@ -330,6 +335,11 @@ namespace viethouse
                 _đăngky1Info = new RepoItemInfo(this, "ĐăngKy1", ".//div[#'Hsvn_Modal']/div[2]/div/div/div/div[1]/?/?/form[@name='register-form-modal']/button[@innertext='Đăng Ký']", 30000, null, "d276ca4d-3164-4b66-9939-b37a119304f0");
                 _regmodalpassworderrorInfo = new RepoItemInfo(this, "RegModalPasswordError", ".//label[#'RegModalPassword-error']", 30000, null, "bbcf139d-560f-4627-96fd-4e5255f68661");
                 _regmodalpasswordInfo = new RepoItemInfo(this, "RegModalPassword", ".//input[#'RegModalPassword']", 30000, null, "82f2dabc-8a27-474b-8466-a09a5826a5dd");
+                _mậtkhẩuphảicoitnhất3kytựInfo = new RepoItemInfo(this, "MậtKhẩuPhảiCoItNhất3KyTự", "body/div[5]//div[@innertext~'^Mật\\ khẩu\\ phải\\ có\\ ít\\ nhất\\ ']", 30000, null, "1db2e45a-a79c-4c43-a1ed-e6abab8f66d7");
+                _emailaddressInfo = new RepoItemInfo(this, "EmailAddress", ".//input[#'EmailAddress']", 30000, null, "b3cea4c1-a289-4382-a057-6dc2f9d793d0");
+                _fullnameerrorInfo = new RepoItemInfo(this, "FullNameError", ".//label[#'FullName-error']", 30000, null, "93152a4b-d280-4e68-80cd-ab99aed3fc5c");
+                _passwordrepeaterrorInfo = new RepoItemInfo(this, "PasswordRepeatError", ".//label[#'PasswordRepeat-error']", 30000, null, "9566a3ea-3e27-4eb4-95bb-22d09f6c5bae");
+                _acceptederrorInfo = new RepoItemInfo(this, "AcceptedError", ".//label[#'Accepted-error']", 30000, null, "1cbe7c6a-a3ba-4162-8beb-aa04b2bf9fd0");
             }
 
             /// <summary>
@@ -953,6 +963,126 @@ namespace viethouse
                 get
                 {
                     return _regmodalpasswordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MậtKhẩuPhảiCoItNhất3KyTự item.
+            /// </summary>
+            [RepositoryItem("1db2e45a-a79c-4c43-a1ed-e6abab8f66d7")]
+            public virtual Ranorex.DivTag MậtKhẩuPhảiCoItNhất3KyTự
+            {
+                get
+                {
+                    return _mậtkhẩuphảicoitnhất3kytựInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MậtKhẩuPhảiCoItNhất3KyTự item info.
+            /// </summary>
+            [RepositoryItemInfo("1db2e45a-a79c-4c43-a1ed-e6abab8f66d7")]
+            public virtual RepoItemInfo MậtKhẩuPhảiCoItNhất3KyTựInfo
+            {
+                get
+                {
+                    return _mậtkhẩuphảicoitnhất3kytựInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddress item.
+            /// </summary>
+            [RepositoryItem("b3cea4c1-a289-4382-a057-6dc2f9d793d0")]
+            public virtual Ranorex.InputTag EmailAddress
+            {
+                get
+                {
+                    return _emailaddressInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("b3cea4c1-a289-4382-a057-6dc2f9d793d0")]
+            public virtual RepoItemInfo EmailAddressInfo
+            {
+                get
+                {
+                    return _emailaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FullNameError item.
+            /// </summary>
+            [RepositoryItem("93152a4b-d280-4e68-80cd-ab99aed3fc5c")]
+            public virtual Ranorex.LabelTag FullNameError
+            {
+                get
+                {
+                    return _fullnameerrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FullNameError item info.
+            /// </summary>
+            [RepositoryItemInfo("93152a4b-d280-4e68-80cd-ab99aed3fc5c")]
+            public virtual RepoItemInfo FullNameErrorInfo
+            {
+                get
+                {
+                    return _fullnameerrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PasswordRepeatError item.
+            /// </summary>
+            [RepositoryItem("9566a3ea-3e27-4eb4-95bb-22d09f6c5bae")]
+            public virtual Ranorex.LabelTag PasswordRepeatError
+            {
+                get
+                {
+                    return _passwordrepeaterrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PasswordRepeatError item info.
+            /// </summary>
+            [RepositoryItemInfo("9566a3ea-3e27-4eb4-95bb-22d09f6c5bae")]
+            public virtual RepoItemInfo PasswordRepeatErrorInfo
+            {
+                get
+                {
+                    return _passwordrepeaterrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AcceptedError item.
+            /// </summary>
+            [RepositoryItem("1cbe7c6a-a3ba-4162-8beb-aa04b2bf9fd0")]
+            public virtual Ranorex.LabelTag AcceptedError
+            {
+                get
+                {
+                    return _acceptederrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AcceptedError item info.
+            /// </summary>
+            [RepositoryItemInfo("1cbe7c6a-a3ba-4162-8beb-aa04b2bf9fd0")]
+            public virtual RepoItemInfo AcceptedErrorInfo
+            {
+                get
+                {
+                    return _acceptederrorInfo;
                 }
             }
         }
