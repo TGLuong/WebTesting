@@ -477,6 +477,30 @@
       <UserCode>true</UserCode>
       <id>8f535fa7-9280-43b5-bdce-4b91286d7182</id>
     </Compile>
+    <Compile Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe\NhapThieuFieldBatBuoc.cs">
+      <BoundTo>ec239653-3180-497b-ba11-103e47784236</BoundTo>
+      <DependentUpon>NhapThieuFieldBatBuoc.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fe6d922a-f14f-49d0-81ae-6cff38cc3947</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe\NhapThieuFieldBatBuoc.UserCode.cs">
+      <BoundTo>ec239653-3180-497b-ba11-103e47784236</BoundTo>
+      <DependentUpon>NhapThieuFieldBatBuoc.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b3b53ed9-34c1-4c9d-92e8-33b176792775</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe\QuayVeTrangChu.cs">
+      <BoundTo>7db5bf25-ea46-4a01-ba14-6b563034ed18</BoundTo>
+      <DependentUpon>QuayVeTrangChu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3503831c-d921-4804-9bc2-e28e59b7da44</id>
+    </Compile>
+    <Compile Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe\QuayVeTrangChu.UserCode.cs">
+      <BoundTo>7db5bf25-ea46-4a01-ba14-6b563034ed18</BoundTo>
+      <DependentUpon>QuayVeTrangChu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>670b49a5-fdb9-4379-bba9-2c681d0561c4</id>
+    </Compile>
     <Compile Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.cs">
       <BoundTo>35a235bb-8bd0-472b-91d5-1300cb6d7520</BoundTo>
       <DependentUpon>KhongNhapMatKhau.rxrec</DependentUpon>
@@ -761,6 +785,16 @@
       <id>ff843217-3545-4d0e-ac95-45dd682f3a5e</id>
       <recordtableid>343fa36c-16dc-4419-8f2e-ce2aa3937347</recordtableid>
     </None>
+    <None Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe\NhapThieuFieldBatBuoc.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>ec239653-3180-497b-ba11-103e47784236</id>
+      <recordtableid>a4caac1f-8c38-48eb-9cf7-6bf75222356e</recordtableid>
+    </None>
+    <None Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe\QuayVeTrangChu.rxrec">
+      <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
+      <id>7db5bf25-ea46-4a01-ba14-6b563034ed18</id>
+      <recordtableid>154592fa-f626-45e9-9fcb-46e8eabe4c81</recordtableid>
+    </None>
     <None Include="MODULE\DangKy\MatKhauTextbox\KhongNhapMatKhau.rxrec">
       <BoundTo>58613e23-b486-449f-ba8e-4f1493817bdc</BoundTo>
       <id>35a235bb-8bd0-472b-91d5-1300cb6d7520</id>
@@ -866,6 +900,9 @@
     </Folder>
     <Folder Include="MODULE\DangKy\Checkbox">
       <id>9c74c00c-0902-4171-aca5-a979c1874ca0</id>
+    </Folder>
+    <Folder Include="MODULE\DangKy\KiemTraButtonDangKy_TroVe">
+      <id>d06c3d0b-f050-4c45-9c1e-2e257d12e7dd</id>
     </Folder>
     <Folder Include="MODULE\DangKy\NhapLaiMatKhau">
       <id>3b7a165c-61be-4f7b-9a91-5d85eef22228</id>

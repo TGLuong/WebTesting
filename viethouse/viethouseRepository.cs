@@ -303,6 +303,10 @@ namespace viethouse
             RepoItemInfo _fullnameerrorInfo;
             RepoItemInfo _passwordrepeaterrorInfo;
             RepoItemInfo _acceptederrorInfo;
+            RepoItemInfo _emailaddresserrorInfo;
+            RepoItemInfo _phonenumbererrorInfo;
+            RepoItemInfo _javascriptvoid0Info;
+            RepoItemInfo _searchcontainerInfo;
 
             /// <summary>
             /// Creates a new ThongTinTaiKhoản  folder.
@@ -340,6 +344,10 @@ namespace viethouse
                 _fullnameerrorInfo = new RepoItemInfo(this, "FullNameError", ".//label[#'FullName-error']", 30000, null, "93152a4b-d280-4e68-80cd-ab99aed3fc5c");
                 _passwordrepeaterrorInfo = new RepoItemInfo(this, "PasswordRepeatError", ".//label[#'PasswordRepeat-error']", 30000, null, "9566a3ea-3e27-4eb4-95bb-22d09f6c5bae");
                 _acceptederrorInfo = new RepoItemInfo(this, "AcceptedError", ".//label[#'Accepted-error']", 30000, null, "1cbe7c6a-a3ba-4162-8beb-aa04b2bf9fd0");
+                _emailaddresserrorInfo = new RepoItemInfo(this, "EmailAddressError", ".//label[#'EmailAddress-error']", 30000, null, "a188f470-44fa-4a8b-82e0-e76ab44205ef");
+                _phonenumbererrorInfo = new RepoItemInfo(this, "PhoneNumberError", ".//label[#'PhoneNumber-error']", 30000, null, "0e791bd6-2ba0-4001-9c8a-3b56fdf87a0f");
+                _javascriptvoid0Info = new RepoItemInfo(this, "JavascriptVoid0", ".//div[#'Hsvn_Modal']//a[@href='javascript:void(0)']", 30000, null, "841959ca-662a-475e-8c6e-b1c15e3d1db4");
+                _searchcontainerInfo = new RepoItemInfo(this, "SearchContainer", ".//tag[#'main']/section[1]/?/?/form[@name='search-form']/div[2]", 30000, null, "64e9d9fd-3ec8-4df8-b1e1-e3cb200bf2f1");
             }
 
             /// <summary>
@@ -1083,6 +1091,102 @@ namespace viethouse
                 get
                 {
                     return _acceptederrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddressError item.
+            /// </summary>
+            [RepositoryItem("a188f470-44fa-4a8b-82e0-e76ab44205ef")]
+            public virtual Ranorex.LabelTag EmailAddressError
+            {
+                get
+                {
+                    return _emailaddresserrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddressError item info.
+            /// </summary>
+            [RepositoryItemInfo("a188f470-44fa-4a8b-82e0-e76ab44205ef")]
+            public virtual RepoItemInfo EmailAddressErrorInfo
+            {
+                get
+                {
+                    return _emailaddresserrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PhoneNumberError item.
+            /// </summary>
+            [RepositoryItem("0e791bd6-2ba0-4001-9c8a-3b56fdf87a0f")]
+            public virtual Ranorex.LabelTag PhoneNumberError
+            {
+                get
+                {
+                    return _phonenumbererrorInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PhoneNumberError item info.
+            /// </summary>
+            [RepositoryItemInfo("0e791bd6-2ba0-4001-9c8a-3b56fdf87a0f")]
+            public virtual RepoItemInfo PhoneNumberErrorInfo
+            {
+                get
+                {
+                    return _phonenumbererrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JavascriptVoid0 item.
+            /// </summary>
+            [RepositoryItem("841959ca-662a-475e-8c6e-b1c15e3d1db4")]
+            public virtual Ranorex.ATag JavascriptVoid0
+            {
+                get
+                {
+                    return _javascriptvoid0Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JavascriptVoid0 item info.
+            /// </summary>
+            [RepositoryItemInfo("841959ca-662a-475e-8c6e-b1c15e3d1db4")]
+            public virtual RepoItemInfo JavascriptVoid0Info
+            {
+                get
+                {
+                    return _javascriptvoid0Info;
+                }
+            }
+
+            /// <summary>
+            /// The SearchContainer item.
+            /// </summary>
+            [RepositoryItem("64e9d9fd-3ec8-4df8-b1e1-e3cb200bf2f1")]
+            public virtual Ranorex.DivTag SearchContainer
+            {
+                get
+                {
+                    return _searchcontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SearchContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("64e9d9fd-3ec8-4df8-b1e1-e3cb200bf2f1")]
+            public virtual RepoItemInfo SearchContainerInfo
+            {
+                get
+                {
+                    return _searchcontainerInfo;
                 }
             }
         }

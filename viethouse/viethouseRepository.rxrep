@@ -393,6 +393,46 @@ gg==
 			searchtimeout="30000ms">
 				/dom[3]//label[#'Accepted-error']
 			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="a188f470-44fa-4a8b-82e0-e76ab44205ef"
+			name="EmailAddressError"
+			refimgid="c27e7872-a896-4961-ac62-42fde5201c69"
+			refpath="/dom[@domain='houseviet.vn']//label[#'EmailAddress-error']"
+			searchtimeout="30000ms">
+				/dom[3]//label[#'EmailAddress-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="0e791bd6-2ba0-4001-9c8a-3b56fdf87a0f"
+			name="PhoneNumberError"
+			refimgid="3f5ace1d-ccde-45f9-9918-4cf082d99505"
+			refpath="/dom[@domain='houseviet.vn']//label[#'PhoneNumber-error']"
+			searchtimeout="30000ms">
+				/dom[3]//label[#'PhoneNumber-error']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="841959ca-662a-475e-8c6e-b1c15e3d1db4"
+			name="JavascriptVoid0"
+			refimgid="f4ad850e-d9da-496f-a319-fbffd1c58821"
+			refpath="/dom[@domain='houseviet.vn']//div[#'Hsvn_Modal']/div[1]/div/a[@href='javascript:void(0)']"
+			searchtimeout="30000ms">
+				/dom[3]//div[#'Hsvn_Modal']//a[@href='javascript:void(0)']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="64e9d9fd-3ec8-4df8-b1e1-e3cb200bf2f1"
+			name="SearchContainer"
+			refimgid="a62ef489-6544-4a4c-8635-7489892bbdf0"
+			refpath="/dom[@domain='houseviet.vn']//tag[#'main']/section[1]/div[2]/form[@name='search-form']/div[2]"
+			searchtimeout="30000ms">
+				/dom[3]//tag[#'main']/section[1]/?/?/form[@name='search-form']/div[2]
+			</item>
 			<basepath>
 				/dom[3]
 			</basepath>

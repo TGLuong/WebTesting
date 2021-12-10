@@ -8,11 +8,13 @@
       <string>a5dee487-2415-4656-ac6b-905a9d3e4246</string>
       <string>e8c79400-624f-4809-b37a-a5fab35155ec</string>
       <string>4f44a8a0-810c-4521-9fa5-e3781a117746</string>
+      <string>9c74c00c-0902-4171-aca5-a979c1874ca0</string>
+      <string>d06c3d0b-f050-4c45-9c1e-2e257d12e7dd</string>
       <string>10a3537a-8f7d-4c11-9123-30bb4eef72e1</string>
       <string>3b7a165c-61be-4f7b-9a91-5d85eef22228</string>
       <string>373c6f88-4530-4c52-b217-4ab23dbe194c</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution viethouse[viethouse[END[]MODULE[DangKy[MatKhauTextbox[]NhapLaiMatKhau[]]]START[]]]]&#xD;&#xA;Solution viethouse\viethouse\viethouse.rxtst&#xD;&#xA;Solution viethouse\viethouse\END" />
+  <ProjectBrowserState value="[Solution viethouse[viethouse[END[]MODULE[DangKy[Checkbox[]KiemTraButtonDangKy_TroVe[]MatKhauTextbox[]NhapLaiMatKhau[]]]START[]]]]&#xD;&#xA;Solution viethouse\viethouse\viethouse.rxtst&#xD;&#xA;Solution viethouse\viethouse\MODULE\DangKy" />
   <StartupProject value="{5F143D2E-925B-4331-AE25-E57EF2623911}" />
 </Properties>
